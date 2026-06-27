@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Thuộc tính Card Chronicles: Hướng dẫn Reroll & Các chỉ số chiến đấu tốt nhất",
+  description: "Làm chủ các thuộc tính trong Card Chronicles với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu cách sử dụng Trait Reroll, mở khóa các chỉ số bổ trợ cao cấp và xây dựng đội hình thẻ anime tối thượng.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Card+Chronicles+Traits+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Card Chronicles"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Thuộc tính Card Chronicles** là các chỉ số bổ trợ chiến đấu độc đáo giúp tăng đáng kể hiệu suất của thẻ khi dọn quái và đấu boss.
+- **Cơ chế Reroll**: Sử dụng Trait Reroll nhận được từ mã code hoặc quá trình thăng tiến để thay đổi các chỉ số bổ trợ cho đến khi bạn nhận được các bùa lợi cấp S.
+- **Ưu tiên tài nguyên**: Luôn tiết kiệm Trait Reroll cho các thẻ cấp S hoặc các đơn vị có cấp độ nâng cấp cao để tránh lãng phí nguyên liệu quý hiếm.
+- **Cột mốc thăng tiến**: Một số phần thưởng liên quan đến thuộc tính bị khóa sau số lượng lượt quay, chẳng hạn như yêu cầu 25.000 lượt quay cho các gói mã code lớn.
+- **Lựa chọn hàng đầu**: Ưu tiên các thuộc tính tăng sát thương trực tiếp hoặc tăng tốc độ để vượt qua các đợt quái nhanh nhất.
+</Callout>
+
+<Section icon={Map} title="Hiểu về thuộc tính Card Chronicles và giá trị chiến đấu">
+
+Trong thế giới cạnh tranh của trò chơi đấu thẻ bài anime RNG trên Roblox này, **thuộc tính Card Chronicles** đóng vai trò là yếu tố phân biệt chính giữa một đơn vị tiêu chuẩn và một đơn vị gánh đội (carry) hiệu suất cao. Thuộc tính là các chỉ số bổ trợ ngẫu nhiên được áp dụng cho thẻ của bạn, có thể thay đổi các số liệu như đầu ra sát thương, tốc độ tấn công và các tiện ích chuyên dụng. Mặc dù độ hiếm cơ bản của thẻ quyết định sức mạnh ban đầu, nhưng một thuộc tính được quay tốt có thể giúp một thẻ có độ hiếm thấp hơn vượt qua cả một đơn vị huyền thoại thiếu sự tối ưu hóa.
+
+**Điểm nhấn video:**
+- Tổng quan về hệ thống Trait Reroll và vị trí giao diện người dùng.
+- Trình diễn tác động của các thuộc tính cấp cao đối với tốc độ dọn quái.
+- Cách xác định các thẻ "đáng giữ" trước khi chi tiêu tài nguyên reroll.
+
+<YouTubeEmbed videoId="zI7WQHQdj4o" title="Lối chơi Card Chronicles và Hệ thống thẻ bài" />
+
+Xây dựng một đội hình mạnh mẽ đòi hỏi sự hiểu biết sâu sắc về cách các chỉ số bổ trợ này tương tác với kỹ năng của thẻ. Ví dụ, một thẻ có kỹ năng gây sát thương diện rộng (AoE) cao sẽ được hưởng lợi theo cấp số nhân từ các thuộc tính tăng tốc độ tấn công, cho phép dọn quái thường xuyên hơn. Ngược lại, những thẻ chuyên diệt boss đơn mục tiêu nên tập trung vào sát thương thuần túy hoặc các chỉ số chí mạng để vượt qua ngưỡng máu cao ở các đợt sau.
+
+<Callout type="success" title="Lợi thế chiến thuật">
+Thuộc tính không chỉ để trang trí; chúng là xương sống của meta giai đoạn cuối game. Sở hữu một thuộc tính cấp Thần trên một thẻ cấp S đã nâng cấp là cách đáng tin cậy nhất để vượt qua đợt 100 và thống trị bảng xếp hạng.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cách nhận và quản lý Trait Reroll">
+
+Việc thu thập các tài nguyên cần thiết để sửa đổi **thuộc tính Card Chronicles** là một phần cốt lõi của vòng lặp trò chơi. Trait Reroll là loại tiền tệ cụ thể được sử dụng để thay đổi thuộc tính hiện có của thẻ. Vì đây là nguồn tài nguyên hữu hạn, việc quản lý chúng hiệu quả là điểm khác biệt giữa một tài khoản hàng đầu và một tài khoản bị kẹt ở giai đoạn giữa game.
+
+| Loại nguồn | Tần suất phần thưởng | Trường hợp sử dụng tốt nhất | Yêu cầu |
+| :--- | :--- | :--- | :--- |
+| **Mã Code đang hoạt động** | Cao (Ban đầu) | Reroll hàng loạt cho các thẻ cốt lõi | Không có / Số lượt quay |
+| **Cột mốc thăng tiến** | Trung bình | Cải thiện dần dần | Đạt đến các đợt cụ thể |
+| **Chronogems** | Thấp | Tối ưu hóa mục tiêu cuối game | Chi tiêu tiền tệ cao cấp |
+| **Phần thưởng hàng ngày** | Ổn định | Duy trì kho dự trữ tài nguyên | Đăng nhập hàng ngày |
+| **Sự kiện** | Theo mùa | Săn tìm các thuộc tính hiếm chỉ có ở sự kiện | Tham gia trong thời gian giới hạn |
+
+Như được hiển thị trong bảng trên, mã code là cách dễ tiếp cận nhất để người chơi mới bắt đầu tối ưu hóa thuộc tính của mình. Ví dụ, sử dụng mã "AvailableForEveryoneNow" sẽ cung cấp ngay 100 Trait Reroll, số lượng này nên được dự trữ nghiêm ngặt cho các thẻ đã được nâng cấp và chứng minh được giá trị trong chiến đấu.
+
+<Callout type="warning" title="Quản lý tài nguyên">
+Tránh "Bẫy của kẻ đánh bạc." Đừng tiêu 10 lượt reroll cuối cùng của bạn cho một thẻ tạm thời. Luôn duy trì một lượng dự trữ ít nhất 20-30 lượt reroll cho đến khi bạn thực sự quay được một đơn vị Thần thoại hoặc cấp S.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Bảng xếp hạng thuộc tính và Thứ hạng chỉ số bổ trợ">
+
+Không phải tất cả các **thuộc tính Card Chronicles** đều được tạo ra như nhau. Một số cung cấp mức tăng khổng lồ cho hiệu quả chiến đấu, trong khi số khác cung cấp tiện ích ngách chỉ hữu ích trong các tình huống rất cụ thể. Để giúp bạn quyết định khi nào nên giữ lại và khi nào nên tiếp tục quay, chúng tôi đã phân loại các chỉ số bổ trợ phổ biến nhất thành một bảng xếp hạng chức năng.
+
+<CardGrid cols={3}>
+  <Card title="Cấp S: Bùa lợi thần thánh">
+    - **Hệ số nhân sát thương khổng lồ**
+    - Tăng tốc độ tấn công cao
+    - Kết hợp Tỷ lệ & Sát thương chí mạng
+    - **Ưu tiên**: Giữ ngay lập tức cho bất kỳ đơn vị gánh đội chính nào.
+  </Card>
+  <Card title="Cấp A: Tiện ích mạnh mẽ">
+    - Tăng chỉ số ở mức vừa phải
+    - Giảm thời gian hồi chiêu cho kỹ năng
+    - Bùa lợi hiệu quả dọn quái
+    - **Ưu tiên**: Tốt cho các đơn vị phụ hoặc đơn vị gánh đội đầu game.
+  </Card>
+  <Card title="Cấp B: Ngách/Khởi đầu">
+    - Tăng nhẹ máu hoặc phòng thủ
+    - Tăng nhẹ may mắn khi quay thẻ
+    - Tăng tốc độ cơ bản
+    - **Ưu tiên**: Thay thế ngay khi bạn có dư lượt reroll.
+  </Card>
+</CardGrid>
+
+Khi đánh giá một thuộc tính, hãy xem xét vai trò của thẻ. Một thẻ kiểu "Đỡ đòn" (Tank) với lượng máu cao thực sự có thể hưởng lợi từ các thuộc tính phòng thủ cấp B trong giai đoạn đầu game, nhưng khi bạn tiến vào các đợt vô tận, sát thương trở thành chỉ số duy nhất thực sự quan trọng.
+
+| Danh mục thuộc tính | Hiệu ứng bổ trợ | Tác động chiến đấu | Ưu tiên nâng cấp |
+| :--- | :--- | :--- | :--- |
+| **Tấn công** | +Sát thương / +Chí mạng | Cao (Thiết yếu) | ★★★★★ |
+| **Nhịp độ** | +Tốc độ tấn công | Cao (Dọn quái) | ★★★★☆ |
+| **Tiện ích** | +May mắn / +Tốc độ quay | Thấp (Meta-game) | ★★☆☆☆ |
+| **Phòng thủ** | +Máu / +Khiên | Trung bình (Boss) | ★★★☆☆ |
+| **Đặc biệt** | Bùa lợi kỹ năng độc đáo | Thay đổi tùy thẻ | ★★★★☆ |
+
+<Callout type="tip" title="Chiến thuật chuyên nghiệp">
+Nếu bạn quay được một thuộc tính cấp A trên một thẻ mà bạn dự định sẽ thay thế sau này, hãy ngừng reroll. Tiết kiệm tài nguyên còn lại cho thẻ cấp S mà bạn chắc chắn sẽ quay được sau đó. Hiệu quả là chìa khóa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hướng dẫn từng bước để tối ưu hóa thuộc tính">
+
+Tối ưu hóa các **thuộc tính Card Chronicles** của bạn đòi hỏi một cách tiếp cận có hệ thống. Nếu bạn reroll không mục đích, bạn sẽ thấy mình hết tài nguyên với một đội hình thẻ tầm thường. Hãy làm theo quy trình chuyên nghiệp này để đảm bảo mỗi lượt reroll đều giúp tài khoản của bạn tiến bộ.
+
+<Steps>
+  <Step num="1" title="Xác định đơn vị gánh đội của bạn">
+    Trước khi tiêu một lượt reroll nào, hãy xác định thẻ nào trong đội hình hiện tại của bạn đang hoạt động hiệu quả nhất. Đây thường là thẻ được nâng cấp nhiều nhất hoặc thẻ có độ hiếm cơ bản cao nhất.
+  </Step>
+  <Step num="2" title="Kiểm tra yêu cầu lượt quay">
+    Đảm bảo bạn đã đạt được bất kỳ cột mốc cần thiết nào. Một số phần thưởng và thuộc tính giá trị cao có thể hiệu quả hơn sau khi bạn đã vượt qua mốc 25.000 lượt quay, mở khóa các sự kết hợp thuốc tốt hơn.
+  </Step>
+  <Step num="3" title="Sử dụng Thuốc may mắn">
+    Mặc dù Thuốc may mắn chủ yếu ảnh hưởng đến việc quay thẻ, nhưng việc sử dụng chúng kết hợp với một phiên thu thập thẻ tập trung sẽ đảm bảo bạn có "nền tảng" tốt nhất để áp dụng các thuộc tính của mình.
+  </Step>
+  <Step num="4" title="Thực hiện Reroll theo đợt">
+    Đừng quay từng lượt một. Sử dụng Trait Reroll của bạn theo đợt từ 10-20 lượt. Điều này cho phép bạn thấy sự thay đổi của các chỉ số bổ trợ và dừng lại khi bạn đạt được một thuộc tính "đủ tốt" cho cấp độ thăng tiến hiện tại.
+  </Step>
+  <Step num="5" title="Khóa và Nâng cấp">
+    Khi bạn nhận được một thuộc tính cấp cao, hãy tập trung tất cả vàng và nguyên liệu nâng cấp còn lại vào thẻ đó. Một thẻ có thuộc tính cấp S và nâng cấp tối đa là tấm vé để bạn tiến vào giai đoạn cuối game.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Cộng dồn chỉ số bổ trợ">
+Hãy nhớ rằng các thuộc tính có thể cộng dồn với kỹ năng của thẻ. Nếu một thẻ đã có kỹ năng tăng 10% tốc độ, một thuộc tính tốc độ sẽ biến nó thành một con quái vật thực sự trên chiến trường.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra Reroll thuộc tính và các cột mốc">
+
+Để giữ cho quá trình thăng tiến của bạn đi đúng hướng, hãy sử dụng danh sách kiểm tra này để quản lý các **thuộc tính Card Chronicles** và đảm bảo bạn không bị tụt lại phía sau về sức mạnh.
+
+<Checklist
+  id="trait-progression"
+  title="Các cột mốc tối ưu hóa thuộc tính:"
+  items={[
+    "Đổi tất cả các mã code đang hoạt động để lấy hơn 150 lượt Trait Reroll ban đầu",
+    "Đạt tổng cộng 25.000 lượt quay để mở khóa các gói phần thưởng bị khóa",
+    "Đảm bảo có ít nhất một thuộc tính cấp A trên đơn vị dọn quái chính của bạn",
+    "Nhận hơn 100 lượt Trait Reroll từ mã code 'AvailableForEveryoneNow'",
+    "Quay thành công một thuộc tính sát thương cấp S trên một thẻ cấp Thần thoại"
+  ]}
+/>
+
+| Cột mốc | Phần thưởng/Mục tiêu | Độ khó | Giá trị phần thưởng |
+| :--- | :--- | :--- | :--- |
+| **Đầu game** | 100 Reroll (Code) | Rất dễ | ★★★★★ |
+| **Giữa game** | Mốc 25k lượt quay | Vừa phải | ★★★★☆ |
+| **Cuối game** | Đội hình toàn cấp S | Khó | ★★★★★ |
+| **Đẩy Meta** | Phối hợp thuộc tính Thần | Rất khó | ★★★★★ |
+
+<Callout type="success" title="Mẹo về cột mốc">
+Cột mốc 25.000 lượt quay là một bước ngoặt lớn. Khi bạn đạt đến mốc này, các mã code "Sorry2!" và "Tyfor400kvisits!" sẽ cung cấp lượng lớn thuốc và lượt reroll có thể định nghĩa lại toàn bộ đội hình của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Những thuộc tính Card Chronicles nào tốt nhất cho người mới bắt đầu?",
+    answer: "Người mới bắt đầu nên tập trung vào các thuộc tính Sát thương và Tốc độ tấn công đơn giản. Những thuộc tính này mang lại lợi ích tức thì nhất để dọn các đợt quái đầu và cày vàng cần thiết cho nhiều lượt quay hơn."
+  },
+  {
+    question: "Tôi có nên sử dụng Trait Reroll cho các thẻ Hiếm (Rare) không?",
+    answer: "Thông thường là không. Hãy tiết kiệm Trait Reroll cho các thẻ Sử thi (Epic), Huyền thoại (Legendary) hoặc Thần thoại (Mythic). Các thẻ Hiếm bị thay thế quá nhanh trong quá trình thăng tiến để xứng đáng với việc lãng phí tài nguyên reroll."
+  },
+  {
+    question: "Làm cách nào để có thêm Trait Reroll sau khi đã sử dụng hết các mã code?",
+    answer: "Sau các mã code, bạn có thể kiếm thêm lượt reroll thông qua các cột mốc vượt đợt quái, phần thưởng hàng ngày và bằng cách chi tiêu Chronogems trong cửa hàng trò chơi."
+  },
+  {
+    question: "Cấp độ của thẻ có ảnh hưởng đến chất lượng quay thuộc tính không?",
+    answer: "Không, chất lượng quay thuộc tính hoàn toàn dựa trên RNG (ngẫu nhiên). Tuy nhiên, một thuộc tính cấp cao sẽ hiệu quả hơn nhiều trên một thẻ cấp cao vì các phần trăm cộng thêm sẽ áp dụng trên các chỉ số cơ bản cao hơn."
+  }
+]} />
+
+<Callout type="tip" title="Lời khuyên cuối cùng">
+Meta trong Card Chronicles thay đổi rất nhanh. Luôn để mắt đến các mã code mới và các bản cập nhật, vì các thuộc tính mới thường được giới thiệu có thể thay đổi hoàn toàn những thẻ nào được coi là cấp S.
+</Callout>
+
+</Section>

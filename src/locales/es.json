@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "luck": "Suerte",
+    "cards": "Cartas",
+    "progression": "Progresión",
+    "release": "Lanzamiento",
+    "roblox": "Roblox"
+  }
+}

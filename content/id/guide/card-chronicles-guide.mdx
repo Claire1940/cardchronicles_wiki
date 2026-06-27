@@ -1,0 +1,223 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panduan Card Chronicles: Panduan Pemula & Tips Meta 2026",
+  description: "Kuasai Card Chronicles dengan panduan 2026 kami. Pelajari cara mendapatkan kartu S-Tier, membangun lineup terbaik, menukarkan kode aktif, dan menyelesaikan wave dengan efisien.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Card+Chronicles+Guide",
+  date: "2026-06-27",
+  author: "Tim Wiki Card Chronicles"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **panduan card chronicles**: Kuasai siklus inti dalam melakukan roll, melakukan upgrade, dan membersihkan wave untuk mendominasi papan peringkat.
+- **Strategi Roll**: Fokus pada kuantitas dan gunakan Ramuan Keberuntungan (Luck Potion) selama sesi khusus untuk memastikan tarikan dengan kelangkaan yang lebih tinggi.
+- **Manajemen Sumber Daya**: Simpan Reroll Trait Anda untuk kartu S-Tier yang layak dipertahankan, daripada membuangnya pada kartu sementara di awal permainan.
+- **Optimalisasi Lineup**: Tim yang seimbang dengan unit yang telah di-upgrade akan mengungguli kumpulan kartu langka yang tidak diberi investasi.
+- **Hadiah Aktif**: Periksa bagian kode secara berkala untuk mengklaim Chronogem, ramuan, dan peningkatan progres penting lainnya.
+</Callout>
+
+<Section icon={Map} title="Mekanisme Inti dan Siklus Gameplay">
+
+Fondasi kesuksesan dalam Card Chronicles terletak pada pemahaman sinergi antara sistem RNG dan pertempuran taktisnya. Sebagai game pertarungan Anime Card RNG, game ini menantang Anda untuk menyeimbangkan keberuntungan roll dengan ketepatan investasi unit. Pemain akan memasuki siklus mengumpulkan sumber daya, melakukan roll untuk mendapatkan unit, dan menguji unit-unit tersebut melawan gelombang (wave) musuh yang semakin sulit.
+
+**Sorotan Video:**
+- **Pengaturan Awal**: Cara menavigasi UI dan memulai sesi roll pertama Anda.
+- **Mekanisme Roll**: Memahami petunjuk visual untuk drop kartu langka.
+- **Dasar-Dasar Pertempuran**: Cara menerapkan lineup Anda dan memantau progres wave.
+- **Jalur Upgrade**: Panduan visual untuk menu peningkatan kartu.
+
+<YouTubeEmbed videoId="zI7WQHQdj4o" title="Card Chronicles - RPG Official Launch Gameplay" />
+
+Untuk menjadi unggul, Anda harus melihat setiap roll sebagai langkah menuju akun yang lebih kuat. Game ini memiliki berbagai sistem yang memodifikasi tingkat keberhasilan Anda, termasuk Ramuan Keberuntungan (Luck Potion) dan Ramuan Kecepatan Roll (Roll Speed Potion). Memahami kapan harus mengaktifkan peningkatan ini adalah pembeda antara sesi yang sia-sia dan lonjakan kekuatan yang masif.
+
+| Sistem | Fungsi Utama | Dampak pada Progres |
+| :--- | :--- | :--- |
+| **Rolling** | Memperluas koleksi kartu Anda | Tinggi: Sumber utama unit baru |
+| **Upgrade** | Meningkatkan statistik dasar dan kemampuan | Sangat Tinggi: Penting untuk wave akhir |
+| **Trait** | Menambahkan modifikasi pasif yang unik | Sedang-Tinggi: Mengoptimalkan build end-game |
+| **Lineup** | Mengatur unit tempur aktif | Tinggi: Menentukan kesuksesan taktis |
+| **Ramuan** | Peningkatan keberuntungan dan kecepatan sementara | Sedang: Mempercepat proses grinding |
+
+<Callout type="tip" title="Tips Efisiensi">
+Selalu pastikan inventaris Anda memiliki ruang kosong sebelum memulai sesi roll berkecepatan tinggi. Tidak ada yang lebih frustrasi daripada mendapatkan roll langka hanya untuk menyadari bahwa slot Anda sudah penuh.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kode Card Chronicles dan Penukaran">
+
+Menukarkan kode adalah cara tercepat untuk memulai perjalanan Anda di Card Chronicles. Pengembang sering merilis hadiah untuk merayakan pencapaian tertentu, seperti jumlah kunjungan atau puncak pemain aktif bersamaan. Hadiah ini sering kali mencakup Reroll Trait, Ramuan Keberuntungan (Luck Potion), dan Chronogem, yang sangat penting untuk melewati fase grinding di awal permainan.
+
+| Kode | Ringkasan Hadiah | Persyaratan |
+| :--- | :--- | :--- |
+| **Tyfor400kvisits!** | Ramuan dan peningkatan progres | Minimal 25.000 roll selesai |
+| **Tyfor3kccu!** | Bundel besar: Ramuan Keberuntungan, Kecepatan, dan Bos | Tidak ada |
+| **AvailableForEveryoneNow** | 100 Reroll Trait | Tidak ada |
+| **Sorry2!** | Bundel hadiah terkunci jumlah roll | Minimal 25.000 roll selesai |
+| **Release!** | Ramuan keberuntungan dan kecepatan pemula | Tidak ada |
+
+<Callout type="warning" title="Batasan Roll">
+Perhatikan bahwa beberapa kode bernilai tinggi, seperti "Tyfor400kvisits!", mengharuskan Anda telah melakukan setidaknya 25.000 roll. Ini adalah mekanisme umum untuk mencegah bot dan memastikan hadiah diberikan kepada pemain aktif.
+</Callout>
+
+Untuk menukarkan kode-kode ini, ikuti langkah-langkah spesifik berikut:
+
+<Steps>
+  <Step num="1" title="Buka Pengaturan">
+    Temukan ikon roda gigi di sudut kiri bawah layar Anda. Ini akan membuka menu konfigurasi utama.
+  </Step>
+  <Step num="2" title="Temukan Bagian Kode">
+    Gulir ke bawah di dalam panel Pengaturan hingga Anda melihat kotak teks berlabel "Codes" atau "Redeem."
+  </Step>
+  <Step num="3" title="Masukkan dan Kirim">
+    Ketik kode persis seperti yang ditunjukkan (sensitif terhadap huruf besar-kecil). Tekan tombol "Enter" atau tombol "Redeem" untuk mengklaim item Anda.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Tier Kartu 2026 dan Strategi Kelangkaan">
+
+Tidak semua kartu diciptakan sama. Di Card Chronicles, kelangkaan sering kali menentukan batas atas kekuatan kartu, tetapi upgrade dan kemampuan menentukan batas bawahnya saat ini. Kartu Tier-A yang ditingkatkan dengan baik sering kali akan mengungguli kartu Tier-S yang baru didapatkan dan belum diinvestasikan di wave tingkat menengah.
+
+<CardGrid cols={2}>
+  <Card title="S-Tier: Sang Carry Utama">
+    - **Karakteristik**: Damage dasar tinggi, kemampuan multi-target.
+    - **Investasi**: Prioritas utama untuk Reroll Trait dan upgrade maksimal.
+    - **Tujuan**: Unit-unit ini harus menjadi inti permanen dari lineup Anda.
+  </Card>
+  <Card title="A-Tier: Progresor Andal">
+    - **Karakteristik**: Statistik seimbang, kinerja konsisten.
+    - **Investasi**: Layak di-upgrade untuk menembus rintangan mid-game.
+    - **Tujuan**: Gunakan ini untuk menjembatani kesenjangan sampai Anda mendapatkan lebih banyak unit S-Tier.
+  </Card>
+  <Card title="B-Tier: Spesialis Niche">
+    - **Karakteristik**: Fokus pada target tunggal atau utilitas bos tertentu.
+    - **Investasi**: Hanya investasikan jika Anda tidak memiliki alternatif yang lebih baik untuk pertempuran tertentu.
+    - **Tujuan**: Pengisi slot sementara untuk tantangan wave tertentu.
+  </Card>
+  <Card title="C-Tier: Unit Pemula">
+    - **Karakteristik**: Peningkatan stat rendah, kemampuan dasar.
+    - **Investasi**: Minimal. Jangan sia-siakan Reroll Trait di sini.
+    - **Tujuan**: Gunakan hanya untuk beberapa wave pertama sebelum Anda melakukan roll sungguhan yang pertama.
+  </Card>
+</CardGrid>
+
+| Tier | Peran | Prioritas Upgrade | Kasus Penggunaan Terbaik |
+| :--- | :--- | :--- | :--- |
+| **S** | Carry Utama | **Tertinggi** | Pembersihan wave dan pertarungan bos |
+| **A** | Sub-DPS Andal | **Tinggi** | Progres stabil melalui wave menengah |
+| **B** | Spesialis | **Sedang** | Mekanisme bos tertentu atau pengisi slot |
+| **C** | Sementara | **Rendah** | Hanya untuk awal permainan |
+
+<Callout type="success" title="Strategi Meta">
+Fokuskan sumber daya Anda pada satu unit "Carry Utama" terlebih dahulu. Memiliki satu kartu yang sangat kuat umumnya lebih efektif untuk menembus wave daripada memiliki tiga kartu yang biasa-biasa saja.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reroll Trait dan Optimalisasi Kekuatan">
+
+Trait adalah modifikator tersembunyi yang dapat mengubah kartu bagus menjadi unit tingkat dewa. Namun, Reroll Trait adalah sumber daya yang terbatas (di luar pembagian kode yang murah hati). Belajar kapan harus "menahan" dan kapan harus "melakukan reroll" adalah keterampilan yang membedakan pemain veteran dari pemula.
+
+**Logika Prioritas Trait:**
+1. **Identifikasi Kartu yang Layak Disimpan**: Hanya lakukan reroll trait pada kartu yang ingin Anda gunakan untuk setidaknya 50+ wave.
+2. **Periksa Kemampuan**: Beberapa trait bersinergi lebih baik dengan kemampuan kartu tertentu (misalnya, trait kecepatan pada penyerang yang lambat namun serangannya berat).
+3. **Simpan untuk Event**: Terkadang, event tertentu mungkin menawarkan hasil trait yang lebih baik atau modifikator khusus.
+
+<Callout type="info" title="Manajemen Trait">
+Kode "AvailableForEveryoneNow" memberikan 100 Reroll Trait. Ini adalah dorongan yang sangat besar bagi pemain baru. Gunakan ini pada tarikan A-Tier atau S-Tier pertama Anda untuk mengamankan keunggulan kuat di awal permainan.
+</Callout>
+
+| Jenis Trait | Efek Umum | Sangat Cocok Untuk |
+| :--- | :--- | :--- |
+| **Kekuatan Serangan** | Meningkatkan output damage mentah | Semua unit Carry |
+| **Kecepatan Serangan** | Mengurangi waktu antar serangan | Unit dengan efek saat mengenai musuh (on-hit) |
+| **Peluang Kritis** | Peluang lebih tinggi untuk damage masif | Unit DPS dengan kelangkaan tinggi |
+| **Peningkatan Keberuntungan** | Sedikit meningkatkan keberuntungan roll sekunder | Slot pendukung atau utilitas |
+
+</Section>
+
+<Section icon={Swords} title="Build Lineup Terbaik untuk Wave dan Bos">
+
+Membangun lineup di Card Chronicles bukan hanya tentang memilih kartu paling langka Anda. Anda perlu mempertimbangkan "Wave Wall" (Rintangan Wave)—titik di mana musuh menjadi terlalu tebal untuk dihadapi dengan damage dasar. Lineup yang sukses menyeimbangkan pembersihan wave instan dengan tekanan bos yang berkelanjutan.
+
+<Steps>
+  <Step num="1" title="Inti Pembersih Wave">
+    Mulailah dengan unit Anda yang paling banyak di-upgrade. Tugas unit ini adalah menghabisi kroco-kroco kecil dengan cepat agar mereka tidak membanjiri pertahanan Anda.
+  </Step>
+  <Step num="2" title="Spesialis Bos">
+    Sertakan setidaknya satu unit dengan damage target tunggal yang tinggi. Bos muncul secara berkala dan membutuhkan serangan terfokus untuk dikalahkan dalam batas waktu.
+  </Step>
+  <Step num="3" title="Slot Fleksibel">
+    Slot ketiga harus digunakan untuk menguji tarikan baru atau menambahkan unit utilitas yang memberikan buff atau debuff.
+  </Step>
+</Steps>
+
+| Nama Build | Fokus | Strategi Inti |
+| :--- | :--- | :--- |
+| **Pembersihan Wave Awal** | Kecepatan | Gunakan unit A-tier berkecepatan tinggi untuk farming wave rendah |
+| **Penembus Bos** | Target Tunggal | Fokuskan semua upgrade pada satu unit S-tier ber-damage tinggi |
+| **Progres Seimbang** | Stabilitas | Satu carry, satu sub-DPS, satu unit utilitas/uji coba |
+| **Fokus Reroll** | Jangka Panjang | Bangun di sekitar unit dengan trait Sempurna/Mitos (Perfect/Mythic) |
+
+<Callout type="tip" title="Tips Lineup Pro">
+If you are stuck on a wave, try swapping your "Flex Slot" for a unit with a different damage type or ability. Sometimes a lower-rarity card with a better ability match-up can break the wall.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Manajemen Ramuan dan Daftar Tugas">
+
+Ramuan adalah alat utama Anda untuk mempercepat pengalaman bermain dalam panduan Card Chronicles ini. Karena ramuan ini memiliki batas waktu, Anda sebaiknya tidak mengaktifkannya kecuali Anda siap bermain selama durasi penuhnya. Menumpuk (stacking) ramuan sering kali lebih efisien daripada menggunakannya satu per satu.
+
+**Jenis Ramuan Umum:**
+- **Ramuan Keberuntungan (Luck Potion)**: Meningkatkan peluang mendapatkan roll dengan kelangkaan lebih tinggi.
+- **Ramuan Kecepatan Roll (Roll Speed Potion)**: Mengurangi interval antar roll otomatis.
+- **Ramuan Kecepatan Pertempuran (Battle Speed Potion)**: Mempercepat animasi pertempuran untuk pembersihan wave yang lebih cepat.
+- **Ramuan Bos (Boss Potion)**: Secara khusus membantu dalam progres melawan musuh yang kuat.
+
+<Checklist
+  id="daily-session-goals"
+  title="Daftar Tugas Sesi Harian:"
+  items={[
+    "Periksa apakah ada kode aktif baru dan tukarkan.",
+    "Lakukan roll gratis harian Anda untuk memperluas koleksi.",
+    "Identifikasi mata rantai terlemah dalam lineup Anda saat ini untuk diganti.",
+    "Aktifkan tumpukan ramuan Keberuntungan/Kecepatan untuk sesi grinding selama 30 menit.",
+    "Tembus setidaknya 5-10 wave baru untuk menguji batas kekuatan Anda."
+  ]}
+/>
+
+<Callout type="warning" title="Pemborosan Ramuan">
+Jangan aktifkan "Super Luck Potion" kecuali Anda juga mengaktifkan "Roll Speed". Anda tentu ingin memaksimalkan jumlah roll yang dilakukan saat buff keberuntungan sedang aktif.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa statistik terpenting di Card Chronicles?",
+    answer: "Meskipun kelangkaan terlihat bagus, Level Upgrade adalah statistik terpenting untuk menyelesaikan wave. Kartu dengan kelangkaan lebih rendah yang di-upgrade sepenuhnya sering kali lebih kuat daripada kartu langka di level dasar."
+  },
+  {
+    question: "Bagaimana cara mendapatkan lebih banyak Reroll Trait?",
+    answer: "Cara utama untuk mendapatkan Reroll Trait adalah melalui kode hadiah (seperti 'AvailableForEveryoneNow'), menyelesaikan pencapaian wave tertentu, dan membelinya dengan Chronogem."
+  },
+  {
+    question: "Apakah saya harus melakukan roll secara manual atau menggunakan Auto-Roll?",
+    answer: "Auto-Roll jauh lebih efisien untuk sesi yang panjang. Pasangkan dengan Ramuan Kecepatan Roll untuk memaksimalkan peluang Anda menemukan unit S-Tier sambil mengelola inventaris Anda."
+  },
+  {
+    question: "Apakah ada batasan jumlah kode yang bisa saya gunakan?",
+    answer: "Anda dapat menggunakan setiap kode aktif sekali per akun. Beberapa kode memiliki 'batasan roll' (roll gates), yang berarti Anda harus mencapai jumlah total roll tertentu sebelum game mengizinkan Anda mengklaim hadiahnya."
+  }
+]} />
+
+</Section>

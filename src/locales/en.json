@@ -10,7 +10,15 @@
       "twitterDescription": "Card Chronicles Wiki for Roblox codes, card tier list, traits, reroll tips, and progression help."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "luck": "Luck",
+    "cards": "Cards",
+    "progression": "Progression",
+    "release": "Release",
+    "roblox": "Roblox"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -25,6 +33,148 @@
     "relatedArticles": "Related Articles",
     "readMore": "Read More",
     "articlesComingSoon": "Articles coming soon"
+  },
+  "pages": {
+    "codes": {
+      "title": "Card Chronicles Codes",
+      "description": "Latest working Card Chronicles codes for free Trait Rerolls, Luck Potions, Roll Speed Potions, Chronogems, and progression boosts. Updated daily with verified codes.",
+      "metaTitle": "Card Chronicles Codes - Free Trait Rerolls & Potions (2026)",
+      "metaDescription": "Redeem active Card Chronicles codes for free Trait Rerolls, Luck Potions, Roll Speed Potions, Chronogems, and boosts. Updated daily with verified working codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Card Chronicles Codes?",
+      "whatIsDescription": "Card Chronicles codes are free redeem strings released by Chronicle Entertainment that grant Trait Rerolls, Luck Potions, Roll Speed Potions, Boss Potions, Chronogems, and other progression boosts. They are tied to milestones like visit counts and concurrent player peaks.",
+      "why": "Why redeem Card Chronicles codes?",
+      "whySteps": {
+        "step1Title": "Free Trait Rerolls",
+        "step1Description": "Codes are one of the easiest ways to earn Trait Rerolls, letting you fix traits on your strongest keeper cards instead of grinding for them.",
+        "step2Title": "Faster Rolling Sessions",
+        "step2Description": "Potion bundles from codes stack with your own items to make rolling and farming waves far more efficient during focused play.",
+        "step3Title": "Daily-Verified Rewards",
+        "step3Description": "Every code is checked before publishing, including case sensitivity, roll-gate requirements, and current active or expired status."
+      },
+      "featured": "Featured Codes",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Card Chronicles Guides",
+      "description": "Complete Card Chronicles guides covering the core loop, beginner progression, rolling strategy, lineup building, and wave-clearing tips for Roblox players.",
+      "metaTitle": "Card Chronicles Guides - Beginner Guide, Tips & Progression",
+      "metaDescription": "Master Card Chronicles with beginner guides, tips, and progression walkthroughs. Learn rolling, upgrading, lineup building, and wave-clearing strategy on Roblox.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is a Card Chronicles Guide?",
+      "whatIsDescription": "A Card Chronicles guide breaks down the core gameplay loop — rolling cards, upgrading carries, building a lineup, and clearing waves — into clear, step-by-step strategies for both new and advancing players.",
+      "why": "Why read Card Chronicles guides?",
+      "whySteps": {
+        "step1Title": "Learn the Core Loop",
+        "step1Description": "Understand how rolling, upgrades, abilities, and lineups connect so you stop wasting resources on the wrong cards.",
+        "step2Title": "Avoid Common Mistakes",
+        "step2Description": "Guides flag the early pitfalls — spreading upgrades thin, burning rerolls on placeholders, and chasing rarity before combat value.",
+        "step3Title": "Faster Progression",
+        "step3Description": "Follow proven routes from noob to pro so you push waves and beat strong foes without trial-and-error."
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
+    },
+    "luck": {
+      "title": "Card Chronicles Luck & RNG",
+      "description": "Everything about luck, RNG, and rolling probability in Card Chronicles. Learn how to boost luck, improve your odds, and pull rare anime cards faster.",
+      "metaTitle": "Card Chronicles Luck & RNG - How to Get More Luck",
+      "metaDescription": "Boost your Card Chronicles luck and RNG odds. Learn Luck Potions, Super Luck Potions, rolling strategy, and how to pull rare anime cards faster on Roblox.",
+      "categoryLabel": "LUCK & RNG",
+      "whatIs": "What is Luck in Card Chronicles?",
+      "whatIsDescription": "Luck in Card Chronicles is the stat and boost system that improves your rolling odds for rarer anime cards. Luck Potions and Super Luck Potions raise your chances during focused rolling sessions.",
+      "why": "Why does luck matter?",
+      "whySteps": {
+        "step1Title": "Better Roll Odds",
+        "step1Description": "Higher luck directly improves your chance of pulling rare and high-rarity cards instead of common filler pulls.",
+        "step2Title": "Smarter Potion Use",
+        "step2Description": "Learn exactly when to stack Luck Potions with Roll Speed Potions for maximum value during grind windows.",
+        "step3Title": "Understand the RNG",
+        "step3Description": "Grasp how RNG, roll volume, and luck interact so you set realistic expectations and roll efficiently."
+      },
+      "featured": "Featured Luck Guides",
+      "all": "All Luck Guides"
+    },
+    "cards": {
+      "title": "Card Chronicles Cards & Tier List",
+      "description": "Full Card Chronicles card database, tier list, rarity guide, and card rankings. Find the best cards, rarest pulls, and limited-time cards to build your lineup.",
+      "metaTitle": "Card Chronicles Cards & Tier List - Best & Rarest Cards",
+      "metaDescription": "Browse the Card Chronicles card list, tier list, rarity guide, and rankings. Discover the best cards, rarest pulls, and limited cards to power your Roblox lineup.",
+      "categoryLabel": "CARDS & TIER LIST",
+      "whatIs": "What are Card Chronicles Cards?",
+      "whatIsDescription": "Card Chronicles cards are the anime-style units you roll, upgrade, and deploy in battle. Each card has a rarity, ability, and combat role that determines its value in wave clearing and lineup building.",
+      "why": "Why study the card list?",
+      "whySteps": {
+        "step1Title": "Know Card Rarity",
+        "step1Description": "Understand rarity tiers and drop rates so you can tell a genuine chase card from a flashy placeholder.",
+        "step2Title": "Find the Best Cards",
+        "step2Description": "The tier list ranks cards by wave value, upgrade payoff, and long-term usefulness instead of looks alone.",
+        "step3Title": "Track Rare & Limited Cards",
+        "step3Description": "Stay current on new cards, rare pulls, and limited-time releases that can shift the meta."
+      },
+      "featured": "Featured Card Guides",
+      "all": "All Card Guides"
+    },
+    "progression": {
+      "title": "Card Chronicles Progression & Upgrades",
+      "description": "Master Card Chronicles progression: upgrades, traits, rerolls, rewards, potions, and Chronogems. Learn what to upgrade, reroll, and spend for the fastest account growth.",
+      "metaTitle": "Card Chronicles Progression - Upgrades, Traits & Rerolls",
+      "metaDescription": "Optimize Card Chronicles progression with guides on upgrades, traits, rerolls, rewards, potions, and Chronogems. Spend resources efficiently for faster Roblox progression.",
+      "categoryLabel": "PROGRESSION",
+      "whatIs": "What is Card Chronicles Progression?",
+      "whatIsDescription": "Progression in Card Chronicles covers upgrades, traits, rerolls, rewards, potions, and Chronogems — the systems that turn lucky pulls into a lineup that clears waves and beats strong foes.",
+      "why": "Why plan your progression?",
+      "whySteps": {
+        "step1Title": "Focused Upgrades",
+        "step1Description": "Concentrate resources on keeper cards instead of spreading upgrades across your whole collection.",
+        "step2Title": "Smart Trait Rerolls",
+        "step2Description": "Learn when to reroll traits and which cards deserve them so you never waste reroll resources.",
+        "step3Title": "Efficient Reward Spending",
+        "step3Description": "Time your potions, Chronogems, and reward bundles around real rolling and combat sessions for maximum payoff."
+      },
+      "featured": "Featured Progression Guides",
+      "all": "All Progression Guides"
+    },
+    "release": {
+      "title": "Card Chronicles Release & Updates",
+      "description": "Track the Card Chronicles release date, latest updates, wipes, and maintenance schedules. Stay current on new content, balance changes, and upcoming features on Roblox.",
+      "metaTitle": "Card Chronicles Release Date, Updates & Wipes",
+      "metaDescription": "Get the latest Card Chronicles release date, update notes, wipe schedules, and maintenance info. Track new content, balance changes, and features on Roblox.",
+      "categoryLabel": "RELEASE & UPDATES",
+      "whatIs": "What is the Card Chronicles Release Section?",
+      "whatIsDescription": "The release section covers Card Chronicles launch info, update patches, balance changes, wipe and maintenance schedules, and new content drops from Chronicle Entertainment.",
+      "why": "Why follow releases?",
+      "whySteps": {
+        "step1Title": "Know the Release Date",
+        "step1Description": "Stay on top of the official launch, early access, and platform availability for Card Chronicles.",
+        "step2Title": "Track Updates & Wipes",
+        "step2Description": "Follow patch notes, balance changes, and wipe schedules so you never lose progress to a surprise reset.",
+        "step3Title": "Prepare for Maintenance",
+        "step3Description": "Plan around maintenance windows and downtime so your rolling and grind sessions aren't interrupted."
+      },
+      "featured": "Featured Release Guides",
+      "all": "All Release Guides"
+    },
+    "roblox": {
+      "title": "Card Chronicles on Roblox",
+      "description": "Everything about playing Card Chronicles on Roblox: how to start, platform tips, controls, Roblox-specific codes, and getting the most out of the Roblox client.",
+      "metaTitle": "Card Chronicles on Roblox - How to Play & Roblox Tips",
+      "metaDescription": "Learn how to play Card Chronicles on Roblox. Find Roblox-specific codes, controls, performance tips, and everything you need to start rolling and battling.",
+      "categoryLabel": "ON ROBLOX",
+      "whatIs": "What is Card Chronicles on Roblox?",
+      "whatIsDescription": "Card Chronicles is a free-to-play Roblox anime card RNG battler by Chronicle Entertainment where you roll cards, upgrade abilities, build a lineup, and fight endless waves of card enemies.",
+      "why": "Why play on Roblox?",
+      "whySteps": {
+        "step1Title": "Free to Play",
+        "step1Description": "Card Chronicles is free on Roblox across PC, mobile, and console, with code rewards that speed up your progression.",
+        "step2Title": "Roblox-Specific Codes",
+        "step2Description": "Some codes and events are Roblox-exclusive, giving platform players extra Trait Rerolls and potions.",
+        "step3Title": "Cross-Platform Access",
+        "step3Description": "Play anywhere Roblox runs, with tips to optimize performance on low-end devices and mobile."
+      },
+      "featured": "Featured Roblox Guides",
+      "all": "All Roblox Guides"
+    }
   },
   "hero": {
     "badge": "Anime Card RNG Battler",

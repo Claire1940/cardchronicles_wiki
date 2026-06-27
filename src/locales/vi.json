@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Mã",
+    "guide": "Hướng dẫn",
+    "luck": "May mắn",
+    "cards": "Thẻ",
+    "progression": "Tiến trình",
+    "release": "Phát hành",
+    "roblox": "Roblox"
+  }
+}

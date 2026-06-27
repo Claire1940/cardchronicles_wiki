@@ -1,1 +1,626 @@
-{}
+{
+  "en": {
+    "cards": [
+      {
+        "slug": "card-chronicles-best-cards",
+        "file": "card-chronicles-best-cards"
+      },
+      {
+        "slug": "card-chronicles-card-list",
+        "file": "card-chronicles-card-list"
+      },
+      {
+        "slug": "card-chronicles-card-tier-list",
+        "file": "card-chronicles-card-tier-list"
+      },
+      {
+        "slug": "card-chronicles-limited-cards",
+        "file": "card-chronicles-limited-cards"
+      },
+      {
+        "slug": "card-chronicles-new-card",
+        "file": "card-chronicles-new-card"
+      },
+      {
+        "slug": "card-chronicles-rare-cards",
+        "file": "card-chronicles-rare-cards"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "card-chronicles-codes",
+        "file": "card-chronicles-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "card-chronicles-beginner-guide",
+        "file": "card-chronicles-beginner-guide"
+      },
+      {
+        "slug": "card-chronicles-guide",
+        "file": "card-chronicles-guide"
+      },
+      {
+        "slug": "card-chronicles-how-to-play",
+        "file": "card-chronicles-how-to-play"
+      },
+      {
+        "slug": "card-chronicles-noob-to-pro",
+        "file": "card-chronicles-noob-to-pro"
+      },
+      {
+        "slug": "card-chronicles-progression-guide",
+        "file": "card-chronicles-progression-guide"
+      },
+      {
+        "slug": "card-chronicles-tips",
+        "file": "card-chronicles-tips"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "card-chronicles-how-to-get-more-luck",
+        "file": "card-chronicles-how-to-get-more-luck"
+      },
+      {
+        "slug": "card-chronicles-luck-tips",
+        "file": "card-chronicles-luck-tips"
+      },
+      {
+        "slug": "card-chronicles-luck",
+        "file": "card-chronicles-luck"
+      },
+      {
+        "slug": "card-chronicles-rng-anime",
+        "file": "card-chronicles-rng-anime"
+      },
+      {
+        "slug": "card-chronicles-rng",
+        "file": "card-chronicles-rng"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "card-chronicles-gems",
+        "file": "card-chronicles-gems"
+      },
+      {
+        "slug": "card-chronicles-potions",
+        "file": "card-chronicles-potions"
+      },
+      {
+        "slug": "card-chronicles-rerolls",
+        "file": "card-chronicles-rerolls"
+      },
+      {
+        "slug": "card-chronicles-rewards",
+        "file": "card-chronicles-rewards"
+      },
+      {
+        "slug": "card-chronicles-traits",
+        "file": "card-chronicles-traits"
+      },
+      {
+        "slug": "card-chronicles-upgrades",
+        "file": "card-chronicles-upgrades"
+      }
+    ],
+    "release": [
+      {
+        "slug": "card-chronicles-maintenance",
+        "file": "card-chronicles-maintenance"
+      },
+      {
+        "slug": "card-chronicles-release-date",
+        "file": "card-chronicles-release-date"
+      },
+      {
+        "slug": "card-chronicles-release",
+        "file": "card-chronicles-release"
+      },
+      {
+        "slug": "card-chronicles-update",
+        "file": "card-chronicles-update"
+      },
+      {
+        "slug": "card-chronicles-wipe",
+        "file": "card-chronicles-wipe"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "card-chronicles-anime-roblox",
+        "file": "card-chronicles-anime-roblox"
+      },
+      {
+        "slug": "card-chronicles-roblox-codes",
+        "file": "card-chronicles-roblox-codes"
+      },
+      {
+        "slug": "card-chronicles-roblox-game",
+        "file": "card-chronicles-roblox-game"
+      },
+      {
+        "slug": "card-chronicles-roblox-release",
+        "file": "card-chronicles-roblox-release"
+      },
+      {
+        "slug": "card-chronicles-roblox-tips",
+        "file": "card-chronicles-roblox-tips"
+      },
+      {
+        "slug": "card-chronicles-roblox",
+        "file": "card-chronicles-roblox"
+      }
+    ]
+  },
+  "es": {
+    "cards": [
+      {
+        "slug": "card-chronicles-best-cards",
+        "file": "card-chronicles-best-cards"
+      },
+      {
+        "slug": "card-chronicles-card-list",
+        "file": "card-chronicles-card-list"
+      },
+      {
+        "slug": "card-chronicles-card-tier-list",
+        "file": "card-chronicles-card-tier-list"
+      },
+      {
+        "slug": "card-chronicles-limited-cards",
+        "file": "card-chronicles-limited-cards"
+      },
+      {
+        "slug": "card-chronicles-new-card",
+        "file": "card-chronicles-new-card"
+      },
+      {
+        "slug": "card-chronicles-rare-cards",
+        "file": "card-chronicles-rare-cards"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "card-chronicles-codes",
+        "file": "card-chronicles-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "card-chronicles-beginner-guide",
+        "file": "card-chronicles-beginner-guide"
+      },
+      {
+        "slug": "card-chronicles-guide",
+        "file": "card-chronicles-guide"
+      },
+      {
+        "slug": "card-chronicles-how-to-play",
+        "file": "card-chronicles-how-to-play"
+      },
+      {
+        "slug": "card-chronicles-noob-to-pro",
+        "file": "card-chronicles-noob-to-pro"
+      },
+      {
+        "slug": "card-chronicles-progression-guide",
+        "file": "card-chronicles-progression-guide"
+      },
+      {
+        "slug": "card-chronicles-tips",
+        "file": "card-chronicles-tips"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "card-chronicles-how-to-get-more-luck",
+        "file": "card-chronicles-how-to-get-more-luck"
+      },
+      {
+        "slug": "card-chronicles-luck-tips",
+        "file": "card-chronicles-luck-tips"
+      },
+      {
+        "slug": "card-chronicles-luck",
+        "file": "card-chronicles-luck"
+      },
+      {
+        "slug": "card-chronicles-rng-anime",
+        "file": "card-chronicles-rng-anime"
+      },
+      {
+        "slug": "card-chronicles-rng",
+        "file": "card-chronicles-rng"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "card-chronicles-gems",
+        "file": "card-chronicles-gems"
+      },
+      {
+        "slug": "card-chronicles-potions",
+        "file": "card-chronicles-potions"
+      },
+      {
+        "slug": "card-chronicles-rerolls",
+        "file": "card-chronicles-rerolls"
+      },
+      {
+        "slug": "card-chronicles-rewards",
+        "file": "card-chronicles-rewards"
+      },
+      {
+        "slug": "card-chronicles-traits",
+        "file": "card-chronicles-traits"
+      },
+      {
+        "slug": "card-chronicles-upgrades",
+        "file": "card-chronicles-upgrades"
+      }
+    ],
+    "release": [
+      {
+        "slug": "card-chronicles-maintenance",
+        "file": "card-chronicles-maintenance"
+      },
+      {
+        "slug": "card-chronicles-release-date",
+        "file": "card-chronicles-release-date"
+      },
+      {
+        "slug": "card-chronicles-release",
+        "file": "card-chronicles-release"
+      },
+      {
+        "slug": "card-chronicles-update",
+        "file": "card-chronicles-update"
+      },
+      {
+        "slug": "card-chronicles-wipe",
+        "file": "card-chronicles-wipe"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "card-chronicles-anime-roblox",
+        "file": "card-chronicles-anime-roblox"
+      },
+      {
+        "slug": "card-chronicles-roblox-codes",
+        "file": "card-chronicles-roblox-codes"
+      },
+      {
+        "slug": "card-chronicles-roblox-game",
+        "file": "card-chronicles-roblox-game"
+      },
+      {
+        "slug": "card-chronicles-roblox-release",
+        "file": "card-chronicles-roblox-release"
+      },
+      {
+        "slug": "card-chronicles-roblox-tips",
+        "file": "card-chronicles-roblox-tips"
+      },
+      {
+        "slug": "card-chronicles-roblox",
+        "file": "card-chronicles-roblox"
+      }
+    ]
+  },
+  "id": {
+    "cards": [
+      {
+        "slug": "card-chronicles-best-cards",
+        "file": "card-chronicles-best-cards"
+      },
+      {
+        "slug": "card-chronicles-card-list",
+        "file": "card-chronicles-card-list"
+      },
+      {
+        "slug": "card-chronicles-card-tier-list",
+        "file": "card-chronicles-card-tier-list"
+      },
+      {
+        "slug": "card-chronicles-limited-cards",
+        "file": "card-chronicles-limited-cards"
+      },
+      {
+        "slug": "card-chronicles-new-card",
+        "file": "card-chronicles-new-card"
+      },
+      {
+        "slug": "card-chronicles-rare-cards",
+        "file": "card-chronicles-rare-cards"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "card-chronicles-codes",
+        "file": "card-chronicles-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "card-chronicles-beginner-guide",
+        "file": "card-chronicles-beginner-guide"
+      },
+      {
+        "slug": "card-chronicles-guide",
+        "file": "card-chronicles-guide"
+      },
+      {
+        "slug": "card-chronicles-how-to-play",
+        "file": "card-chronicles-how-to-play"
+      },
+      {
+        "slug": "card-chronicles-noob-to-pro",
+        "file": "card-chronicles-noob-to-pro"
+      },
+      {
+        "slug": "card-chronicles-progression-guide",
+        "file": "card-chronicles-progression-guide"
+      },
+      {
+        "slug": "card-chronicles-tips",
+        "file": "card-chronicles-tips"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "card-chronicles-how-to-get-more-luck",
+        "file": "card-chronicles-how-to-get-more-luck"
+      },
+      {
+        "slug": "card-chronicles-luck-tips",
+        "file": "card-chronicles-luck-tips"
+      },
+      {
+        "slug": "card-chronicles-luck",
+        "file": "card-chronicles-luck"
+      },
+      {
+        "slug": "card-chronicles-rng-anime",
+        "file": "card-chronicles-rng-anime"
+      },
+      {
+        "slug": "card-chronicles-rng",
+        "file": "card-chronicles-rng"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "card-chronicles-gems",
+        "file": "card-chronicles-gems"
+      },
+      {
+        "slug": "card-chronicles-potions",
+        "file": "card-chronicles-potions"
+      },
+      {
+        "slug": "card-chronicles-rerolls",
+        "file": "card-chronicles-rerolls"
+      },
+      {
+        "slug": "card-chronicles-rewards",
+        "file": "card-chronicles-rewards"
+      },
+      {
+        "slug": "card-chronicles-traits",
+        "file": "card-chronicles-traits"
+      },
+      {
+        "slug": "card-chronicles-upgrades",
+        "file": "card-chronicles-upgrades"
+      }
+    ],
+    "release": [
+      {
+        "slug": "card-chronicles-maintenance",
+        "file": "card-chronicles-maintenance"
+      },
+      {
+        "slug": "card-chronicles-release-date",
+        "file": "card-chronicles-release-date"
+      },
+      {
+        "slug": "card-chronicles-release",
+        "file": "card-chronicles-release"
+      },
+      {
+        "slug": "card-chronicles-update",
+        "file": "card-chronicles-update"
+      },
+      {
+        "slug": "card-chronicles-wipe",
+        "file": "card-chronicles-wipe"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "card-chronicles-anime-roblox",
+        "file": "card-chronicles-anime-roblox"
+      },
+      {
+        "slug": "card-chronicles-roblox-codes",
+        "file": "card-chronicles-roblox-codes"
+      },
+      {
+        "slug": "card-chronicles-roblox-game",
+        "file": "card-chronicles-roblox-game"
+      },
+      {
+        "slug": "card-chronicles-roblox-release",
+        "file": "card-chronicles-roblox-release"
+      },
+      {
+        "slug": "card-chronicles-roblox-tips",
+        "file": "card-chronicles-roblox-tips"
+      },
+      {
+        "slug": "card-chronicles-roblox",
+        "file": "card-chronicles-roblox"
+      }
+    ]
+  },
+  "vi": {
+    "cards": [
+      {
+        "slug": "card-chronicles-best-cards",
+        "file": "card-chronicles-best-cards"
+      },
+      {
+        "slug": "card-chronicles-card-list",
+        "file": "card-chronicles-card-list"
+      },
+      {
+        "slug": "card-chronicles-card-tier-list",
+        "file": "card-chronicles-card-tier-list"
+      },
+      {
+        "slug": "card-chronicles-limited-cards",
+        "file": "card-chronicles-limited-cards"
+      },
+      {
+        "slug": "card-chronicles-new-card",
+        "file": "card-chronicles-new-card"
+      },
+      {
+        "slug": "card-chronicles-rare-cards",
+        "file": "card-chronicles-rare-cards"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "card-chronicles-codes",
+        "file": "card-chronicles-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "card-chronicles-beginner-guide",
+        "file": "card-chronicles-beginner-guide"
+      },
+      {
+        "slug": "card-chronicles-guide",
+        "file": "card-chronicles-guide"
+      },
+      {
+        "slug": "card-chronicles-how-to-play",
+        "file": "card-chronicles-how-to-play"
+      },
+      {
+        "slug": "card-chronicles-noob-to-pro",
+        "file": "card-chronicles-noob-to-pro"
+      },
+      {
+        "slug": "card-chronicles-progression-guide",
+        "file": "card-chronicles-progression-guide"
+      },
+      {
+        "slug": "card-chronicles-tips",
+        "file": "card-chronicles-tips"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "card-chronicles-how-to-get-more-luck",
+        "file": "card-chronicles-how-to-get-more-luck"
+      },
+      {
+        "slug": "card-chronicles-luck-tips",
+        "file": "card-chronicles-luck-tips"
+      },
+      {
+        "slug": "card-chronicles-luck",
+        "file": "card-chronicles-luck"
+      },
+      {
+        "slug": "card-chronicles-rng-anime",
+        "file": "card-chronicles-rng-anime"
+      },
+      {
+        "slug": "card-chronicles-rng",
+        "file": "card-chronicles-rng"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "card-chronicles-gems",
+        "file": "card-chronicles-gems"
+      },
+      {
+        "slug": "card-chronicles-potions",
+        "file": "card-chronicles-potions"
+      },
+      {
+        "slug": "card-chronicles-rerolls",
+        "file": "card-chronicles-rerolls"
+      },
+      {
+        "slug": "card-chronicles-rewards",
+        "file": "card-chronicles-rewards"
+      },
+      {
+        "slug": "card-chronicles-traits",
+        "file": "card-chronicles-traits"
+      },
+      {
+        "slug": "card-chronicles-upgrades",
+        "file": "card-chronicles-upgrades"
+      }
+    ],
+    "release": [
+      {
+        "slug": "card-chronicles-maintenance",
+        "file": "card-chronicles-maintenance"
+      },
+      {
+        "slug": "card-chronicles-release-date",
+        "file": "card-chronicles-release-date"
+      },
+      {
+        "slug": "card-chronicles-release",
+        "file": "card-chronicles-release"
+      },
+      {
+        "slug": "card-chronicles-update",
+        "file": "card-chronicles-update"
+      },
+      {
+        "slug": "card-chronicles-wipe",
+        "file": "card-chronicles-wipe"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "card-chronicles-anime-roblox",
+        "file": "card-chronicles-anime-roblox"
+      },
+      {
+        "slug": "card-chronicles-roblox-codes",
+        "file": "card-chronicles-roblox-codes"
+      },
+      {
+        "slug": "card-chronicles-roblox-game",
+        "file": "card-chronicles-roblox-game"
+      },
+      {
+        "slug": "card-chronicles-roblox-release",
+        "file": "card-chronicles-roblox-release"
+      },
+      {
+        "slug": "card-chronicles-roblox-tips",
+        "file": "card-chronicles-roblox-tips"
+      },
+      {
+        "slug": "card-chronicles-roblox",
+        "file": "card-chronicles-roblox"
+      }
+    ]
+  }
+}

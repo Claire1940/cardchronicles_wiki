@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Kode",
+    "guide": "Panduan",
+    "luck": "Keberuntungan",
+    "cards": "Kartu",
+    "progression": "Progresi",
+    "release": "Rilis",
+    "roblox": "Roblox"
+  }
+}

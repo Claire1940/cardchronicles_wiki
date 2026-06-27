@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Lịch sử thẻ từ Tân thủ đến Cao thủ: Hướng dẫn thăng tiến từng bước",
+  description: "Làm chủ Lịch sử thẻ với hướng dẫn từ tân thủ đến cao thủ của chúng tôi. Tìm hiểu chiến thuật roll, đội hình mạnh nhất, reroll thiên phú và các mã code còn hoạt động cho tựa game anime card RNG trên Roblox.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/10a36f/fff?text=Noob+to+Pro+Progression",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Lịch sử thẻ"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Lịch sử thẻ từ Tân thủ đến Cao thủ**: Chuyển đổi từ một người chơi mới thành một game thủ hàng đầu đòi hỏi việc roll hiệu quả và quản lý tài nguyên tập trung.
+- **Vòng lặp cốt lõi**: Thành công được xây dựng trên chu kỳ **roll thẻ**, **nâng cấp carry (chủ lực)**, và **vượt ải (push wave)**.
+- **Ưu tiên tài nguyên**: Tiết kiệm **Reroll Thiên phú (Trait Reroll)** cho các thẻ S-Tier sẽ ở lại trong đội hình của bạn lâu dài.
+- **Giới hạn tiến trình**: Nhiều phần thưởng và mã code giá trị cao bị giới hạn sau một số lượng lượt roll tổng cụ thể (ví dụ: 25.000 lượt roll).
+- **Mẹo hiệu quả**: Luôn cộng dồn **Thuốc may mắn (Luck Potion)** với **Thuốc tốc độ roll (Roll Speed Potion)** trong các phiên chơi tích cực để tối đa hóa tỷ lệ nhận được thẻ hiếm.
+</Callout>
+
+<Section icon={Map} title="Bắt đầu hành trình Lịch sử thẻ từ Tân thủ đến Cao thủ">
+
+Con đường từ một người mới bắt đầu đến một người chơi ưu tú trong Lịch sử thẻ được trải nhựa bằng hàng ngàn lượt roll và các nâng cấp chiến thuật. Là một trò chơi chiến đấu thẻ bài RNG phong cách anime trên Roblox, tựa game này đề cao số lượng và tính kiên trì hơn là sự may mắn tức thời. Để bắt đầu hành trình **Lịch sử thẻ từ tân thủ đến cao thủ** của bạn, mục tiêu đầu tiên là xây dựng một đội hình hoạt động ổn định có thể vượt qua 20-30 đợt quái (wave) đầu tiên. Hãy tránh cám dỗ chi tiêu các tài nguyên hiếm nhất của bạn, chẳng hạn như Chronogem hoặc Reroll Thiên phú, cho thẻ Rare hoặc Epic đầu tiên bạn quay được. Thay vào đó, hãy tập trung vào số lượng roll lớn để mở khóa loạt mốc tiến trình đầu tiên.
+
+**Điểm nhấn Video:**
+- **Lối chơi ngày ra mắt**: Cái nhìn về giao diện cơ bản và luồng chiến đấu cho người chơi mới.
+- **Cơ chế Roll**: Cách thiết lập phiên tự động roll (auto-roll) đầu tiên của bạn.
+- **Trận chiến ban đầu**: Hiểu cách các thẻ bài tương tác với các đợt quái của kẻ thù.
+
+<YouTubeEmbed videoId="zI7WQHQdj4o" title="Card Chronicles - RPG Official Launch Gameplay" />
+
+Trước khi đi sâu vào các cơ chế, bạn phải hiểu các hệ thống cơ bản chi phối sức mạnh của mình. Trò chơi không chỉ đơn giản là sở hữu thẻ bài hiếm nhất; nó còn là về cách thẻ bài đó được xây dựng và cách nó phối hợp hiệu quả với toàn bộ đội hình của bạn.
+
+| Hệ thống | Mục đích chính | Chiến thuật Tân thủ | Chiến thuật Cao thủ |
+| :--- | :--- | :--- | :--- |
+| **Rolling (Quay thẻ)** | Nhận thẻ mới | Roll bất kỳ thẻ Epic/Legendary nào | Roll tìm các carry S-Tier cụ thể |
+| **Upgrading (Nâng cấp)** | Tăng chỉ số cơ bản | Nâng cấp đều mọi thứ | Tối đa hóa một carry chính trước |
+| **Traits (Thiên phú)** | Thêm chỉ số bổ trợ bị động | Bỏ qua cho đến giữa game | Reroll để lấy chỉ số tấn công hoàn hảo |
+| **Waves (Đợt quái)** | Farm và thăng tiến | Vượt ải cho đến khi thất bại | Farm nhanh các mốc wave cụ thể |
+
+<Callout type="tip" title="Hiệu quả cho Tân thủ">
+Đừng lo lắng về những chiếc thẻ "hoàn hảo" trong giờ chơi đầu tiên. Mục tiêu của bạn là đạt mốc 25.000 lượt roll càng nhanh càng tốt để mở khóa các mã code hoạt động mạnh mẽ nhất và các gói phần thưởng.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lộ trình thăng tiến 5 bước">
+
+Để chuyển đổi từ một người mới thành một người chơi chuyên nghiệp, bạn phải đi theo một lộ trình có cấu trúc. Việc phân bổ tài nguyên quá dàn trải là cách nhanh nhất khiến tiến trình của bạn bị đình trệ. Hãy làm theo các bước sau để đảm bảo bạn luôn hướng tới giai đoạn cuối game (endgame).
+
+<Steps>
+  <Step num="1" title="Cày cuốc lượt roll ban đầu">
+    Bắt đầu bằng cách sử dụng bất kỳ mã code "Release" nào có sẵn để nhận Thuốc may mắn cơ bản. Thiết lập trò chơi của bạn ở chế độ tự động roll và tập trung vào việc lấp đầy các vị trí đội hình ban đầu. Ở giai đoạn này, bất kỳ thẻ nào có độ hiếm cao hơn "Common" đều là một nâng cấp lớn. Đừng vội chi tiêu bất kỳ lượt Reroll Thiên phú nào.
+  </Step>
+  <Step num="2" title="Xác định Carry đầu tiên của bạn">
+    Khi bạn quay được một thẻ Legendary hoặc Epic cấp cao có khả năng gây sát thương mạnh mẽ, đây sẽ trở thành "Carry" (Chủ lực) của bạn. Hãy dành vàng và nguyên liệu ban đầu để nâng cấp duy nhất thẻ này. Một thẻ cấp 50 đơn lẻ thường mạnh hơn năm thẻ cấp 10.
+  </Step>
+  <Step num="3" title="Mở khóa sự kết hợp kỹ năng">
+    Khi bạn vượt qua các đợt quái cao hơn, kẻ thù sẽ trở nên trâu bò hơn. Hãy kiểm tra kỹ năng của các thẻ bài. Tìm kiếm các thẻ cung cấp sát thương AoE (diện rộng) hoặc hiệu ứng xấu (debuff). Một đội hình chuyên nghiệp luôn bao gồm ít nhất một thẻ chuyên dụng để dọn dẹp quái nhỏ một cách nhanh chóng.
+  </Step>
+  <Step num="4" title="Cột mốc 25.000 lượt roll">
+    Đây là bước ngoặt. Nhiều mã code mạnh mẽ, chẳng hạn như **Tyfor400kvisits!**, yêu cầu 25.000 lượt roll để đổi thưởng. Khi đạt đến mốc này, bạn sẽ nhận được một lượng lớn Thuốc và Reroll Thiên phú. Đây là lúc bạn bắt đầu "tối ưu hóa" những thẻ tốt nhất của mình.
+  </Step>
+  <Step num="5" title="Tối ưu hóa Thiên phú">
+    Giờ đây khi bạn đã có các thẻ S-Tier và một kho dự trữ lượt reroll, hãy bắt đầu roll để tìm các thiên phú tấn công như **Sát thương% (Damage%)** hoặc **Tỷ lệ chí mạng (Crit Rate)**. Một người chơi chuyên nghiệp không bao giờ chấp nhận một thiên phú phòng thủ trên một quân bài gây sát thương chủ lực.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Quản lý tài nguyên">
+Không bao giờ sử dụng Reroll Thiên phú trên các thẻ mà bạn dự định thay thế trong vòng 24 giờ tới. Đây là những vật phẩm giá trị nhất trong game—hãy tiết kiệm chúng cho các thẻ nằm ở đầu bảng xếp hạng meta hiện tại.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Xây dựng Đội hình Meta">
+
+Sự chuyển đổi thành công **từ tân thủ đến cao thủ trong Lịch sử thẻ** phụ thuộc rất lớn vào đội hình của bạn. Bạn không thể chỉ đơn giản xếp năm thẻ có độ hiếm cao vào và mong đợi chiến thắng. Bạn cần sự cân bằng. Meta hiện tại đang ưa chuộng chiến thuật "Hyper-Carry" (Siêu chủ lực), nơi một thẻ gánh 80% lượng sát thương trong khi các thẻ khác cung cấp tiện ích hoặc dọn dẹp phụ.
+
+<CardGrid cols={2}>
+  <Card title="Kẻ dọn Wave">
+    - **Tập trung**: Sát thương diện rộng (AoE) cao.
+    - **Vai trò**: Quét sạch 90% lượng quái đầu tiên của mỗi đợt.
+    - **Ưu tiên**: Cấp độ nâng cấp cao nhất và các thiên phú tấn công tốt nhất.
+  </Card>
+  <Card title="Kẻ diệt Boss">
+    - **Tập trung**: Sát thương dồn một mục tiêu.
+    - **Vai trò**: Kết liễu các "Kẻ thù mạnh" (Strong Foes) ở cuối đợt quái.
+    - **Ưu tiên**: Sát thương chí mạng cao và giảm thời gian hồi chiêu kỹ năng.
+  </Card>
+  <Card title="Hỗ trợ đa dụng">
+    - **Tập trung**: Tăng ích (Buff) hoặc khống chế (CC).
+    - **Vai trò**: Làm chậm kẻ thù nhanh hoặc tăng sát thương cho carry.
+    - **Ưu tiên**: Thiên phú sinh tồn để trụ lại trên sân lâu hơn.
+  </Card>
+  <Card title="Chuyên gia Thiên phú">
+    - **Tập trung**: Tỷ lệ tăng tiến chỉ số cụ thể.
+    - **Vai trò**: Một thẻ được xây dựng đặc biệt để tận dụng lợi thế từ một thiên phú hiếm quay được.
+    - **Ưu tiên**: Chỉ sử dụng nếu quay được thiên phú hoàn hảo từ sớm.
+  </Card>
+</CardGrid>
+
+| Loại đội hình | Tốt nhất cho | Yêu cầu cốt lõi | Độ khó |
+| :--- | :--- | :--- | :--- |
+| **Đội hình Cân bằng** | Tiến trình chung | 1 Carry / 2 Hỗ trợ / 2 DPS | Dễ |
+| **Siêu chủ lực (Hyper-Carry)** | Farm tốc độ | 1 Carry tối đa cấp / 4 Đa dụng | Trung bình |
+| **Đẩy Boss** | Vượt ải khó | 3 Đơn mục tiêu / 2 Hỗ trợ | Khó |
+| **Cày cuốc RNG** | Treo máy roll | Thiên phú tập trung May mắn / Tăng tốc | N/A |
+
+<Callout type="success" title="Góc nhìn của Cao thủ">
+Đội hình "Tốt nhất" thay đổi dựa trên thẻ nào bạn đã đầu tư nâng cấp. Một thẻ A-Tier ở Cấp 100 hầu như luôn vượt trội hơn một thẻ S-Tier ở Cấp 1. Hãy tập trung tài nguyên của bạn!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tối đa hóa hiệu quả của Thuốc và Mã code">
+
+Thuốc (Potion) là huyết mạch của sự thăng tiến nhanh chóng trong Lịch sử thẻ. Sử dụng chúng một cách ngẫu nhiên là một sai lầm của "tân thủ". Để chơi như một cao thủ, bạn phải đồng bộ hóa việc sử dụng thuốc với thời gian chơi tích cực của mình. Nếu bạn kích hoạt Thuốc may mắn 30 phút rồi dành 10 phút để xem kho đồ của mình, bạn đã lãng phí 33% lượng tài nguyên tiềm năng có thể nhận được.
+
+| Loại thuốc | Kịch bản sử dụng tốt nhất | Mẹo của Cao thủ |
+| :--- | :--- | :--- |
+| **Thuốc may mắn (Luck Potion)** | Roll tích cực để tìm thẻ mới | Cộng dồn với Siêu may mắn (Super Luck) để có kết quả tốt nhất |
+| **Tốc độ roll (Roll Speed)** | Treo máy qua đêm hoặc các phiên AFK dài | Cần thiết để đạt các cột mốc roll |
+| **Tốc độ chiến đấu (Battle Speed)** | Đẩy kỷ lục wave mới | Chỉ sử dụng khi đội hình của bạn gặp chướng ngại vật khó vượt qua |
+| **Thuốc Boss (Boss Potion)** | Farm các vật phẩm rơi ra từ boss cụ thể | Tiết kiệm cho các khung giờ sự kiện cuối tuần |
+| **Reroll Thiên phú (Trait Reroll)** | Tối ưu hóa thẻ giai đoạn cuối game | Không bao giờ sử dụng trên các thẻ không phải S-Tier |
+
+<Checklist
+  id="daily-pro-checklist"
+  title="Thói quen hàng ngày của Cao thủ:"
+  items={[
+    "Kiểm tra các mã code hoạt động mới để tích trữ Reroll Thiên phú",
+    "Chạy 15 phút Tốc độ chiến đấu để farm vàng nâng cấp",
+    "Xác định vị trí yếu nhất trong đội hình hiện tại của bạn để thay thế",
+    "Dành tất cả Chronogem tích lũy được cho các nâng cấp tài khoản vĩnh viễn",
+    "Thiết lập tự động roll với Thuốc may mắn trước khi treo máy (AFK)"
+  ]}
+/>
+
+<Callout type="tip" title="Chiến thuật dùng Code">
+Luôn luôn kiểm tra các yêu cầu trước khi cố gắng đổi mã code. Nếu một mã như **Sorry2!** yêu cầu 25.000 lượt roll, đừng lãng phí thời gian nhập nó cho đến khi trang chỉ số của bạn xác nhận bạn đã đạt mốc.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cơ chế nâng cao: Thiên phú và Chronogem">
+
+Một khi bạn đã thành thạo các bước cơ bản của hành trình **Lịch sử thẻ từ tân thủ đến cao thủ**, bạn phải xem xét các chỉ số ẩn. Chronogem là một loại tiền tệ cao cấp thường được phát trong các gói phần thưởng. Những thứ này nên được chi tiêu cho các nâng cấp vĩnh viễn ảnh hưởng đến mọi thẻ bạn sở hữu, chẳng hạn như tăng sát thương toàn cục hoặc tăng tốc độ roll vĩnh viễn.
+
+Thiên phú (Traits) lại đặc thù cho từng thẻ bài. Khi bạn sử dụng Reroll Thiên phú, bạn đang tìm kiếm các từ khóa cụ thể giúp nhân lên sức mạnh của bạn.
+
+**Các Thiên phú hàng đầu cần chú ý:**
+- **Godly (Thần thánh)**: Tăng cực mạnh cho tất cả các chỉ số (Mục tiêu tối thượng).
+- **Celestial (Thiên giới)**: Tỷ lệ tăng tiến sát thương và tốc độ cao.
+- **Demonic (Quỷ dữ)**: Rủi ro cao, lượng sát thương đầu ra cực lớn.
+- **Swift (Nhanh nhẹn)**: Cần thiết cho các hỗ trợ để kích hoạt kỹ năng nhanh hơn.
+
+<Callout type="info" title="Lời khuyên cuối cùng từ Cao thủ">
+Tiến trình trong Lịch sử thẻ là một cuộc chạy marathon, không phải là một cuộc chạy nước rút. Những người chơi "Cao thủ" là những người đã quản lý tốt tài nguyên của họ trong giai đoạn "Tân thủ" để có được lợi thế to lớn khi họ đạt đến giai đoạn cuối game.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Câu hỏi thường gặp về Lịch sử thẻ">
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để tôi thăng tiến từ tân thủ lên cao thủ trong Lịch sử thẻ một cách nhanh chóng?",
+    answer: "Tập trung vào việc đạt mốc 25.000 lượt roll nhanh nhất có thể bằng cách sử dụng Thuốc tốc độ roll. Điều này giúp mở khóa các phần thưởng tốt nhất từ các mã code đang hoạt động, cho phép bạn nâng cấp một thẻ carry S-Tier."
+  },
+  {
+    question: "Tôi nên sử dụng lượt Reroll Thiên phú của mình cho những thẻ nào?",
+    answer: "Chỉ sử dụng Reroll Thiên phú cho các thẻ S-Tier hoặc thẻ 'Giữ lại' (Keeper) mà bạn dự định giữ trong đội hình của mình qua hàng trăm wave. Sử dụng chúng cho các thẻ đầu game là một sự lãng phí tài nguyên."
+  },
+  {
+    question: "Tại sao tôi không thể đổi một số mã code trong Lịch sử thẻ?",
+    answer: "Nhiều mã code giá trị cao bị giới hạn bởi yêu cầu số lượt roll. Ví dụ, các mã như 'Sorry!' và 'Tyfor400kvisits!' thường yêu cầu tổng cộng 25.000 lượt roll trước khi chúng có thể kích hoạt trên tài khoản của bạn."
+  },
+  {
+    question: "Cách tốt nhất để chi tiêu Chronogem là gì?",
+    answer: "Ưu tiên các nâng cấp tài khoản vĩnh viễn. Những nâng cấp này cung cấp một lượng tăng sức mạnh toàn cục cho tất cả các thẻ trong bộ sưu tập của bạn, giúp việc hoán đổi đội hình dễ dàng hơn mà không mất đi lượng sức mạnh đáng kể."
+  }
+]} />
+
+</Section>

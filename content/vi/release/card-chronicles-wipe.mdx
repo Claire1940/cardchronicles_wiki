@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Xóa dữ liệu Card Chronicles: Đền bù, Mã code & Hướng dẫn xây dựng lại",
+  description: "Điều hướng đợt xóa dữ liệu (wipe) của Card Chronicles với hướng dẫn của chúng tôi về hoàn tiền Robux, phần thưởng truy cập sớm độc quyền, mã code đang hoạt động và chiến lược thăng tiến nhanh chóng.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Card+Chronicles+Wipe+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Card Chronicles"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- Việc **xóa dữ liệu card chronicles** đã chính thức diễn ra vào ngày 10 tháng 6 năm 2026, đặt lại toàn bộ tiến trình của người chơi cho bản phát hành công khai.
+- Tất cả các **giao dịch mua bằng Robux** được thực hiện trong giai đoạn truy cập sớm đã được hoàn lại đầy đủ vào tài khoản của người chơi.
+- Người chơi có thể **xây dựng lại đội hình nhanh chóng** bằng cách đổi các mã code ra mắt đang hoạt động để lấy hàng trăm lượt quay lại thuộc tính (trait rerolls) miễn phí.
+- Tập trung tài nguyên ban đầu vào việc **nâng cấp các quân bài gánh đội (carry) hạng S** thay vì dàn trải nguyên liệu cho các thẻ tạm thời.
+</Callout>
+
+<Section icon={Shield} title="Xóa dữ liệu Card Chronicles: Chuyển đổi sang bản phát hành chính thức">
+
+Sự chuyển đổi từ giai đoạn truy cập sớm đầy mong đợi sang bản phát hành công khai hoàn thiện là một cột mốc quan trọng đối với bất kỳ trải nghiệm Roblox nào. Đối với trò chơi thẻ bài anime RNG đình đám của Chronicle Entertainment, sự chuyển đổi này được đánh dấu bằng đợt **xóa dữ liệu card chronicles** chính thức. Vào thứ Tư, ngày 10 tháng 6 năm 2026, lúc 2:00 sáng, các nhà phát triển đã chính thức kết thúc giai đoạn truy cập sớm và thử nghiệm áp lực. Để chuẩn bị cơ sở dữ liệu cho hàng ngàn người chơi mới và thiết lập một môi trường cạnh tranh cân bằng, tất cả tiến trình của người chơi đã được đặt lại một cách có hệ thống.
+
+Mặc dù việc đặt lại tiến trình thường gây lo ngại trong cộng đồng game thủ, nhưng quyết định này đã được đưa ra với sự đóng góp và ủng hộ tích cực của cơ sở người chơi. Một cuộc thăm dò cộng đồng được tổ chức trong những ngày cuối cùng của giai đoạn truy cập sớm cho thấy 72% người chơi tham gia đã bỏ phiếu ủng hộ việc làm mới hoàn toàn. Sự ủng hộ áp đảo này bắt nguồn từ các vấn đề nghiêm trọng về cơ sở dữ liệu hệ thống và các lỗi khai thác cân bằng làm hỏng trò chơi, đe dọa sức khỏe lâu dài của nền kinh tế trong trò chơi.
+
+**Điểm nhấn Video:**
+- Cái nhìn chi tiết về vòng lặp lối chơi và thiết kế giao diện người dùng trong giai đoạn truy cập sớm.
+- Trình diễn Tháp Bắt đầu (Tower of Beginnings) và các chế độ chiến đấu vô tận.
+- Chiến lược sử dụng các khả năng thẻ bài khác nhau để vượt qua các thế giới cốt truyện ban đầu.
+
+<YouTubeEmbed videoId="zI7WQHQdj4o" title="Tổng quan về Truy cập sớm Card Chronicles" />
+
+Chất xúc tác chính cho việc xóa dữ liệu, bên cạnh việc tối ưu hóa cơ sở dữ liệu nói chung, là một lỗi khai thác cân bằng nghiêm trọng liên quan đến hai thẻ bài cụ thể. Những thẻ bài này sở hữu một tương tác ngoài ý muốn cho phép người chơi tiêu diệt mọi trùm trong trò chơi, bất kể viền thẻ đang hoạt động, đồng thời đạt được tỷ lệ may mắn tối đa. Nếu không được kiểm soát, lỗi này sẽ làm rạn nứt vĩnh viễn nền kinh tế của trò chơi, khiến những người chơi ngày ra mắt bị tụt lại phía sau một cách vô vọng. Bằng cách thực hiện một đợt đặt lại toàn diện, đội ngũ phát triển đã cân bằng lại sân chơi thành công, giải quyết các lỗi hệ thống và mở đường cho một buổi ra mắt ổn định.
+
+<Callout type="warning" title="Đặt lại tiến trình">
+Tất cả bộ sưu tập thẻ, cấp độ, nâng cấp và các thế giới đã mở khóa trong giai đoạn truy cập sớm đã bị xóa vĩnh viễn trong quá trình chuyển đổi vào ngày 10 tháng 6 năm 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hoàn tiền Robux và Đền bù truy cập sớm">
+
+Chronicle Entertainment đã thiết lập một chính sách hoàn tiền và đền bù toàn diện để đảm bảo những người ủng hộ truy cập sớm không bị thiệt hại vì những đóng góp tài chính của họ. Mỗi một Robux chi tiêu trong giai đoạn truy cập sớm đều được thống kê đầy đủ và trả lại cho người chơi. Điều này bao gồm các giao dịch mua thẻ game (game passes) vĩnh viễn, mã thông báo đài phun nước và các thẻ thăng tiến cao cấp như thẻ Chronogems.
+
+Ngoài việc hoàn tiền, những người thử nghiệm sớm còn nhận được các vật phẩm độc quyền trong trò chơi để kỷ niệm sự tham gia của họ. Phần thưởng nổi bật dành cho người chơi truy cập sớm là thẻ bài "Aran" độc quyền, một đơn vị gánh đội cực kỳ mạnh mẽ được thiết kế để giúp giai đoạn xây dựng lại ban đầu trở nên dễ dàng hơn. Người chơi cũng nhận được huy hiệu hồ sơ và danh hiệu đặc biệt, cho phép họ thể hiện vị thế kỳ cựu của mình với phần còn lại của cộng đồng.
+
+| Vật phẩm đền bù | Loại hoàn tiền | Chi tiết |
+|---|---|---|
+| Thẻ game (Game Passes) | Hoàn tiền Robux đầy đủ | Trả lại vào số dư tài khoản Roblox của người chơi |
+| Mã thông báo đài phun nước | Hoàn tiền Robux đầy đủ | Mã thông báo đã chi tiêu được chuyển đổi lại thành số dư Robux |
+| Thẻ Chronogems | Hoàn tiền Robux đầy đủ | Được khôi phục hoặc hoàn tiền tùy thuộc vào kênh mua hàng |
+| Huy hiệu Truy cập sớm | Phần thưởng độc quyền | Huy hiệu đặc biệt và thẻ Aran được trao cho người chơi EA |
+
+Các khoản hoàn trả này đã được xử lý tự động khi trò chơi chính thức ra mắt công khai. Khi người chơi đăng nhập lần đầu vào phiên bản chính thức của trò chơi, số Robux họ đã chi tiêu đã được ghi có lại vào tài khoản và các phần thưởng thử nghiệm độc quyền đã chờ sẵn trong kho đồ. Cách tiếp cận ưu tiên người chơi này đã giảm bớt đáng kể tác động của việc mất tiến trình và duy trì tinh thần cộng đồng cao trong quá trình chuyển đổi ra mắt.
+
+<Callout type="success" title="An toàn mua sắm">
+Các giao dịch mua trong giai đoạn truy cập sớm của bạn được bảo vệ hoàn toàn. Nếu bạn nhận thấy bất kỳ sai lệch nào trong số Robux được hoàn lại, hãy liên hệ với các nhà phát triển thông qua cộng đồng Roblox chính thức.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Xây dựng lại bộ bài ngay lập tức với mã code đang hoạt động">
+
+Việc xây dựng lại bộ bài từ đầu có vẻ khó khăn, nhưng các nhà phát triển đã phát hành một loạt các mã code ra mắt mạnh mẽ để thúc đẩy tiến trình của bạn. Bằng cách đổi các mã này một cách chiến lược, bạn có thể ngay lập tức nhận được hàng trăm lượt Quay lại thuộc tính (Trait Rerolls), Thuốc may mắn và tăng tốc độ để nhanh chóng triệu hồi và tối ưu hóa đội hình của mình.
+
+Các mã code hiện đang hoạt động cung cấp một bộ công cụ khởi đầu vô cùng hào phóng. Mã code đáng chú ý nhất, `AvailableForEveryoneNow`, tặng một lượng lớn 100 lượt Quay lại thuộc tính. Điều này cho phép bạn ngay lập tức quay các thuộc tính tinh nhuệ cho những thẻ bài giá trị cao đầu tiên mà bạn quay được.
+
+| Mã code | Phần thưởng | Yêu cầu | Chiến lược |
+|---|---|---|---|
+| AvailableForEveryoneNow | 100 Lượt quay lại thuộc tính | Không | Tiết kiệm cho các thẻ gánh đội hạng S |
+| Tyfor3kccu! | Gói Thuốc & Lượt quay lại | Không | Tốt nhất để vượt qua các đợt quái ban đầu |
+| Sorry! | 10x May mắn, 10x Tốc độ, 15x Quay lại | Không | Kích hoạt trong các phiên quay thẻ tập trung |
+| Release! | 3x May mắn, 3x Tốc độ, 5x Quay lại | Không | Sử dụng ngay khi bắt đầu |
+| Tyfor400kvisits! | Thuốc & Tăng cường | 25,000 Lượt quay | Đổi sau khi đã vượt qua mốc quay thẻ |
+| Sorry2! | Thuốc & Tăng cường | 25,000 Lượt quay | Đổi sau khi đã vượt qua mốc quay thẻ |
+
+Để đổi các mã này, hãy mở [Trò chơi Card Chronicles trên Roblox](https://www.roblox.com/games/114758508835875/Card-Chronicles) và nhấp vào biểu tượng bánh răng Cài đặt nằm ở góc dưới bên trái màn hình. Cuộn xuống cuối menu để tìm ô nhập văn bản, nhập mã chính xác như hiển thị và nhấn Enter để nhận thưởng.
+
+<CardGrid cols={3}>
+  <Card title="Quay lại thuộc tính">
+    - **Thay đổi thuộc tính thẻ** để tối ưu hóa chỉ số
+    - Thiết yếu cho các thẻ hạng S
+    - Nhận từ các mã code đang hoạt động
+  </Card>
+  <Card title="Thuốc may mắn">
+    - **Tăng tỷ lệ quay** ra các thẻ anime hiếm
+    - Sử dụng tốt nhất trong các phiên cày cuốc dài
+    - Cộng dồn với Siêu may mắn (Super Luck)
+  </Card>
+  <Card title="Thuốc tốc độ">
+    - **Tăng tốc độ quay và chiến đấu**
+    - Đẩy nhanh tiến trình vượt các đợt quái
+    - Giảm thiểu thời gian cày cuốc treo máy
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Chiến lược quay lại">
+Đừng lãng phí các lượt Quay lại thuộc tính từ mã code cho những thẻ bài tạm thời ban đầu. Hãy tiết kiệm chúng cho đến khi bạn quay được một thẻ hạng S thực thụ, thẻ sẽ nằm trong đội hình của bạn lâu dài.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chiến lược xây dựng lại từng bước">
+
+Để thăng tiến hiệu quả sau khi đặt lại tiến trình, bạn phải thiết lập một vòng lặp lối chơi có phương pháp. Việc dàn trải tài nguyên quá mỏng là cách nhanh nhất để gặp phải bức tường tiến trình. Hãy làm theo lộ trình xây dựng lại tối ưu này để tối đa hóa hiệu quả của bạn.
+
+<Steps>
+  <Step num="1" title="Đổi mã code khởi đầu">
+    Nhập tất cả các mã code đang hoạt động để nhận thuốc và lượt quay lại. Đừng sử dụng thuốc ngay lập tức; hãy tiết kiệm chúng cho một phiên quay thẻ chuyên dụng khi bạn có thời gian để quản lý kho đồ của mình.
+  </Step>
+  <Step num="2" title="Thực hiện các lượt triệu hồi ban đầu">
+    Bắt đầu quay cho bộ thẻ đầu tiên của bạn. Mục tiêu ở đây là thiết lập một lực lượng chiến đấu cơ bản gồm ba đến bốn thẻ bài hữu dụng. Đừng lo lắng về việc quay ra các đơn vị cực hiếm ngay lập tức.
+  </Step>
+  <Step num="3" title="Tập hợp đội hình cân bằng">
+    Đặt những thẻ bài mạnh nhất bạn quay được vào đội hình đang hoạt động. Ưu tiên các đơn vị có sát thương diện rộng (AoE) hoặc khả năng khống chế đám đông, vì chúng rất hiệu quả để dọn sạch các đợt quái ban đầu.
+  </Step>
+  <Step num="4" title="Tập trung nâng cấp cho quân bài gánh đội">
+    Xác định thẻ bài mạnh nhất của bạn và đầu tư tất cả nguyên liệu nâng cấp vào nó. Một thẻ gánh đội duy nhất được nâng cấp cao sẽ dễ dàng vượt qua các thế giới cốt truyện ban đầu, trong khi một đội gồm các thẻ yếu có cấp độ đồng đều sẽ gặp khó khăn.
+  </Step>
+</Steps>
+
+Việc quản lý các loại thuốc tiêu thụ cũng quan trọng như việc nâng cấp thẻ bài của bạn. Sử dụng tăng cường tốc độ và may mắn không đúng lúc sẽ dẫn đến lãng phí tài nguyên. Hãy sử dụng hướng dẫn thời điểm dưới đây để tối ưu hóa việc sử dụng thuốc.
+
+| Loại thuốc | Hiệu ứng tăng cường | Thời điểm sử dụng tốt nhất |
+|---|---|---|
+| Thuốc may mắn | Tăng cơ hội quay ra thẻ hiếm | Sử dụng trong các phiên quay thẻ lớn, không bị gián đoạn |
+| Thuốc tốc độ quay | Tăng tốc độ hoạt ảnh quay thẻ | Kết hợp với Thuốc may mắn để tối đa hóa số lượng quay |
+| Thuốc tốc độ chiến đấu | Tăng tốc độ trận đấu thêm 15% | Sử dụng khi đẩy chế độ cốt truyện hoặc cày các đợt quái |
+| Thuốc siêu may mắn | Hệ số nhân may mắn cực lớn | Tiết kiệm cho các phiên quay thẻ cuối game khi đã có tốc độ |
+
+Bằng cách kết hợp Thuốc tốc độ quay và Thuốc may mắn, bạn có thể xử lý một khối lượng lớn các lượt triệu hồi trong thời gian ngắn. Điều này làm tăng đáng kể cơ hội quay được các nhân vật hạng S sớm trong hành trình sau khi xóa dữ liệu.
+
+<Callout type="info" title="Quản lý tài nguyên">
+Tránh nâng cấp mọi thẻ bài mới mà bạn quay được. Hãy tập trung tài nguyên vào quân bài gánh đội chính của bạn cho đến khi bạn tiếp cận được nội dung giữa game.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Đội hình tốt nhất sau khi xóa dữ liệu">
+
+Xây dựng một đội hình tinh nhuệ sau khi đặt lại yêu cầu sự hiểu biết sâu sắc về các cấp bậc và vai trò của thẻ bài. Thay vì mù quáng theo đuổi độ hiếm, bạn nên xây dựng đội hình của mình xung quanh các khả năng được nâng cấp, sự phối hợp thuộc tính và tiềm năng dọn quái.
+
+Đội hình chính của bạn nên bao gồm một thẻ gánh đội gây sát thương cao, một thẻ gây sát thương phụ hoặc hỗ trợ, và một vị trí linh hoạt để thử nghiệm các thẻ mới quay được hoặc thêm hỗ trợ diệt trùm chuyên dụng. Các thẻ hạng S có sát thương đa mục tiêu mạnh mẽ và nên nhận được các thuộc tính tốt nhất của bạn, chẳng hạn như thuộc tính cực hiếm "Chrono Breaker", cung cấp 25% cơ hội hồi lại lượng HP đã mất và xóa bỏ các hiệu ứng xấu.
+
+<Checklist
+  id="post-wipe-goals"
+  title="Danh sách kiểm tra tiến trình sau khi xóa dữ liệu:"
+  items={[
+    "Đổi tất cả các mã code ra mắt đang hoạt động",
+    "Mở khóa Tháp Bắt đầu bằng cách vượt qua các thế giới ban đầu",
+    "Vượt tầng 100 của Tháp để mở khóa thêm ô trang bị gói thẻ",
+    "Sở hữu ít nhất một thẻ gánh đội hạng S",
+    "Tối ưu hóa thẻ gánh đội của bạn với một thuộc tính cấp cao"
+  ]}
+/>
+
+Khi bạn tiến sâu hơn vào trò chơi, hãy ưu tiên mở khóa Tháp Bắt đầu. Vượt qua tầng 6 của Tháp sẽ mở khóa Chế độ Vô tận cực kỳ lợi nhuận, đóng vai trò là nguồn cung cấp nguyên liệu nâng cấp lâu dài chính của bạn. Hơn nữa, đạt đến tầng 100 sẽ thưởng cho bạn một ô trang bị gói thẻ bổ sung, giúp tăng đáng kể tổng sức mạnh chiến đấu của đội bạn.
+
+<Callout type="tip" title="Tiến trình tháp">
+Vượt qua tầng 100 của Tháp Bắt đầu là ưu tiên hàng đầu. Ô chiến đấu bổ sung mà nó cung cấp là một hệ số nhân khổng lồ cho khả năng chiến đấu tổng thể của đội bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Câu hỏi thường gặp về việc xóa dữ liệu Card Chronicles">
+
+Để giúp làm rõ bất kỳ câu hỏi nào còn lại liên quan đến đợt đặt lại tiến trình gần đây và quá trình chuyển đổi sang bản phát hành công khai, chúng tôi đã tổng hợp các câu hỏi thường gặp nhất từ cộng đồng.
+
+<FAQ items={[
+  {
+    question: "Tiến trình của tôi có bị xóa vĩnh viễn trong đợt wipe Card Chronicles không?",
+    answer: "Có, tất cả tiến trình, bộ sưu tập thẻ và nâng cấp từ giai đoạn truy cập sớm đã bị xóa để đảm bảo một sân chơi công bằng và giải quyết các vấn đề nghiêm trọng về cơ sở dữ liệu hệ thống."
+  },
+  {
+    question: "Làm thế nào để tôi lấy lại số Robux đã chi tiêu sau khi xóa dữ liệu?",
+    answer: "Tất cả Robux đã chi tiêu cho thẻ game, mã thông báo đài phun nước và các giao dịch mua khác trong giai đoạn truy cập sớm đã được tự động hoàn lại vào số dư tài khoản Roblox của bạn."
+  },
+  {
+    question: "Cách tốt nhất để bắt kịp sau khi đặt lại tiến trình là gì?",
+    answer: "Đổi tất cả các mã code đang hoạt động như 'AvailableForEveryoneNow' và 'Tyfor3kccu!' để nhận thuốc may mắn miễn phí, tăng tốc độ và hơn 100 lượt Quay lại thuộc tính để thúc đẩy nhanh tiến trình của bạn."
+  },
+  {
+    question: "Tôi nên tập trung nâng cấp thẻ bài nào đầu tiên?",
+    answer: "Ưu tiên nâng cấp các thẻ gánh đội có độ hiếm cao với khả năng gây sát thương đa mục tiêu, vì chúng cho phép bạn dọn sạch các đợt quái và cày tài nguyên nhanh hơn nhiều."
+  }
+]} />
+
+<Callout type="info" title="Lời nhắc cuối cùng">
+Bản dựng trực tiếp hiện tại của Card Chronicles rất ổn định và đội ngũ phát triển đã xác nhận rằng không có đợt xóa dữ liệu tiến trình nào được lên kế hoạch cho lối chơi tiêu chuẩn trong tương lai.
+</Callout>
+
+</Section>

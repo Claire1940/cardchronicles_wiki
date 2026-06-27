@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Thẻ Mới Trong Card Chronicles: Hướng Dẫn Quay Thẻ & Sắp Xếp Đội Hình Tốt Nhất",
+  description: "Làm chủ Card Chronicles trên Roblox. Học cách quay thẻ mới, nâng cấp kỹ năng, quản lý độ hiếm và xây dựng đội hình tốt nhất để vượt ải.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/0b1329/fff?text=New+Card+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Card Chronicles"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Mục tiêu chính**: Sở hữu **thẻ mới trong Card Chronicles** để liên tục vượt qua các thử thách số lượng quái (wave) cao hơn.
+- **Mẹo tài nguyên**: Tiết kiệm các lượt **Reroll Thiên Phú (Trait Reroll)** quý giá của bạn cho các thẻ có độ hiếm cao nhất và muốn giữ lại lâu dài.
+- **Chu kỳ tiến trình**: Cân bằng giữa may mắn quay thẻ thuần túy và việc tập trung nâng cấp thẻ để mở khóa các kỹ năng hủy diệt, thay đổi cục diện trận đấu.
+- **Sử dụng bình thuốc**: Luôn cộng dồn **Thuốc May Mắn (Luck Potion) và Thuốc Tốc Độ Quay (Roll Speed Potion)** trong các phiên cày cuốc tích cực và chuyên sâu.
+</Callout>
+
+<Section icon={Sparkles} title="Quay và Sở Hữu Thẻ Mới Trong Card Chronicles">
+
+Sở hữu một **thẻ mới trong Card Chronicles** là động cơ cốt lõi cho sự tiến trình của bạn trong tựa game đấu thẻ bài anime RNG này trên Roblox. Trong Card Chronicles, quay thẻ không chỉ là một thú vui thông thường; đó là một chu kỳ chiến thuật cao độ, nơi mỗi lượt quay đều mở rộng bộ bài của bạn, cải thiện các mốc chỉ mục (index milestone) và mở khóa các bổ trợ tiến trình quan trọng. Khi bạn rút được một thẻ mới, bạn phải lập tức đánh giá độ hiếm, chỉ số cơ bản và kỹ năng chiến đấu của nó để quyết định xem nó có thuộc về đội hình chính thức của bạn hay nên được hợp nhất để tăng sức mạnh cho các chiến binh hiện có.
+
+Để tối đa hóa hiệu quả, bạn nên luôn quay thẻ trong các phiên tập trung thay vì chia nhỏ các lượt thử của mình. Cách tiếp cận này cho phép bạn cộng dồn hiệu ứng của các bình thuốc đang hoạt động và mã code, mang lại cho bạn cơ hội tốt nhất có thể để sở hữu các lượt rút cấp cao.
+
+**Điểm Nhấn Video:**
+- **Chiến Thuật Quay**: Tập trung vào việc tối đa hóa số lượng quay để kích hoạt phần thưởng cột mốc và các bổ trợ bị động.
+- **Phân Cấp Độ Hiếm**: Tìm hiểu cách sức mạnh của thẻ tăng trưởng vượt bậc từ các bậc Thường (Base) đến Vàng (Gold), Dung Nham (Magmatic), Vực Sâu (Abyssal) và Sử Thi (Chronicle).
+- **Lợi Ích Cột Mốc**: Đạt được các cột mốc cấp độ chỉ mục để tăng vĩnh viễn tốc độ quay và hệ số nhân may mắn của bạn.
+
+<YouTubeEmbed videoId="2wKpju3Oj70" title="Hướng Dẫn & Mẹo Đỉnh Cao Card Chronicles" />
+
+### Hiểu Về Độ Hiếm và Vai Trò Của Thẻ
+
+Trước khi bắt đầu quay, bạn cần hiểu hệ thống độ hiếm ảnh hưởng thế nào đến khả năng chiến đấu của bạn. Một chiếc thẻ mới chỉ thực sự mạnh khi có chỉ số tăng trưởng tốt và kỹ năng bị động chiến đấu độc đáo.
+
+| Độ Hiếm | Tỷ Lệ Rút Cơ Bản | Vai Trò Chiến Đấu Chính | Ưu Tiên Nâng Cấp |
+| :--- | :--- | :--- | :--- |
+| **Thường / Không Thường** | Cao | Lấp chỗ trống ở các wave đầu và hỗ trợ tạm thời | Thấp |
+| **Vàng** | Trung bình | Gây sát thương tầm trung và đẩy boss giai đoạn đầu | Trung bình |
+| **Dung Nham / Vực Sâu** | Thấp | Gánh đội (carry) cấp cao với khả năng tăng trưởng mạnh mẽ | Cao |
+| **Sử Thi (Chronicle)** | Cực kỳ thấp | Gánh đội tinh nhuệ cuối game đáng để đầu tư vĩnh viễn | Cao Nhất |
+
+<Callout type="tip" title="Mẹo Hiệu Quả">
+Đừng bỏ qua các thẻ độ hiếm thấp trong vài giờ chơi đầu tiên của bạn. Một thẻ Vàng được nâng cấp và hợp nhất có thể dễ dàng vượt trội hơn một thẻ Vực Sâu mới tinh, chưa được nâng cấp và không có sự đầu tư nào.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Từng Bước Tích Hợp & Nâng Cấp Thẻ">
+
+Một khi bạn rút được một **thẻ mới trong Card Chronicles**, công việc thực sự mới bắt đầu. Việc tích hợp một lượt rút mới vào đội hình của bạn đòi hỏi một quy trình nâng cấp có cấu trúc để tránh lãng phí các tài nguyên quý giá như Đá Thời Gian (Chronogems) và Reroll Thiên Phú trên các thẻ tạm thời. Hãy làm theo lộ trình từng bước này để biến bất kỳ lượt quay triển vọng nào thành một tướng gánh đội không thể cản phá.
+
+<Steps>
+  <Step num="1" title="Đánh Giá Kỹ Năng Cơ Bản & Độ Hiếm">
+    Phân tích kỹ năng xuất trận và kỹ năng bị động của thẻ. Tìm kiếm các đòn tấn công đa mục tiêu, cơ chế gây choáng hoặc hệ số nhân tỷ lệ né tránh có thể phá vỡ các đợt sóng kẻ thù mạnh mẽ.
+  </Step>
+  <Step num="2" title="Hợp Nhất Thẻ Trùng Lặp Ngay Lập Tức">
+    Đừng bao giờ để các thẻ trùng lặp nằm im trong kho đồ của bạn. Hãy hợp nhất chúng ngay lập tức để tăng chỉ số cơ bản cho các thẻ chính của bạn, hoặc tái chế chúng để thu hồi các tài nguyên nâng cấp quan trọng.
+  </Step>
+  <Step num="3" title="Mở Khóa Các Kỹ Năng Chiến Đấu Cốt Lõi">
+    Đầu tư các tài nguyên tiến trình tích lũy được để nâng cấp thẻ đã chọn của bạn. Ưu tiên mở khóa các kỹ năng chiến đấu độc đáo của nó, những kỹ năng thường có hiệu ứng dọn quái (wave-clearing) cực mạnh.
+  </Step>
+  <Step num="4" title="Áp Dụng Reroll Thiên Phú Một Cách Khôn Ngoan">
+    Sử dụng lượt Reroll Thiên Phú để sở hữu các kỹ năng bị động giá trị cao như Chronoger hoặc Astral Overlord. Tiết kiệm các tài nguyên reroll cao cấp này độc quyền cho các thẻ sẽ ở lại trong đội hình của bạn lâu dài.
+  </Step>
+  <Step num="5" title="Sắp Xếp Vị Trí Trong Đội Hình Chiến Đấu">
+    Đặt thẻ mới được tối ưu hóa của bạn vào đội hình chiến đấu chính thức. Đảm bảo các kỹ năng của nó bổ trợ cho các thẻ khác của bạn, cân bằng giữa sát thương đơn mục tiêu cao và các đòn tấn công diện rộng (AoE) đáng tin cậy.
+  </Step>
+</Steps>
+
+### Chi Phí Nâng Cấp & Cột Mốc Tiến Trình
+
+Nâng cấp thẻ của bạn đòi hỏi sự cân bằng giữa nguyên liệu thô và lập kế hoạch chiến thuật. Việc phân bổ tài nguyên quá mỏng trên nhiều thẻ sẽ làm chậm tiến trình của bạn khi bạn đối mặt với các đợt quái khó hơn.
+
+| Cấp Độ Nâng Cấp | Lợi Ích Có Thể Mở Khóa | Khuyến Nghị Đầu Tư Tài Nguyên | Tác Động Chiến Đấu |
+| :--- | :--- | :--- | :--- |
+| **Cấp 1 - 10** | Tăng trưởng chỉ số và tăng sát thương đòn đánh cơ bản | Vàng cấp thấp và hợp nhất thẻ trùng | Dọn quái nhỏ |
+| **Cấp 11 - 25** | Mở khóa kỹ năng bị động chiến đấu đầu tiên | Đá Thời Gian cấp trung và hợp nhất tập trung | Đẩy boss trung bình |
+| **Cấp 26 - 50** | Kỹ năng bị động tối thượng và tối ưu hóa ô thiên phú | Đá Thời Gian cấp cao và reroll cao cấp | Thống trị các đợt quái cấp cao |
+
+<Callout type="success" title="Tiến Trình Thành Công">
+Mở khóa cột mốc chỉ mục cấp năm sẽ tăng vĩnh viễn độ may mắn bị động và tốc độ quay của tài khoản, giúp việc rút các thẻ hàng đầu trong các phiên quay tương lai trở nên dễ dàng hơn nhiều.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Đội Hình và Cách Xây Dựng Đội Tốt Nhất">
+
+Xây dựng một đội hình cân bằng trong Card Chronicles là chìa khóa để thống trị cả các đợt quái vô tận lẫn những trận chiến boss đáng gờm. Thay vì chỉ đơn giản là xếp các thẻ hiếm nhất của bạn lại với nhau, bạn phải tạo ra một đội hình có tính liên kết, đảm nhận nhiều vai trò chiến đấu khác nhau, bao gồm sát thương diện rộng (AoE), dứt điểm đơn mục tiêu và hỗ trợ phòng thủ.
+
+<CardGrid cols={2}>
+  <Card title="Đội Hình Dọn Wave Sớm">
+    - **Chủ Lực Chính**: Thẻ gây sát thương được nâng cấp cao nhất của bạn.
+    - **Vị Trí Hỗ Trợ**: Thẻ có khả năng khống chế đám đông hoặc gây choáng.
+    - **Chiến Thuật**: Tập trung vào các đòn tấn công AoE nhanh để dọn sạch các wave đầu một cách nhanh chóng và an toàn.
+  </Card>
+  <Card title="Đội Hình Đẩy Boss">
+    - **Chủ Lực Chính**: Thẻ gây sát thương đơn mục tiêu cao.
+    - **Vị Trí Hỗ Trợ**: Thẻ phòng thủ cung cấp bùa lợi né tránh hoặc lá chắn.
+    - **Chiến Thuật**: Sống sót qua các giai đoạn sát thương cao của boss bằng cách sử dụng các kỹ năng bị động phòng thủ và kỹ năng đơn mục tiêu tác động lớn.
+  </Card>
+  <Card title="Đội Hình Tập Trung Reroll">
+    - **Chủ Lực Chính**: Thẻ muốn giữ lại có thiên phú cấp cao như Chronoger.
+    - **Vị Trí Hỗ Trợ**: Các thẻ có tính liên kết giúp khuếch đại sát thương của chủ lực chính.
+    - **Chiến Thuật**: Dồn tất cả tài nguyên nâng cấp và reroll thiên phú vào một nguồn sức mạnh duy nhất không thể cản phá.
+  </Card>
+  <Card title="Đội Hình Tiến Trình Cân Bằng">
+    - **Chủ Lực Chính**: Một tướng gánh đội độ hiếm cao đã mở khóa kỹ năng.
+    - **Vị Trí Hỗ Trợ**: Một tướng gánh phụ linh hoạt và một thẻ thử nghiệm.
+    - **Chiến Thuật**: Duy trì tiến trình ổn định trong khi thử nghiệm các lượt rút mới để nâng cấp đội hình trong tương lai.
+  </Card>
+</CardGrid>
+
+### Tối Ưu Hóa Bình Thuốc và Bổ Trợ
+
+Để có được các tài nguyên cần thiết cho các đội hình này, bạn phải tối ưu hóa việc tiêu thụ các bình thuốc và bổ trợ đang hoạt động. Cộng dồn các vật phẩm này trong các phiên chơi tập trung đảm bảo bạn nhận được lợi nhuận tối đa từ khoản đầu tư của mình.
+
+| Vật Phẩm Bổ Trợ | Công Dụng Chính | Giai Đoạn Sử Dụng Lý Tưởng | Ưu Tiên Độ Hiếm |
+| :--- | :--- | :--- | :--- |
+| **Thuốc May Mắn** | Tăng cơ hội rút được thẻ hiếm | Các phiên quay thẻ tích cực | Cao |
+| **Thuốc Tốc Độ Quay** | Tăng tốc thời gian hồi chiêu của hoạt ảnh quay | Kết hợp với Thuốc May Mắn | Trung bình |
+| **Thuốc Siêu May Mắn** | Cung cấp hệ số nhân may mắn tạm thời khổng lồ | Quay mục tiêu cho các thẻ Sử Thi | Cao |
+| **Thuốc Tốc Độ Trận Đấu** | Đẩy nhanh nhịp độ chiến đấu trong các đợt quái vô tận | Cày nhanh trên các tầng đã vượt | Trung bình |
+| **Thuốc Boss** | Tăng tỷ lệ xuất hiện của các thẻ boss hiếm | Cày các vật phẩm rơi tiến trình boss cụ thể | Cao |
+
+<Callout type="warning" title="Cảnh Báo Quan Trọng">
+Đừng bao giờ kích hoạt các bổ trợ có giá trị cao như Thuốc Siêu May Mắn hoặc Thuốc Boss trừ khi bạn đã sẵn sàng chơi tích cực trong toàn bộ thời gian hiệu lực. Việc treo máy (AFK) sẽ lãng phí những tài nguyên khan hiếm này.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mục Tiêu và Danh Sách Kiểm Tra Tiến Trình">
+
+Để giữ cho tiến trình của bạn đi đúng hướng và tránh lãng phí tài nguyên vào các đội hình không tối ưu, hãy làm theo lộ trình có cấu trúc này. Hoàn thành các cột mốc này sẽ đảm bảo tài khoản của bạn luôn sẵn sàng cho bản cập nhật nội dung tiếp theo.
+
+<Checklist
+  id="progression-milestones"
+  title="Các Mục Tiêu Card Chronicles Thiết Yếu:"
+  items={[
+    "Đạt cột mốc chỉ mục cấp năm để mở khóa tăng may mắn bị động vĩnh viễn",
+    "Vượt tầng 100 của Tháp Khởi Đầu (Tower of Beginnings) để có thêm các ô chiến đấu miễn phí",
+    "Xây dựng một đội hình ổn định gồm ba thẻ được nâng cấp tối đa và có tính liên kết",
+    "Tiết kiệm ít nhất 50 lượt Reroll Thiên Phú dành riêng cho lượt rút bậc Sử Thi đầu tiên của bạn",
+    "Đánh bại boss cuối của màn Marineford để mở khóa các khu vực cày cuốc nâng cao"
+  ]}
+/>
+
+<Callout type="info" title="Mẹo Cột Mốc">
+Vượt tầng 100 của Tháp Khởi Đầu là hoàn toàn thân thiện với người chơi miễn phí (F2P) và cung cấp một ô chiến đấu bổ sung vô giá, cho phép bạn chạy nhiều trận chiến cùng một lúc.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu Hỏi Thường Gặp (FAQ)">
+
+Tìm câu trả lời cho các câu hỏi phổ biến nhất liên quan đến việc sở hữu thẻ, chiến thuật quay và quản lý đội hình trong Card Chronicles.
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để mở khóa một ô thẻ mới trong Card Chronicles cho các trận chiến?",
+    answer: "Bạn có thể mở khóa thêm các ô chiến đấu bằng cách hoàn thành các cột mốc quan trọng, chẳng hạn như vượt tầng 100 của Tháp Khởi Đầu hoặc đạt cấp năm trong chỉ mục thẻ của bạn. Điều này cho phép bạn chạy nhiều trận chiến cùng một lúc."
+  },
+  {
+    question: "Tôi có nên dùng Reroll Thiên Phú cho thẻ Vàng hoặc Dung Nham không?",
+    answer: "Rất khuyến khích bạn tiết kiệm Reroll Thiên Phú cho các thẻ Vực Sâu hoặc Sử Thi. Tiêu tốn chúng cho các thẻ Vàng giai đoạn đầu là một sự lãng phí tài nguyên, vì bạn sẽ nhanh chóng thay thế chúng khi sở hữu các đơn vị có độ hiếm cao hơn."
+  },
+  {
+    question: "Cách tốt nhất để sử dụng Thuốc May Mắn và Thuốc Tốc Độ Quay là gì?",
+    answer: "Luôn cộng dồn Thuốc May Mắn và Thuốc Tốc Độ Quay cùng nhau trong các phiên quay thẻ chuyên biệt. Điều này tối đa hóa số lượng lượt quay bạn có thể thực hiện trong khi hệ số nhân may mắn đang hoạt động, tăng cơ hội rút được các đơn vị hiếm."
+  },
+  {
+    question: "Các thẻ trùng lặp giúp ích gì cho tiến trình đội hình của tôi?",
+    answer: "Các thẻ trùng lặp có thể được hợp nhất trực tiếp vào các thẻ chính của bạn để tăng đáng kể chỉ số cơ bản của chúng, hoặc chúng có thể được tái chế để nhận các vật liệu tiến trình giá trị như Đá Thời Gian."
+  }
+]} />
+
+<Callout type="tip" title="Lời Khuyên Cuối Cùng">
+Luôn đổi các mã code đang hoạt động như 'AvailableForEveryoneNow' và 'Tyfor3kccu!' ngay khi chúng được phát hành để nhận các bình thuốc và lượt reroll miễn phí giúp tăng tốc hành trình của bạn.
+</Callout>
+
+</Section>

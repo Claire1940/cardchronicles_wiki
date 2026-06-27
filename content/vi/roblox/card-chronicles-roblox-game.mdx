@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Trò chơi Card Chronicles Roblox: Danh sách xếp hạng (Tier List) 2026 & Hướng dẫn cho người mới bắt đầu",
+  description: "Làm chủ Card Chronicles trên Roblox với hướng dẫn năm 2026 của chúng tôi. Nhận mã code đang hoạt động, xem danh sách xếp hạng thẻ, tìm hiểu mẹo reroll thuộc tính và xây dựng đội hình mạnh nhất.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Card+Chronicles+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Card Chronicles"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Trò chơi Card Chronicles Roblox**: Trò chơi chiến đấu thẻ bài anime RNG đầy kịch tính, nơi việc quay thẻ để tìm kiếm độ hiếm chỉ là bước khởi đầu trong hành trình của bạn.
+- **Cơ chế cốt lõi**: Thành công phụ thuộc vào sự kết hợp giữa **Quay thẻ hiếm (Rare Rolls)**, **Reroll thuộc tính (Trait Rerolls)** và **Nâng cấp chiến thuật (Strategic Upgrades)** để vượt qua các đợt quái vô tận.
+- **Chiến thuật tốt nhất**: Tập trung tài nguyên ban đầu vào một thẻ "Gánh đội" (Carry) duy nhất thay vì phân bổ nâng cấp cho một kho thẻ tầm trung.
+- **Mẹo quan trọng**: Luôn tiết kiệm **Lượt Reroll thuộc tính** cho các thẻ cấp S-Tier mà bạn dự định giữ lại để chơi ở giai đoạn cuối game (endgame) lâu dài.
+- **Lựa chọn hàng đầu**: Các thẻ có độ hiếm cao sở hữu kỹ năng diện rộng (AOE) hiện đang là meta để cày đợt quái (wave farming) hiệu quả nhất.
+</Callout>
+
+<Section icon={Sparkles} title="Mã Code đang hoạt động và Hướng dẫn quy đổi">
+
+Bước vào thế giới của **trò chơi card chronicles roblox** có thể là một thử thách đối với người chơi mới. May mắn thay, các nhà phát triển tại Chronicle Entertainment thường xuyên phát hành các mã code để giúp người chơi khởi đầu bộ sưu tập của mình một cách nhanh chóng. Những phần thưởng này thường bao gồm Thuốc may mắn (Luck Potions), Tăng tốc độ quay (Roll Speed boosts) và các lượt Reroll thuộc tính (Trait Rerolls) vô cùng quý giá.
+
+**Điểm nổi bật của video:**
+- **Tổng quan về buổi ra mắt chính thức**: Cái nhìn cận cảnh về giao diện người dùng (UI) cơ bản và cơ chế quay thẻ.
+- **Trình diễn chiến đấu**: Cách các thẻ tương tác trong các giai đoạn vượt đợt quái vô tận.
+- **Điều hướng giao diện**: Cách tìm menu cài đặt và ô nhập mã code.
+
+<YouTubeEmbed videoId="zI7WQHQdj4o" title="card chronicles - RPG Official Launch Gameplay" />
+
+Để tối đa hóa hiệu quả, bạn nên quy đổi các mã code này ngay khi vượt qua giai đoạn hướng dẫn ban đầu. Một số mã code bị "giới hạn lượt quay" (roll-gated), nghĩa là bạn phải đạt đến một số lượng quay tổng thể nhất định (ví dụ: 25.000 lượt) trước khi hệ thống cho phép bạn nhận thưởng. Điều này giúp ngăn chặn tình trạng dùng bot và đảm bảo rằng những người chơi tích cực sẽ nhận được những mức tăng cường tốt nhất.
+
+| Code | Tóm tắt phần thưởng | Yêu cầu | Trạng thái |
+| :--- | :--- | :--- | :--- |
+| **AvailableForEveryoneNow** | 100 lượt Reroll thuộc tính | Không có | **Đang hoạt động** |
+| **Tyfor3kccu!** | Gói thuốc + 15 lượt Reroll thuộc tính | Không có | **Đang hoạt động** |
+| **Tyfor400kvisits!** | Tăng tốc tiến trình | 25.000 lượt quay | **Đang hoạt động** |
+| **Sorry!** | Thuốc may mắn, Tốc độ và Boss | Không có | **Đang hoạt động** |
+| **Release!** | Gói thuốc khởi đầu | Không có | **Đang hoạt động** |
+
+<Callout type="tip" title="Mẹo quy đổi">
+Nếu mã code bị lỗi, hãy kiểm tra xem có phân biệt chữ hoa chữ thường hay không. Hầu hết các mã code trong **Card Chronicles** đều sử dụng dấu chấm than hoặc viết hoa cụ thể. Hãy luôn đảm bảo bạn đã đáp ứng yêu cầu "Số lượt quay" hiển thị trong menu chỉ số trước khi thử các mã bị giới hạn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cơ chế quay thẻ và Hệ thống độ hiếm">
+
+Vòng lặp cốt lõi của **trò chơi card chronicles roblox** xoay quanh nút "Roll" (Quay). Mỗi lượt quay mang lại cho bạn cơ hội nhận được một thẻ bài phong cách anime mới. Mặc dù tỷ lệ may mắn cơ bản có vẻ thấp, trò chơi cung cấp nhiều lớp cộng dồn "May mắn" (Luck) để giúp bạn tìm thấy các đơn vị Thần thoại (Mythic) và Truyền thuyết (Legendary).
+
+Hiểu được sự khác biệt giữa độ hiếm thuần túy và hiệu quả chiến đấu là vô cùng quan trọng. Một thẻ "Hiếm" (Rare) được nâng cấp tối đa và sở hữu thuộc tính Thần thánh (Godly) thường sẽ vượt trội hơn một thẻ "Truyền thuyết" (Legendary) không được đầu tư. Người chơi nên tập trung vào "Số lượng quay" trước tiên—bạn quay càng nhiều, bạn càng nhanh chóng mở khóa các hệ thống bảo hiểm (pity) và cột mốc tốt hơn.
+
+| Hệ thống | Chức năng chính | Chiến thuật sử dụng tốt nhất |
+| :--- | :--- | :--- |
+| **Quay cơ bản** | Mở rộng bộ sưu tập thẻ | Sử dụng trong các phiên chơi tích cực cùng với thuốc tăng tốc độ. |
+| **Thuốc may mắn** | Tăng tỷ lệ nhận độ hiếm cao | Cộng dồn với Siêu may mắn (Super Luck) để đạt kết quả tốt nhất. |
+| **Tốc độ quay** | Giảm thời gian giữa các lượt quay | Cần thiết để đạt các cột mốc code bị giới hạn lượt quay. |
+| **Hệ thống bảo hiểm (Pity)** | Đảm bảo độ hiếm sau X lượt quay | Tiết kiệm các mức tăng may mắn tốt nhất khi sắp đạt bảo hiểm. |
+
+<Callout type="warning" title="Quản lý tài nguyên">
+Không sử dụng **Thuốc siêu may mắn (Super Luck Potions)** của bạn trong 1.000 lượt quay đầu tiên. Tốt hơn là sử dụng Thuốc may mắn cơ bản ở giai đoạn đầu và tiết kiệm các mức tăng cường cấp cao cho đến khi bạn mở khóa tốc độ quay nhanh hơn và sức chứa thẻ tốt hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách xếp hạng thẻ năm 2026">
+
+Trong meta hiện tại của **Card Chronicles**, các thẻ được xếp hạng dựa trên khả năng dọn dẹp các đợt quái và sống sót trong các trận chiến với boss. Tiềm năng "Gánh đội" (Carry) của một thẻ quyết định thứ hạng của nó. Các thẻ sở hữu sát thương diện rộng (AOE) hoặc kỹ năng đa kích (multi-hit) được ưu tiên vì chúng có thể xử lý cơ chế "Đợt quái vô chậm" (Endless Waves) hiệu quả hơn các thẻ chuyên về đơn mục tiêu.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier (Meta Gánh đội)">
+    - **Sát thương AOE khổng lồ**
+    - Tỉ lệ tăng tiến chỉ số cơ bản cao
+    - Tốt nhất để dùng Reroll thuộc tính
+  </Card>
+  <Card title="A-Tier (Lựa chọn đáng tin cậy)">
+    - **Sát thương đơn mục tiêu mạnh**
+    - Hiệu suất ổn định
+    - Tốt cho việc leo màn ở giữa game
+  </Card>
+  <Card title="B-Tier (Tình huống)">
+    - **Hiệu ứng tăng lợi ích (Buff) chuyên dụng**
+    - Yêu cầu đội hình cụ thể
+    - Phương án thay thế tạm thời cho S-Tier
+  </Card>
+</CardGrid>
+
+Khi đánh giá các lượt quay của bạn, hãy xem mô tả "Kỹ năng" (Ability). Một số thẻ cung cấp tiện ích, chẳng hạn như làm chậm kẻ thù hoặc tăng tốc độ tấn công của toàn bộ đội hình. Mặc dù sát thương là yếu tố quyết định ở đầu game, những thẻ tiện ích này trở nên vô cùng thiết yếu khi bạn đạt đến đợt quái thứ 50 trở đi.
+
+| Cấp (Tier) | Vai trò | Ưu tiên nâng cấp | Giá trị đầu tư |
+| :--- | :--- | :--- | :--- |
+| **S** | Gánh đội chính | **Tối đa** | Cao nhất (Vĩnh viễn) |
+| **A** | Sát thương phụ | **Cao** | Cao (Dài hạn) |
+| **B** | Hỗ trợ/Tiện ích | **Trung bình** | Vừa phải (Giữa game) |
+| **C** | Khởi đầu/Phôi | **Thấp** | Tối thiểu (Chỉ đầu game) |
+
+<Callout type="success" title="Chiến thuật chiến thắng">
+Nếu bạn quay được một thẻ S-Tier từ sớm, hãy dừng quay các độ hiếm khác và dồn toàn bộ **Chronogems** vào việc nâng cấp thẻ đó. Một thẻ S-Tier cấp 50 duy nhất có thể gánh bạn đi xa hơn một đội hình đầy đủ các thẻ A-Tier cấp 10.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Reroll thuộc tính và Nâng cấp thẻ">
+
+Khi bạn đã có một đội hình vững chắc trong **trò chơi card chronicles roblox**, bước tiếp theo là tối ưu hóa. Điều này đạt được thông qua **Reroll thuộc tính (Trait Rerolls)** và **Mở khóa kỹ năng (Ability Unlocks)**. Thuộc tính (Traits) là các chỉ số bổ trợ thụ động có thể thay đổi đáng kể mức sức mạnh của thẻ. Ví dụ: thuộc tính "Thần thánh" (Godly) có thể nhân đôi lượng sát thương gây ra, khi thuộc tính "Nhanh nhẹn" (Swift) làm tăng tần suất tấn công.
+
+<Steps>
+  <Step num="1" title="Xác định thẻ cần giữ">
+    Chọn một thẻ từ S-Tier hoặc A-Tier mà bạn dự định sử dụng trong ít nhất 100 đợt quái.
+  </Step>
+  <Step num="2" title="Nâng cấp cấp độ trước">
+    Sử dụng vàng và nguyên liệu của bạn để đạt giới hạn cấp độ. Điều này giúp mở khóa toàn bộ tiềm năng cơ bản của thẻ.
+  </Step>
+  <Step num="3" title="Áp dụng Reroll thuộc tính">
+    Sử dụng các lượt reroll nhận được từ mã code để săn lùng các thuộc tính tấn công như **Godly** (Thần thánh), **Demonic** (Ma quỷ), hoặc **Celestial** (Thiên giới).
+  </Step>
+  <Step num="4" title="Mở khóa kỹ năng">
+    Hoàn thành các cột mốc chiến đấu cụ thể để mở khóa chiêu thức đặc biệt độc nhất của thẻ.
+  </Step>
+</Steps>
+
+Nâng cấp là một quá trình tuyến tính, nhưng nó đòi hỏi một lượng vàng đáng kể. Cày chế độ "Đợt quái vô tận" (Endless Waves) là cách hiệu quả nhất để thu thập các tài nguyên cần thiết cho việc đầu tư cấp cao. Khi bạn tiến bộ, chi phí nâng cấp sẽ tăng theo cấp số nhân, khiến việc tránh lãng phí tài nguyên vào các thẻ cấp thấp trở nên quan trọng hơn bao giờ hết.
+
+<Callout type="warning" title="Bẫy Reroll">
+Rất dễ bị cám dỗ sử dụng Reroll thuộc tính cho mọi thẻ mới "ngầu" mà bạn nhận được. **Hãy kiềm chế điều này.** Reroll thuộc tính là loại tiền tệ hiếm nhất trong trò chơi. Nếu bạn sử dụng chúng cho một thẻ B-Tier, bạn sẽ hối hận khi cuối cùng quay được một thẻ Thần thoại (Mythic) mà không còn lượt reroll nào để sửa thuộc tính của nó.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Logic đội hình tốt nhất và Xây dựng đội">
+
+Xây dựng một đội hình trong **Card Chronicles** là về sự cân bằng. Bạn không thể chỉ đơn giản là xếp năm thẻ sát thương cao và mong đợi giành chiến thắng. Bạn cần cân nhắc cách các thẻ của mình tương tác với nhau. Một đội hình cân bằng thường bao gồm một tướng gánh đội chính, một tướng gây sát thương phụ, và ba thẻ hỗ trợ hoặc tiện ích cung cấp buff hoặc khống chế đám đông.
+
+| Vai trò | Trách nhiệm | Thuộc tính khuyên dùng |
+| :--- | :--- | :--- |
+| **Gánh đội chính** | Dọn dẹp phần lớn đợt quái | Godly, Celestial, Power |
+| **Diệt Boss** | Sát thương đơn mục tiêu cao | Crit, Sharp, Focused |
+| **Hỗ trợ** | Tăng sức mạnh cho đồng minh hoặc giảm sức mạnh kẻ thù | Swift, Haste, Aura |
+| **Đỡ đòn/Trì hoãn** | Ngăn kẻ thù vượt qua | Heavy, Shielded, Vitality |
+
+Vị trí của các thẻ trong đội hình cũng có thể ảnh hưởng đến hiệu suất của chúng. Một số kỹ năng có phạm vi cụ thể hoặc ảnh hưởng đến các thẻ liền kề. Hãy luôn đọc phần "Thưởng đội hình" (Lineup Bonus) trong chỉ số thẻ của bạn để xem chúng có nhận được thêm sức mạnh khi được đặt cạnh các loại hoặc độ hiếm cụ thể hay không.
+
+<CardGrid cols={2}>
+  <Card title="Đội hình dọn quái (Wave Buster)">
+    Tập trung vào **Sát thương AOE** và **Tốc độ tấn công**. Đây là đội hình tốt nhất để cày vàng và kinh nghiệm nhanh chóng. Sử dụng các thẻ có kỹ năng "Dây chuyền" (Chain) hoặc "Phát nổ" (Explosion).
+  </Card>
+  <Card title="Đội hình diệt Boss (Boss Crusher)">
+    Tập trung vào **Đòn chí mạng** (Critical Hits) và **Dồn sát thương đơn mục tiêu** (Single-Target Burst). Sử dụng đội hình này khi bạn bị kẹt ở một cột mốc "Kẻ thù mạnh" (Strong Foe) cụ thể hoặc đợt quái boss.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sự linh hoạt của đội hình">
+Đừng ngần ngại thay đổi đội hình của bạn dựa trên thử thách. Chế độ "Đợt quái vô tận" (Endless Waves) thường luân phiên giữa nhiều kẻ thù yếu và một con boss mạnh duy nhất. Việc lưu sẵn thiết lập cho cả hai kịch bản sẽ giúp bạn tiết kiệm thời gian và tránh bực bội.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Danh sách kiểm tra tiến trình và Câu hỏi thường gặp">
+
+Để đảm bảo bạn đang tận dụng tối đa thời gian của mình trong **trò chơi card chronicles roblox**, hãy làm theo danh sách kiểm tra hàng ngày này. Tiến bộ nhất quán tốt hơn là một phiên cày cuốc dài duy nhất rồi sau đó là một tuần không hoạt động.
+
+<Checklist
+  id="daily-pro-goals"
+  title="Mục tiêu tiến trình hàng ngày:"
+  items={[
+    "Quy đổi bất kỳ mã code mới phát hành nào để nhận Reroll thuộc tính",
+    "Hoàn thành ít nhất 50 đợt quái trong Chế độ vô tận",
+    "Sử dụng Thuốc may mắn hàng ngày của bạn trong phiên quay thẻ kéo dài 15 phút",
+    "Nâng cấp tướng Gánh đội chính của bạn ít nhất năm lần",
+    "Kiểm tra nhóm Chronicle Entertainment để cập nhật tin tức mới nhất"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Làm cách nào để nhận thêm lượt Reroll thuộc tính trong Card Chronicles?",
+    answer: "Cách đáng tin cậy nhất là thông qua các mã code do nhà phát triển phát hành. Bạn cũng có thể kiếm được chúng dưới dạng phần thưởng hiếm rơi ra từ các đợt quái boss cấp cao hoặc bằng cách hoàn thành các cột mốc cụ thể trong menu thành tựu."
+  },
+  {
+    question: "Thuộc tính nào tốt nhất cho một thẻ gây sát thương?",
+    answer: "Hiện tại, 'Godly' và 'Celestial' được coi là những thuộc tính hàng đầu cho các thẻ gây sát thương nhờ lượng tăng tấn công khổng lồ theo phần trăm."
+  },
+  {
+    question: "Quay 10 lần một lúc tốt hơn hay quay từng lần một tốt hơn?",
+    answer: "Về mặt may mắn, không có sự khác biệt. Tuy nhiên, quay số lượng lớn (nếu giao diện cho phép) sẽ tiết kiệm thời gian. Luôn sử dụng Thuốc tốc độ quay (Roll Speed Potion) để tối đa hóa hiệu suất của bạn."
+  },
+  {
+    question: "Khi nào tôi nên sử dụng Chronogems của mình?",
+    answer: "Hãy tiết kiệm Chronogems của bạn để nâng cấp vĩnh viễn cho các thẻ S-Tier. Tránh chi tiêu chúng vào các mức tăng tạm thời hoặc nâng cấp thẻ có độ hiếm thấp."
+  }
+]} />
+
+<Callout type="info" title="Lời kết">
+**Trò chơi card chronicles roblox** không ngừng phát triển. Hãy theo dõi Discord chính thức và nhóm Roblox để cập nhật những thay đổi về cân bằng game. Một thẻ thuộc B-Tier hôm nay có thể trở thành S-Tier sau một đợt tăng sức mạnh (buff) trong bản cập nhật tiếp theo.
+</Callout>
+
+</Section>

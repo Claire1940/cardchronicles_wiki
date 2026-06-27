@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Lịch sử thẻ Roblox: Code, Bảng xếp hạng & Hướng dẫn",
+  description: "Nhận mã code Lịch sử thẻ Roblox mới nhất, bảng xếp hạng thẻ, chiến thuật reroll thiên phú và mẹo cho tân thủ để thống trị các đợt quái vô tận trong tựa game anime RNG này.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/10a36f/fff?text=Card+Chronicles+Roblox+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Lịch sử thẻ"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mục tiêu chính**: Nhập các mã code đang hoạt động để nhận các bình thuốc thiết yếu và Lượt Reroll Thiên phú (Trait Reroll).
+- **Vòng lặp tiến trình**: Roll nhân vật, nâng cấp các tướng gánh team (carry) bậc S, và vượt các đợt quái vô tận.
+- **Quản lý tài nguyên**: Tiết kiệm Lượt Reroll Thiên phú cho các thẻ bài giữ lại lâu dài thay vì các thẻ tạm thời.
+- **Tập trung chiến đấu**: Ưu tiên các kỹ năng dọn quái diện rộng (wave-clearing) hơn là độ hiếm thuần túy khi xây dựng đội hình.
+</Callout>
+
+<Section icon={Map} title="Lịch sử thẻ Roblox: Code đang hoạt động & Cách nhập">
+
+Nhập các mã code khuyến mãi đang hoạt động là cách nhanh nhất để bắt đầu hành trình của bạn trong **Lịch sử thẻ Roblox** (card chronicles roblox). Những phần thưởng giới hạn thời gian này, được cung cấp bởi nhà phát triển Chronicle Entertainment, sẽ mang lại các mức tăng cường thiết yếu như Bình thuốc May mắn (Luck Potion), Bình thuốc Tốc độ Roll (Roll Speed Potion) và Lượt Reroll Thiên phú (Trait Reroll) giúp bạn tối ưu hóa đội hình mà không cần tốn Robux.
+
+**Điểm nổi bật trong Video:**
+- **Hướng dẫn nhập Code**: Tìm hiểu chính xác nơi nhập mã code trong menu trò chơi.
+- **Chiến thuật Roll đầu game**: Cách sử dụng hiệu quả các bình tăng tốc độ roll miễn phí ban đầu.
+- **Quản lý giới hạn Roll**: Hiểu lý do tại sao một số mã code yêu cầu phải đạt 25.000 lượt roll.
+
+<YouTubeEmbed videoId="zI7WQHQdj4o" title="Trải nghiệm chơi & Hướng dẫn Lịch sử thẻ" />
+
+Để nhập code, hãy mở menu Cài đặt (Settings) bằng cách chọn biểu tượng bánh răng ở góc dưới bên trái màn hình. Cuộn xuống phần Code, nhập chính xác mã code như hiển thị và nhấn Enter để nhận thưởng. Lưu ý rằng một số mã code giá trị cao sẽ bị khóa sau một giới hạn tiến trình nhằm ngăn chặn các tài khoản clone farm vật phẩm hiếm.
+
+| Code | Phần thưởng | Yêu cầu | Phù hợp nhất cho |
+| :--- | :--- | :--- | :--- |
+| **Tyfor400kvisits!** | Các bình thuốc & tăng tốc tiến trình | **25.000 lượt roll** | Người chơi giai đoạn giữa game |
+| **Tyfor3kccu!** | Gói bình thuốc & 15 lượt Reroll Thiên phú | Không có | Cộng dồn tăng tốc roll |
+| **AvailableForEveryoneNow** | **100 lượt Reroll Thiên phú** | Không có | Tinh chỉnh thiên phú thẻ giữ lại |
+| **Sorry2!** | Các bình thuốc & tăng tốc tiến trình | **25.000 lượt roll** | Vượt qua các bức tường giữa game |
+| **Sorry!** | Gói bình thuốc & 15 lượt Reroll Thiên phú | Không có | Chuẩn bị cho các đợt cày cuốc |
+| **Release!** | Gói bình thuốc & 5 lượt Reroll Thiên phú | Không có | Người chơi mới bắt đầu |
+
+<Callout type="warning" title="Giới hạn Tiến trình">
+Nếu mã code không thể kích hoạt, hãy kiểm tra lại tổng số lượt roll của bạn. Các mã code phần thưởng cao như **Tyfor400kvisits!** yêu cầu tối thiểu **25.000 lượt roll** trước khi có thể nhận thành công. Hãy tiếp tục roll tích cực để mở khóa các gói tiến trình mạnh mẽ này.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lịch sử thẻ Roblox: Bảng xếp hạng Thẻ bài">
+
+Hiểu rõ thẻ bài nào cần nâng cấp là vô cùng quan trọng vì tài nguyên trong **Lịch sử thẻ Roblox** là có hạn. Bảng xếp hạng dưới đây phân loại các thẻ bài hiệu quả nhất dựa trên hiệu suất dọn quái, sự kết hợp kỹ năng và hiệu quả tổng thể trước những kẻ thù mạnh. Hãy ưu tiên đầu tư vàng và nguyên liệu của bạn vào các thẻ bậc S và bậc A để đảm bảo tiến trình ổn định.
+
+| Bậc | Vai trò | Phù hợp nhất cho | Ưu tiên nâng cấp |
+| :--- | :--- | :--- | :--- |
+| **Bậc S** | Thẻ gánh team chính (Main Carry) | **Dọn quái diện rộng và đấu boss** | **Cao nhất** |
+| **Bậc A** | Tiến trình đáng tin cậy | Vị trí đội hình ổn định giữa game | Cao |
+| **Bậc B** | Thẻ chuyên biệt | Các trận đấu boss cụ thể | Trung bình |
+| **Bậc C** | Thẻ tạm thời (Placeholder) | Lấp đầy các vị trí trống trong đội hình | Thấp |
+
+### Chi tiết các Bậc & Chiến thuật Đầu tư
+
+- **Bậc S (Gánh team chính)**: Những thẻ này sở hữu sát thương diện rộng (AoE) khổng lồ và các kỹ năng bị động mạnh mẽ. Chúng thăng tiến sức mạnh cực tốt khi nâng cấp và là những thẻ duy nhất xứng đáng để bạn sử dụng các Lượt Reroll Thiên phú quý giá.
+- **Bậc A (Tiến trình đáng tin cậy)**: Các thẻ mạnh mẽ, đáng tin cậy có thể gánh bạn vượt qua hàng chục đợt quái khó khăn. Chúng hoạt động tốt ngay cả khi không có thiên phú hoàn hảo, giúp tối ưu hóa chi phí đầu tư.
+- **Bậc B (Chuyên biệt)**: Các đơn vị này vượt trội trong các tình huống cụ thể, chẳng hạn như đấu boss đơn mục tiêu, nhưng gặp khó khăn trước các đợt quái đông và nhanh. Chỉ nâng cấp chúng nếu đội hình chính của bạn thiếu sát thương đơn mục tiêu.
+- **Bậc C (Tạm thời)**: Các thẻ độ hiếm thấp dùng để lấp đầy chỗ trống trong vài phút đầu tiên chơi game. Đừng lãng phí vàng hoặc lượt reroll vào các đơn vị này; hãy thay thế chúng ngay khi bạn roll được thẻ bậc A hoặc bậc S.
+
+<Callout type="success" title="Ưu tiên nâng cấp">
+Luôn tối đa hóa cấp độ của thẻ gánh team bậc S chính trước khi phân bổ tài nguyên cho các đơn vị phụ. Một thẻ gánh team vượt cấp duy nhất sẽ dọn quái nhanh hơn nhiều so với một đội hình cân bằng gồm các thẻ cấp thấp.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tối ưu hóa Thiên phú và Tăng cường từ Bình thuốc">
+
+Thiên phú (Trait) bổ sung các chỉ số nhân bị động mạnh mẽ cho thẻ bài của bạn, biến một đơn vị bình thường thành một thế lực không thể ngăn cản. Tuy nhiên, việc roll thiên phú đòi hỏi các Lượt Reroll Thiên phú rất có giá trị. Để tối đa hóa hiệu quả, hãy luôn kết hợp việc roll thiên phú với việc sử dụng bình thuốc một cách chiến thuật.
+
+| Bình thuốc / Vật phẩm | Danh mục | Hiệu ứng chính | Thời điểm tốt nhất |
+| :--- | :--- | :--- | :--- |
+| **Bình thuốc May mắn** | Tăng cường Roll | Tăng tỷ lệ rút được thẻ hiếm | Các phiên roll tích cực |
+| **Bình thuốc Tốc độ Roll** | Tốc độ Roll | Giảm thời gian giữa các lượt roll | Kết hợp với Bình thuốc May mắn |
+| **Bình thuốc Tốc độ Trận đấu** | Nhịp độ Chiến đấu | Tăng tốc độ vượt đợt quái | Farm vàng và nguyên liệu |
+| **Bình thuốc Siêu May mắn** | Tăng cường Giá trị cao | Tăng cực mạnh tỷ lệ thẻ hiếm | Thời điểm roll cao điểm |
+| **Reroll Thiên phú** | Tùy chỉnh Thẻ bài | Thay đổi thiên phú bị động của thẻ | Chỉ dùng cho thẻ bậc S giữ lại |
+| **Chronogem** | Tiền tệ Đặc biệt | Mở khóa các nâng cấp tiến trình | Phát triển tài khoản dài hạn |
+
+### Cách thực hiện một phiên Roll hoàn hảo
+
+Để tận dụng tối đa các vật phẩm tiêu hao của bạn, đừng sử dụng chúng một cách ngẫu nhiên. Hãy đợi cho đến khi bạn tích lũy được vài bình thuốc và có mục tiêu rõ ràng, chẳng hạn như tìm kiếm một thẻ gánh team mới hoặc nâng cấp đội hình hiện tại của bạn.
+
+<Callout type="tip" title="Cộng dồn Bình thuốc">
+Bạn có thể cộng dồn Bình thuốc May mắn và Bình thuốc Siêu May mắn cùng lúc với Bình thuốc Tốc độ Roll. Điều này tối đa hóa số lần thử thẻ độ hiếm cao mà bạn có thể thực hiện trong một khoảng thời gian tăng cường duy nhất, giúp bạn tiết kiệm hàng giờ cày cuốc thủ công.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lộ trình Tiến trình từng bước cho Tân thủ">
+
+Vượt qua giai đoạn đầu game của **Lịch sử thẻ Roblox** đòi hỏi một cách tiếp cận có cấu trúc để tránh lãng phí các tài nguyên khởi đầu quý giá. Hãy làm theo lộ trình tiến trình từng bước này để nhanh chóng xây dựng một đội hình mạnh mẽ.
+
+<Steps>
+  <Step num="1" title="Nhận Code Khởi đầu">
+    Nhập tất cả các mã code không bị giới hạn (như **Release!** và **AvailableForEveryoneNow**) ngay khi đăng nhập để nhận các bình thuốc khởi đầu và Lượt Reroll Thiên phú.
+  </Step>
+  <Step num="2" title="Thực hiện các phiên Roll đầu tiên">
+    Kích hoạt Bình thuốc Tốc độ Roll và Bình thuốc May mắn, sau đó roll liên tục cho đến khi bạn lấp đầy kho đồ của mình với một lựa chọn thẻ bài hoạt động ổn.
+  </Step>
+  <Step num="3" title="Xây dựng Đội hình dọn quái">
+    Trang bị các thẻ bài có độ hiếm cao nhất sở hữu kỹ năng đa mục tiêu hoặc AoE. Đừng lo lắng về thiên phú hoặc sự kết hợp ở giai đoạn này; chỉ tập trung thuần túy vào lượng sát thương đầu ra.
+  </Step>
+  <Step num="4" title="Farm các đợt quái vô tận để kiếm Vàng">
+    Vào chế độ đợt quái vô tận để tích lũy vàng. Sử dụng Bình thuốc Tốc độ Trận đấu để đẩy nhanh tốc độ farm của bạn, cho phép bạn kiếm tài nguyên nhanh gấp đôi.
+  </Step>
+  <Step num="5" title="Đầu tư vào Thẻ bài Giữ lại">
+    Khi bạn roll được một thẻ gánh team bậc S, hãy dồn số vàng đã tiết kiệm được để nâng cấp nó và sử dụng Lượt Reroll Thiên phú để sở hữu một thiên phú tấn công mạnh mẽ như Sát thương (Damage) hoặc Tỷ lệ Chí mạng (Critical Chance).
+  </Step>
+</Steps>
+
+<Callout type="info" title="Tiết kiệm tài nguyên">
+Không bao giờ sử dụng Lượt Reroll Thiên phú cho các thẻ tạm thời. Hãy tiết kiệm từng lượt reroll cho đến khi bạn sở hữu một đơn vị bậc S vĩnh viễn sẽ ở lại trong đội hình hoạt động của bạn trong tương lai lâu dài.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Chiến thuật Đội hình & Cách xây dựng Đội hình tốt nhất">
+
+Một đội hình thành công trong **Lịch sử thẻ Roblox** cần cân bằng giữa sát thương thuần túy, kiểm soát đợt quái và tiêu diệt boss đơn mục tiêu. Chỉ dựa vào các thẻ có độ hiếm cao mà không xem xét vai trò chiến đấu của chúng cuối cùng sẽ dẫn đến các bức tường tiến trình.
+
+<CardGrid cols={2}>
+  <Card title="Đội hình dọn quái đầu game">
+    - **Tập trung chính**: Sát thương AoE cao và tốc độ tấn công nhanh.
+    - **Phù hợp nhất cho**: Farm vàng nhanh chóng trong các đợt quái vô tận từ đầu đến giữa game.
+    - **Chiến thuật cốt lõi**: Sử dụng các đơn vị nâng cấp chi phí thấp để quét sạch các nhóm quái ngay lập tức.
+  </Card>
+  <Card title="Đội hình đẩy Boss">
+    - **Tập trung chính**: DPS đơn mục tiêu và khả năng sinh tồn cao.
+    - **Phù hợp nhất cho**: Tiêu diệt kẻ thù mạnh và các màn chơi boss tiến trình.
+    - **Chiến thuật cốt lõi**: Bảo vệ thẻ gánh team đơn mục tiêu chính trong khi nó tiêu diệt boss.
+  </Card>
+  <Card title="Đội hình tập trung Reroll">
+    - **Tập trung chính**: Tối đa hóa sự kết hợp giữa thiên phú và kỹ năng.
+    - **Phù hợp nhất cho**: Tiến trình cuối game và đẩy các đợt quái cấp cao.
+    - **Chiến thuật cốt lõi**: Xây dựng xoay quanh một thẻ bậc S duy nhất với các thiên phú tấn công hoàn hảo.
+  </Card>
+  <Card title="Đội hình Tiến trình Cân bằng">
+    - **Tập trung chính**: Sự kết hợp giữa dọn quái AoE và sát thương đơn mục tiêu.
+    - **Phù hợp nhất cho**: Tiến trình chung và các lượt thử đợt quái chưa biết trước.
+    - **Chiến thuật cốt lõi**: Kết hợp một tướng gánh team AoE mạnh mẽ với một kẻ diệt boss chuyên dụng.
+  </Card>
+</CardGrid>
+
+### So sánh các Nguyên mẫu Đội hình
+
+Đánh giá nhu cầu tiến trình hiện tại của bạn và chọn nguyên mẫu đội hình phù hợp nhất với mục tiêu trước mắt. Sử dụng bảng so sánh dưới đây để xác định nhu cầu tài nguyên và hồ sơ hiệu suất của từng cách xây dựng.
+
+| Nguyên mẫu Đội hình | Tập trung chính | Nhu cầu Tài nguyên | Hiệu suất dọn đợt quái | Hiệu suất đấu Boss |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dọn quái đầu game** | Tốc độ & AoE | **Thấp** | Xuất sắc | Kém |
+| **Đẩy Boss** | DPS Đơn mục tiêu | Trung bình | Khá | Xuất sắc |
+| **Tập trung Reroll** | Kết hợp Thiên phú | **Rất cao** | Vượt trội | Vượt trội |
+| **Tiến trình Cân bằng** | Đa dụng | Trung bình | Tốt | Tốt |
+
+<Callout type="tip" title="Độ linh hoạt của Đội hình">
+Nếu bạn thấy mình thất bại ở một đợt quái cụ thể, hãy kiểm tra xem bạn đang thua do quái đông hay do boss cuối. Hãy chuyển đổi giữa đội hình Dọn quái đầu game và đội hình Đẩy Boss để vượt qua các bức tường tiến trình cụ thể.
+</Callout>
+
+<Checklist
+  id="progression-milestones"
+  title="Các mốc tiến trình quan trọng:"
+  items={[
+    "Nhập tất cả các mã code khởi đầu đang hoạt động để nhận bình thuốc miễn phí",
+    "Đạt tổng cộng 25.000 lượt roll để mở khóa các mã code giới hạn tiến trình",
+    "Sở hữu và nâng cấp tối đa thẻ gánh team bậc S đầu tiên của bạn",
+    "Thiết lập một đội hình chuyên farm vàng bằng các đơn vị AoE",
+    "Sở hữu một thiên phú tấn công cấp cao trên thẻ bài giữ lại chính của bạn"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Làm cách nào để nhập code trong Lịch sử thẻ Roblox?",
+    answer: "Mở menu Cài đặt (Settings) thông qua biểu tượng bánh răng nằm ở góc dưới bên trái màn hình của bạn. Cuộn xuống phần Code, nhập hoặc dán mã code của bạn chính xác như văn bản và nhấn Enter để nhận thưởng."
+  },
+  {
+    question: "Tại sao một số mã code báo bị khóa hoặc không đáp ứng yêu cầu?",
+    answer: "Các mã code giá trị cao như Tyfor400kvisits! bị khóa sau các giới hạn tiến trình để ngăn chặn việc lạm dụng. Bạn phải đạt tổng cộng 25.000 lượt roll trên tài khoản của mình trước khi có thể nhập chúng."
+  },
+  {
+    question: "Tôi có nên sử dụng các Lượt Reroll Thiên phú ngay lập tức không?",
+    answer: "Không. Lượt Reroll Thiên phú rất có giá trị và chỉ nên được tiết kiệm riêng cho các thẻ gánh team bậc S mà bạn dự định giữ lại trong đội hình lâu dài. Lãng phí chúng vào các thẻ tạm thời đầu game sẽ làm chậm tiến trình của bạn."
+  },
+  {
+    question: "Độ hiếm của thẻ có quan trọng hơn việc nâng cấp thẻ không?",
+    answer: "Không hẳn. Một thẻ độ hiếm thấp hơn được nâng cấp với các kỹ năng đã mở khóa và thiên phú tối ưu thường sẽ hoạt động hiệu quả hơn một thẻ độ hiếm cao mới tinh nhưng chưa nhận được bất kỳ sự đầu tư nào."
+  }
+]} />
+
+<Callout type="info" title="Cập nhật Cộng đồng">
+Để biết các cập nhật mới nhất, các bản vá cân bằng và sự kiện cộng đồng, hãy cân nhắc tham gia nhóm Roblox chính thức của Chronicle Entertainment. Việc theo dõi các bản cập nhật giúp bạn luôn chuẩn bị sẵn sàng cho các đợt phát hành thẻ mới và thay đổi cơ chế game.
+</Callout>
+
+</Section>

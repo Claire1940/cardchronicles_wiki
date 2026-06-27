@@ -1,0 +1,223 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hướng dẫn người mới chơi Card Chronicles: Lộ trình thăng tiến từng bước",
+  description: "Làm chủ Roblox Card Chronicles với hướng dẫn dành cho người mới bắt đầu. Tìm hiểu vòng lặp lối chơi cốt lõi, chiến lược quay thẻ, xếp hạng danh sách cấp độ và xây dựng đội hình.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Card+Chronicles+Beginner+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Card Chronicles",
+  keywords: "hướng dẫn người mới Card Chronicles, lộ trình thăng tiến, Roblox, danh sách cấp độ, chiến thuật xây dựng đội hình"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- Các nguyên tắc cơ bản của **hướng dẫn người mới Card Chronicles** tập trung vào việc quay thẻ, nâng cấp nhân vật gánh đội (carry) và vượt qua các đợt quái (waves).
+- **Tiết kiệm Trait Rerolls** (Lượt quay lại đặc điểm) cho các thẻ bài quan trọng ở giai đoạn cuối game thay vì lãng phí chúng cho các đơn vị khởi đầu tạm thời.
+- **Kích hoạt các bình thuốc thăng tiến** như Luck (May mắn) và Roll Speed (Tốc độ quay) trong các phiên chơi tập trung, chủ động để tối đa hóa hiệu quả.
+- **Ưu tiên nâng cấp tập trung** vào các đơn vị dọn quái chính thay vì dàn trải tài nguyên cho toàn bộ kho đồ của bạn.
+</Callout>
+
+<Section icon={Sparkles} title="Hướng dẫn người mới Card Chronicles: Các hệ thống cốt lõi">
+
+Roblox Card Chronicles kết hợp sự kịch tính của việc quay thẻ anime (RNG) với chiến thuật đấu thẻ bài. Người chơi quay để tìm các thẻ bài độc đáo, nâng cấp khả năng của chúng, lắp ráp đội hình mạnh mẽ và thử thách các đợt kẻ thù vô tận. Thành công trong trò chơi này đòi hỏi sự hiểu biết rõ ràng về cách quản lý tài nguyên và thời điểm nên đầu tư vào bộ sưu tập của bạn. Việc dàn trải tài nguyên quá mỏng là một sai lầm phổ biến có thể khiến tiến trình của bạn bị đình trệ trong giai đoạn đầu.
+
+Để xây dựng một nền tảng vững chắc, bạn phải hiểu mối quan hệ giữa số lượng lượt quay, độ hiếm của thẻ và các nâng cấp chiến đấu. Mặc dù các thẻ có độ hiếm cao là mục tiêu cuối cùng, nhưng một thẻ có độ hiếm thấp hơn đã được nâng cấp thường sẽ hoạt động hiệu quả hơn một thẻ hiếm mới quay được nhưng chưa nâng cấp.
+
+**Điểm nhấn Video:**
+- **Cơ bản về Quay thẻ**: Cách thiết lập phiên quay thẻ đầu tiên và quản lý kho đồ.
+- **Lắp ráp đội hình**: Đưa các thẻ chiến đấu mạnh nhất của bạn vào các ô hoạt động.
+- **Quản lý tài nguyên**: Tránh các bẫy đầu game như lãng phí Trait Rerolls cho các đơn vị tạm thời.
+
+<YouTubeEmbed videoId="Go6zxTn6tsQ" title="Card Chronicles Beginner Guide & Tips" />
+
+Bảng dưới đây phác thảo các hệ thống lối chơi cốt lõi và chiến lược khuyến nghị cho từng hệ thống để giúp bạn bắt đầu hành trình một cách hiệu quả.
+
+| Hệ thống | Ý nghĩa | Trường hợp sử dụng tốt nhất | Ưu tiên tài nguyên |
+| :--- | :--- | :--- | :--- |
+| **Rolling (Quay)** | Phương pháp chính để mở rộng bộ sưu tập thẻ và tìm các đơn vị mạnh hơn. | Quay trong các phiên tập trung với các bùa tăng may mắn đang hoạt động. | Số lượng lớn là chìa khóa để tìm các nâng cấp hữu ích. |
+| **Rarity (Độ hiếm)** | Chất lượng cơ bản của một thẻ, quyết định tiềm năng lâu dài của nó. | Sử dụng để xác định các đơn vị gánh đội tiềm năng cho giai đoạn cuối game. | Đừng mặc định rằng các thẻ hiếm chưa nâng cấp sẽ tốt hơn ngay lập tức. |
+| **Upgrades (Nâng cấp)** | Đầu tư tài nguyên để tăng cấp độ, chỉ số và giá trị chiến đấu của thẻ. | Tập trung hoàn toàn vào các thẻ tích cực giành chiến thắng trong các trận chiến. | Đầu tư tập trung tốt hơn là dàn trải tài nguyên. |
+| **Abilities (Kỹ năng)** | Các kỹ năng chiến đấu chủ động hoặc bị động độc đáo được mở khóa qua quá trình thăng tiến. | Ưu tiên các thẻ có sát thương diện rộng (AoE) mạnh mẽ. | Đánh giá tiện ích của kỹ năng hơn là độ hiếm thuần túy về mặt thẩm mỹ. |
+| **Trait Rerolls** | Các bộ điều chỉnh làm thay đổi chỉ số phụ và đặc điểm chiến đấu của thẻ. | Tiết kiệm độc quyền cho các thẻ gánh đội lâu dài. | Đừng lãng phí các lượt quay lại ở đầu game cho các đơn vị khởi đầu. |
+| **Potions (Thuốc)** | Các vật phẩm tiêu hao tăng cường tạm thời cho may mắn, tốc độ quay hoặc tốc độ trận chiến. | Cộng dồn và sử dụng trong các phiên chơi tập trung, chuyên dụng. | Kết hợp thuốc Luck và Roll Speed để có tác động tối đa. |
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Hãy tập trung vào việc tăng tổng số lượt quay của bạn ngay từ sớm. Đạt được các cột mốc lượt quay lớn, chẳng hạn như 25.000 lượt quay, thường là yêu cầu để mở khóa và đổi các mã code thăng tiến có giá trị cao.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Lộ trình thăng tiến từng bước">
+
+Điều hướng các giai đoạn đầu của Card Chronicles đòi hỏi một cách tiếp cận có cấu trúc. Nếu không có kế hoạch, bạn sẽ dễ dàng hết vàng, thuốc hoặc lượt quay lại trước khi xây dựng được một đội hình có khả năng vượt qua các cột mốc đợt quái. Mục tiêu trước mắt của bạn là thiết lập một vòng lặp tự duy trì: quay thẻ, xây dựng đội hình chức năng, dọn quái để đảm bảo tài nguyên và tái đầu tư các tài nguyên đó vào các đơn vị mạnh nhất của bạn.
+
+Tuân theo một lộ trình thăng tiến kỷ luật đảm bảo rằng bạn không gặp phải những rào cản sớm đòi hỏi phải cày cuốc tẻ nhạt để vượt qua.
+
+<Steps>
+  <Step num="1" title="Quay thẻ để có nhóm nhân vật khởi đầu hữu dụng">
+    Bắt đầu bằng cách quay để mở rộng bộ sưu tập thẻ cơ bản của bạn. Đừng lo lắng về việc đảm bảo các thẻ cực hiếm ngay lập tức. Mục tiêu của bạn trong bước này là tìm ba đến bốn thẻ có chỉ số cơ bản ổn và kỹ năng chiến đấu hữu dụng để bạn có thể thành lập đội hình hoạt động đầu tiên của mình.
+  </Step>
+  <Step num="2" title="Lắp ráp một đội hình tập trung">
+    Đặt các thẻ mạnh nhất hiện có vào các ô đội hình hoạt động của bạn. Tập trung vào các đơn vị cung cấp sự cân bằng giữa sát thương dọn quái và khả năng sống sót. Tránh đưa các thẻ chưa nâng cấp vào đội hình chỉ vì chúng trông bắt mắt; tính hữu dụng quan trọng hơn nhiều so với ngoại hình.
+  </Step>
+  <Step num="3" title="Tập trung nâng cấp vào nhân vật gánh đội (Carry)">
+    Chọn thẻ gây sát thương tốt nhất của bạn và tập trung vật liệu nâng cấp vào đó. Một thẻ gánh đội được nâng cấp cao có thể dễ dàng dọn sạch các đợt quái sớm, trong khi một đội gồm nhiều đơn vị cấp thấp sẽ gặp khó khăn khi đánh bại kẻ thù và trùm mạnh hơn.
+  </Step>
+  <Step num="4" title="Triển khai thuốc một cách chiến thuật">
+    Kích hoạt Luck Potions, Super Luck Potions và Roll Speed Potions chỉ khi bạn đã sẵn sàng cho một phiên quay thẻ chuyên dụng. Đừng lãng phí những vật phẩm tiêu hao có giá trị này nếu bạn định treo máy (idle) hoặc nếu kho đồ của bạn đầy những thẻ chưa được xử lý.
+  </Step>
+  <Step num="5" title="Áp dụng Trait Rerolls cho các thẻ giữ lại lâu dài">
+    Khi bạn có được một thẻ bậc cao mà bạn dự định giữ trong đội hình lâu dài, hãy sử dụng các Trait Rerolls tích lũy được để tối ưu hóa chỉ số của nó. Điều này đảm bảo bạn không lãng phí tài nguyên quay lại hiếm có cho các đơn vị sẽ sớm bị thay thế.
+  </Step>
+  <Step num="6" title="Vượt các đợt quái vô tận và xác định điểm yếu">
+    Thử thách các màn chơi theo đợt để kiếm phần thưởng và kiểm tra giới hạn của đội bạn. Khi cuối cùng bạn thất bại ở một đợt quái, hãy xác định thẻ yếu nhất trong đội hình và tập trung vào việc nâng cấp hoặc thay thế ô cụ thể đó trước khi thử lại.
+  </Step>
+</Steps>
+
+| Giai đoạn | Mục tiêu chính | Thiết lập đội hình khuyến nghị | Tập trung tài nguyên |
+| :--- | :--- | :--- | :--- |
+| **Đầu game** | Thiết lập nhóm thẻ cơ bản và đạt đến đợt 20. | Một carry được nâng cấp, hai hỗ trợ cơ bản. | Vàng và vật liệu nâng cấp cơ bản. |
+| **Giữa game** | Mở khóa các kỹ năng nâng cao và đạt 25k lượt quay. | Hai carry được nâng cấp cao, một đơn vị tiện ích. | Luck Potions và đổi phần thưởng từ code. |
+| **Cuối game** | Tối ưu hóa các đặc điểm và vượt các đợt vô tận cao. | Các carry bậc S được nâng cấp hoàn toàn với các đặc điểm đã quay. | Trait Rerolls và Super Luck Potions. |
+
+<Callout type="warning" title="Cảnh báo thăng tiến">
+Không bao giờ kích hoạt nhiều thuốc thăng tiến nếu bạn đang bị phân tâm hoặc dự định đăng xuất sớm. Thuốc chạy theo thời gian thực, và việc để chúng hết hạn khi đang treo máy là một sự lãng phí lớn về tốc độ tiến triển.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách cấp độ thẻ & Phân tích độ hiếm">
+
+Hiểu được thẻ nào đáng giữ lại và thẻ nào nên bỏ đi hoặc sử dụng làm vật liệu nâng cấp là điều tối quan trọng. Trong Card Chronicles, các thẻ được phân loại theo hiệu quả chiến đấu, tính hữu dụng của kỹ năng và khả năng mở rộng nâng cấp. Độ hiếm cao thường là một chỉ số tốt về sức mạnh, nhưng cách một thẻ phù hợp với đội hình hoạt động của bạn mới là điều cuối cùng quyết định giá trị của nó.
+
+Đánh giá thẻ dựa trên các vai trò cụ thể giúp bạn tránh lãng phí vàng và vật liệu quý giá vào các đơn vị sẽ yếu đi trong giai đoạn giữa đến cuối game.
+
+<CardGrid cols={2}>
+  <Card title="Bậc S: Carry chính">
+    - **Lượng sát thương đầu ra cao** với các kỹ năng diện rộng mạnh mẽ.
+    - Khả năng mở rộng tuyệt vời với các nâng cấp cấp độ và bộ điều chỉnh đặc điểm.
+    - Xứng đáng được đầu tư tài nguyên tối đa và ngay lập tức.
+  </Card>
+  <Card title="Bậc A: Thăng tiến đáng tin cậy">
+    - **Hiệu suất chiến đấu ổn định** trên hầu hết các loại đợt quái.
+    - Các vị trí thay thế mạnh mẽ trong khi tìm kiếm các đơn vị bậc S.
+    - Đáng để nâng cấp lên mức vừa phải để duy trì tiến độ.
+  </Card>
+  <Card title="Bậc B: Chuyên gia tình huống">
+    - **Hữu ích cho các trận chiến với trùm cụ thể** hoặc các kịch bản đợt quái hẹp.
+    - Tiện ích chung hạn chế trong các thiết lập dọn quái tiêu chuẩn.
+    - Giữ nâng cấp ở mức tối thiểu và tránh chi tiêu tài nguyên hiếm.
+  </Card>
+  <Card title="Bậc C: Đơn vị tạm thời">
+    - **Các thẻ khởi đầu** với chỉ số cơ bản yếu và kỹ năng cơ bản.
+    - Nhanh chóng bị vượt mặt bởi các lượt quay có độ hiếm cao hơn hoặc đã nâng cấp.
+    - Đừng nâng cấp các đơn vị này vượt quá mức tối thiểu tuyệt đối.
+  </Card>
+</CardGrid>
+
+Sử dụng bảng tham chiếu sau đây để nhanh chóng xác định ưu tiên nâng cấp và các tình huống sử dụng tốt nhất cho từng bậc thẻ.
+
+| Bậc | Vai trò trong đội hình | Tình huống sử dụng tốt nhất | Ưu tiên nâng cấp | Ưu tiên Trait Reroll |
+| :--- | :--- | :--- | :--- | :--- |
+| **S** | Carry sát thương chính | Dọn quái, đánh trùm, vượt ải vô tận. | **Cao nhất** (Nâng tối đa trước) | **Cao nhất** (Quay lấy chỉ số tối ưu) |
+| **A** | Sát thương phụ / Tiện ích | Hỗ trợ carry chính, xử lý các mục tiêu phụ. | **Cao** (Giữ gần cấp độ carry) | **Trung bình** (Chỉ khi giữ lâu dài) |
+| **B** | Khắc chế tình huống | Các trùm máu cao cụ thể hoặc đợt quái tinh nhuệ. | **Trung bình** (Chỉ nâng khi cần) | **Thấp** (Đừng lãng phí lượt quay) |
+| **C** | Khởi đầu / Lấp đầy kho | Điền vào các ô trống trong giai đoạn cực sớm. | **Thấp** (Đừng đầu tư vàng) | **Không có** (Không bao giờ dùng tại đây) |
+
+<Callout type="success" title="Mẹo Meta">
+Một thẻ bậc A với nâng cấp cao và các đặc điểm được tối ưu hóa sẽ dễ dàng vượt qua một thẻ bậc S chưa nâng cấp và không có đặc điểm. Đừng vội vàng đổi các carry đã xây dựng của bạn cho đến khi bạn có đủ tài nguyên để đầu tư vào những thẻ thay thế chúng.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Trait Rerolls & Chiến lược nâng cấp">
+
+Các đặc điểm (Traits) đóng vai trò là các bộ điều chỉnh mạnh mẽ có thể thay đổi đáng kể hiệu suất chiến đấu của thẻ. Việc đảm bảo một đặc điểm mạnh trên một carry bậc S có thể nhân đôi lượng sát thương hoặc tính hữu dụng của nó. Tuy nhiên, Trait Rerolls là một tài nguyên có hạn, khiến việc bảo tồn chiến lược trở nên cực kỳ quan trọng cho sự thăng tiến lâu dài.
+
+Bạn có thể nhận được một lượng lớn Trait Rerolls sớm bằng cách đổi các mã khuyến mại (codes) đang hoạt động. Ví dụ, các mã như `AvailableForEveryoneNow` cung cấp 100 Trait Rerolls, trong khi các mã như `Tyfor3kccu!` và `Sorry!` cung cấp các gói thuốc và lượt quay lại hào phóng.
+
+| Tài nguyên | Cách thu thập chính | Mục tiêu sử dụng tốt nhất | Sai lầm thường gặp cần tránh |
+| :--- | :--- | :--- | :--- |
+| **Vàng** | Dọn quái và hoàn thành các thử thách hàng ngày. | Nâng cấp các carry chính và phụ của bạn. | Chia đều vàng cho mọi thẻ bài. |
+| **Trait Rerolls** | Đổi mã code và phần thưởng đợt quái bậc cao. | Các thẻ bậc S đã nâng cấp hoàn toàn với tiện ích đã được chứng minh. | Quay lại đặc điểm trên các đơn vị khởi đầu tạm thời. |
+| **Luck Potions** | Mã khuyến mại và các cột mốc thăng tiến. | Các phiên quay thẻ tốc độ cao, chuyên dụng. | Kích hoạt thuốc khi chơi bình thường. |
+| **Chronogems** | Các gói phần thưởng đặc biệt và thành tựu tinh nhuệ. | Mở khóa thăng tiến giá trị cao và vật phẩm hiếm. | Chi tiêu đá quý vào các vật phẩm ưu tiên thấp. |
+
+Khi quản lý các nâng cấp của bạn, hãy luôn tuân theo mô hình đầu tư tập trung vào top đầu. Dành 70% số vàng hiện có cho đơn vị dọn quái chính, 20% cho thẻ hỗ trợ hoặc tiện ích phụ, và giữ 10% còn lại dự phòng để quản lý kho đồ hoặc nâng cấp khẩn cấp.
+
+<Callout type="info" title="Chiến lược Code">
+Đổi các phần thưởng mã code như `Release!` và `Sorry!` sớm để đảm bảo một lượng thuốc May mắn và Trait Rerolls cơ bản. Tiết kiệm những phần thưởng này cho đến khi bạn đã quay đủ số lần để mở khóa các nhóm thẻ tinh nhuệ, đảm bảo các bùa tăng cường của bạn được chi tiêu cho các mục tiêu giá trị cao.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Logic đội hình và Xây dựng nhóm">
+
+Xây dựng một đội hình thành công trong Card Chronicles là về việc tạo ra sự phối hợp (synergy), không chỉ là xếp chồng các thẻ hiếm nhất của bạn. Một đội hình cân bằng phải có khả năng xử lý cả các nhóm lớn kẻ thù yếu và các trùm đơn lẻ có máu cao. Nếu đội của bạn hoàn toàn bao gồm các đơn vị gây sát thương đơn mục tiêu, bạn sẽ nhanh chóng bị áp đảo bởi các đợt quái đông đúc. Ngược lại, một đội chỉ có sát thương diện rộng có thể gặp khó khăn khi đánh bại các trùm lớn.
+
+Để tối ưu hóa đội của bạn, hãy xem xét bốn kiểu xây dựng đội hình riêng biệt được thiết kế riêng cho các giai đoạn và thử thách khác nhau của trò chơi.
+
+| Loại đội hình | Khái niệm cốt lõi | Tập trung Carry chính | Tập trung Hỗ trợ / Tiện ích |
+| :--- | :--- | :--- | :--- |
+| **Dọn quái sớm** | Dọn dẹp nhanh chóng, hiệu quả các bầy quái giai đoạn đầu. | Sát thương diện rộng (AoE) cao. | Các bộ tăng chỉ số cơ bản hoặc đơn vị tấn công nhanh. |
+| **Đánh Trùm** | Sát thương đơn mục tiêu cao để đánh bại kẻ thù tinh nhuệ. | Các thẻ diệt trùm với sát thương một lần đánh cao. | Các thẻ tiện ích phòng thủ hoặc khống chế đám đông. |
+| **Tập trung Reroll** | Được xây dựng đặc biệt để tối đa hóa một đặc điểm đã quay. | Một thẻ với một đặc điểm mạnh mẽ, chuyên biệt. | Các đơn vị bổ sung cho đặc điểm của carry. |
+| **Tiến triển cân bằng** | Một thiết lập linh hoạt được thiết kế để xử lý nội dung chung. | Một carry mạnh với sát thương cân bằng. | Một đơn vị AoE, một đơn vị đơn mục tiêu. |
+
+Khi xây dựng đội của bạn, hãy luôn đánh giá cách các thẻ của bạn tương tác với nhau. Nếu carry chính của bạn dựa vào đòn chí mạng, hãy tìm các thẻ hỗ trợ hoặc đặc điểm giúp tăng tỷ lệ chí mạng hoặc giảm phòng thủ của kẻ thù. Sự phối hợp hợp tác này là điều cho phép những người chơi nâng cao vượt qua các đợt quái về mặt kỹ thuật cao hơn chỉ số sức mạnh thô của đội họ.
+
+<Callout type="tip" title="Mẹo đội hình">
+Thường xuyên xem lại nhật ký chiến đấu của bạn trong các lần vượt ải. Nếu bạn nhận thấy một thẻ cụ thể liên tục gây ra ít hơn 10% tổng sát thương của cả đội, đã đến lúc thay thế nó bằng một đơn vị tiện ích hoặc một đơn vị gây sát thương hiệu quả hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Quản lý bùa tăng cường và Tối ưu hóa thăng tiến">
+
+Để tận dụng tối đa thời gian của bạn trong Card Chronicles, bạn phải học cách quản lý các bùa tăng cường (boosts) đang hoạt động và các vật phẩm tiêu hao. Thuốc có thể rút ngắn đáng kể thời gian cần thiết để tìm thẻ hiếm và nâng cấp đội của bạn, nhưng chỉ khi chúng được sử dụng cùng nhau.
+
+Ví dụ, sử dụng một Luck Potion cùng với một Roll Speed Potion cho phép bạn xử lý một số lượng lớn các lượt quay có xác suất cao trong một khoảng thời gian rất ngắn. Sự phối hợp này là cách nhanh nhất để săn lùng các đơn vị bậc S và tích lũy các vật liệu cần thiết cho các nâng cấp cấp cao.
+
+<Checklist
+  id="booster-checklist"
+  title="Danh sách kiểm tra phiên tăng cường:"
+  items={[
+    "Dọn sạch kho đồ của bạn để lấy chỗ cho các lượt quay thẻ mới",
+    "Đảm bảo bạn có đủ vàng để thực hiện các nâng cấp liên tiếp",
+    "Kích hoạt đồng thời thuốc Luck và Roll Speed của bạn",
+    "Cam kết quay thẻ tích cực trong toàn bộ thời gian của bùa tăng cường",
+    "Khóa ngay lập tức bất kỳ thẻ giá trị cao nào để ngăn chặn việc vô tình xóa"
+  ]}
+/>
+
+<Callout type="warning" title="Cảnh báo">
+Đừng để kho đồ của bạn bị đầy giữa phiên chơi. Nếu kho thẻ của bạn đạt đến sức chứa tối đa, tính năng tự động quay của bạn có thể tạm dừng, gây lãng phí thời gian thuốc quý giá trong khi bạn dọn chỗ thủ công.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Sai lầm phổ biến nhất cần tránh theo hướng dẫn người mới Card Chronicles này là gì?",
+    answer: "Sai lầm phổ biến nhất là dàn trải tài nguyên nâng cấp và vàng đều cho nhiều thẻ bậc thấp. Thay vào đó, hãy tập trung đầu tư vào một đơn vị carry mạnh duy nhất để dọn sạch các đợt quái sớm một cách hiệu quả."
+  },
+  {
+    question: "Khi nào tôi nên bắt đầu sử dụng Trait Rerolls của mình?",
+    answer: "Hãy tiết kiệm Trait Rerolls cho đến khi bạn có được và nâng cấp một thẻ bậc S hoặc bậc A cấp cao mà bạn dự định giữ trong đội hình lâu dài. Lãng phí lượt quay lại cho các thẻ khởi đầu sẽ làm chậm tiến trình cuối game của bạn."
+  },
+  {
+    question: "Làm thế nào để mở khóa các phần thưởng mã code có yêu cầu về số lượt quay?",
+    answer: "Một số mã code giá trị cao yêu cầu bạn đạt đến một cột mốc lượt quay cụ thể, chẳng hạn như 25.000 lượt quay, trước khi có thể đổi được. Hãy tập trung vào việc quay số lượng lớn ngay từ sớm để đáp ứng các yêu cầu này."
+  },
+  {
+    question: "Độ hiếm của thẻ có quan trọng hơn việc nâng cấp thẻ không?",
+    answer: "Không. Một thẻ đã được nâng cấp cao ở độ hiếm thấp hơn hầu như luôn hoạt động tốt hơn một thẻ hiếm mới quay được nhưng chưa nâng cấp. Chỉ thay thế các đơn vị đã nâng cấp của bạn khi bạn có đủ tài nguyên để xây dựng đúng cách các thẻ thay thế có độ hiếm cao hơn."
+  }
+]} />
+
+</Section>
