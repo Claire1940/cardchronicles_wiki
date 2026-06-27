@@ -1,6 +1,7 @@
 "use client";
 
 import { Suspense, lazy, useState } from "react";
+import type { ReactNode } from "react";
 import {
   AlertTriangle,
   ArrowRight,
@@ -41,6 +42,7 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -88,6 +90,33 @@ const MODULE_ICONS: Record<string, LucideIcon> = {
 
 function getModuleIcon(name: string): LucideIcon {
   return MODULE_ICONS[name] ?? Sparkles;
+}
+
+// 把标题文本按条件渲染为文章内链或纯文本（无匹配文章时降级为纯文本）
+function LinkedTitle({
+  linkData,
+  children,
+  className,
+  locale,
+}: {
+  linkData: { url: string; title: string } | null | undefined;
+  children: ReactNode;
+  className?: string;
+  locale: string;
+}) {
+  if (linkData) {
+    const href = locale === "en" ? linkData.url : `/${locale}${linkData.url}`;
+    return (
+      <Link
+        href={href}
+        className={`${className || ""} hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors`}
+        title={linkData.title}
+      >
+        {children}
+      </Link>
+    );
+  }
+  return <>{children}</>;
 }
 
 // Accordion 面板（Upgrades & Abilities 模块用，受控展开/折叠，首项默认展开）
@@ -146,11 +175,13 @@ function tierBadgeClass(tier: string): string {
 
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
+  moduleLinkMap: ModuleLinkMap;
   locale: string;
 }
 
 export default function HomePageClient({
   latestArticles,
+  moduleLinkMap,
   locale,
 }: HomePageClientProps) {
   const t = useMessages() as any;
@@ -416,7 +447,9 @@ export default function HomePageClient({
               {t.modules.cardChroniclesCodes.eyebrow}
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.cardChroniclesCodes.title}
+              <LinkedTitle linkData={moduleLinkMap["cardChroniclesCodes"]} locale={locale}>
+                {t.modules.cardChroniclesCodes.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
               {t.modules.cardChroniclesCodes.subtitle}
@@ -503,7 +536,9 @@ export default function HomePageClient({
               {t.modules.cardChroniclesBeginnerGuide.eyebrow}
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.cardChroniclesBeginnerGuide.title}
+              <LinkedTitle linkData={moduleLinkMap["cardChroniclesBeginnerGuide"]} locale={locale}>
+                {t.modules.cardChroniclesBeginnerGuide.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
               {t.modules.cardChroniclesBeginnerGuide.subtitle}
@@ -566,7 +601,9 @@ export default function HomePageClient({
               {t.modules.cardChroniclesTierList.eyebrow}
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.cardChroniclesTierList.title}
+              <LinkedTitle linkData={moduleLinkMap["cardChroniclesTierList"]} locale={locale}>
+                {t.modules.cardChroniclesTierList.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
               {t.modules.cardChroniclesTierList.subtitle}
@@ -658,7 +695,9 @@ export default function HomePageClient({
               {t.modules.cardChroniclesRollingRarity.eyebrow}
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.cardChroniclesRollingRarity.title}
+              <LinkedTitle linkData={moduleLinkMap["cardChroniclesRollingRarity"]} locale={locale}>
+                {t.modules.cardChroniclesRollingRarity.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
               {t.modules.cardChroniclesRollingRarity.subtitle}
@@ -756,7 +795,9 @@ export default function HomePageClient({
               {t.modules.cardChroniclesTraitsRerolls.eyebrow}
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.cardChroniclesTraitsRerolls.title}
+              <LinkedTitle linkData={moduleLinkMap["cardChroniclesTraitsRerolls"]} locale={locale}>
+                {t.modules.cardChroniclesTraitsRerolls.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
               {t.modules.cardChroniclesTraitsRerolls.subtitle}
@@ -822,7 +863,9 @@ export default function HomePageClient({
               {t.modules.cardChroniclesUpgradesAbilities.eyebrow}
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.cardChroniclesUpgradesAbilities.title}
+              <LinkedTitle linkData={moduleLinkMap["cardChroniclesUpgradesAbilities"]} locale={locale}>
+                {t.modules.cardChroniclesUpgradesAbilities.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
               {t.modules.cardChroniclesUpgradesAbilities.subtitle}
@@ -869,7 +912,9 @@ export default function HomePageClient({
               {t.modules.cardChroniclesBestLineup.eyebrow}
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.cardChroniclesBestLineup.title}
+              <LinkedTitle linkData={moduleLinkMap["cardChroniclesBestLineup"]} locale={locale}>
+                {t.modules.cardChroniclesBestLineup.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
               {t.modules.cardChroniclesBestLineup.subtitle}
@@ -934,7 +979,9 @@ export default function HomePageClient({
               {t.modules.cardChroniclesPotionsChronogems.eyebrow}
             </span>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.cardChroniclesPotionsChronogems.title}
+              <LinkedTitle linkData={moduleLinkMap["cardChroniclesPotionsChronogems"]} locale={locale}>
+                {t.modules.cardChroniclesPotionsChronogems.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
               {t.modules.cardChroniclesPotionsChronogems.subtitle}
