@@ -192,11 +192,16 @@ export function isValidContentType(type: string): type is ContentType {
 }
 
 /**
+ * 支持的有效语言列表
+ * 与 routing.ts 的 locales、request.ts 的 import 保持一致（单一事实源 = routing.ts）
+ */
+export const validLanguages: readonly Locale[] = routing.locales
+
+/**
  * 验证语言是否有效
  */
 export function isValidLanguage(lang: string): lang is Language {
-  // 从各站 routing 配置动态取 locales，避免硬编码某站的语言导致跨站类型不匹配
-  return (routing.locales as readonly string[]).includes(lang)
+  return validLanguages.includes(lang as Language)
 }
 
 /**
