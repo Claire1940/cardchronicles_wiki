@@ -1,10 +1,11 @@
 "use client";
 
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState } from "react";
 import {
   AlertTriangle,
   ArrowRight,
   Check,
+  ChevronDown,
   Clock,
   Coins,
   Crown,
@@ -87,6 +88,46 @@ const MODULE_ICONS: Record<string, LucideIcon> = {
 
 function getModuleIcon(name: string): LucideIcon {
   return MODULE_ICONS[name] ?? Sparkles;
+}
+
+// Accordion 面板（Upgrades & Abilities 模块用，受控展开/折叠，首项默认展开）
+function AccordionPanel({
+  icon: Icon,
+  heading,
+  content,
+  defaultOpen = false,
+}: {
+  icon: LucideIcon;
+  heading: string;
+  content: string;
+  defaultOpen?: boolean;
+}) {
+  const [open, setOpen] = useState(defaultOpen);
+  return (
+    <div className="rounded-xl border border-border bg-white/5 overflow-hidden transition-colors hover:border-[hsl(var(--nav-theme)/0.5)]">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        className="flex w-full items-center gap-3 p-4 md:p-5 text-left transition-colors hover:bg-white/5"
+      >
+        <div className="flex h-10 w-10 md:h-11 md:w-11 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+          <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+        </div>
+        <h3 className="flex-1 text-base md:text-lg font-bold">{heading}</h3>
+        <ChevronDown
+          className={`h-5 w-5 flex-shrink-0 text-[hsl(var(--nav-theme-light))] transition-transform duration-300 ${open ? "rotate-180" : ""}`}
+        />
+      </button>
+      {open && (
+        <div className="px-4 md:px-5 pb-4 md:pb-5 md:pl-[4.75rem]">
+          <p className="text-sm md:text-base text-muted-foreground leading-7">
+            {content}
+          </p>
+        </div>
+      )}
+    </div>
+  );
 }
 
 // Tier 视觉强度（全部主题色，按透明度递减区分 S/A/B/C）
@@ -197,8 +238,17 @@ export default function HomePageClient({
     ],
   };
 
-  // Tools Grid 卡片 → section 锚点映射（4 模块）
-  const toolAnchors = ["codes", "beginner-guide", "tier-list", "rolling-rarity"];
+  // Tools Grid 卡片 → section 锚点映射（8 模块）
+  const toolAnchors = [
+    "codes",
+    "beginner-guide",
+    "tier-list",
+    "rolling-rarity",
+    "traits-rerolls",
+    "upgrades-abilities",
+    "best-lineup",
+    "potions-boosts",
+  ];
 
   const mobileBannerAd = getPreferredMobileBannerSelection();
 
@@ -688,6 +738,279 @@ export default function HomePageClient({
                         Resource note:
                       </span>{" "}
                       {row.resourceNote}
+                    </p>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Card Chronicles Traits and Rerolls */}
+      <section id="traits-rerolls" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]">
+              <RefreshCcw className="w-4 h-4" />
+              {t.modules.cardChroniclesTraitsRerolls.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.cardChroniclesTraitsRerolls.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
+              {t.modules.cardChroniclesTraitsRerolls.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.cardChroniclesTraitsRerolls.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {t.modules.cardChroniclesTraitsRerolls.items.map(
+              (card: any, index: number) => {
+                const Icon = getModuleIcon(card.icon);
+                return (
+                  <div
+                    key={index}
+                    className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                        <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <h3 className="text-lg font-bold">{card.name}</h3>
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      {card.role}
+                    </p>
+                    <div className="mt-auto space-y-3">
+                      <div className="flex items-start gap-2 rounded-lg border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.06)] px-3 py-2">
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        <p className="text-xs md:text-sm text-muted-foreground">
+                          <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                            Best use:{" "}
+                          </span>
+                          {card.bestUse}
+                        </p>
+                      </div>
+                      <div className="flex items-start gap-2 rounded-lg border border-dashed border-border bg-white/[0.02] px-3 py-2">
+                        <AlertTriangle className="w-4 h-4 text-muted-foreground mt-0.5 flex-shrink-0" />
+                        <p className="text-xs md:text-sm text-muted-foreground">
+                          <span className="font-semibold">Avoid: </span>
+                          {card.avoid}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Card Chronicles Upgrades and Abilities */}
+      <section
+        id="upgrades-abilities"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]">
+              <Wand2 className="w-4 h-4" />
+              {t.modules.cardChroniclesUpgradesAbilities.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.cardChroniclesUpgradesAbilities.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
+              {t.modules.cardChroniclesUpgradesAbilities.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.cardChroniclesUpgradesAbilities.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3 md:space-y-4">
+            {t.modules.cardChroniclesUpgradesAbilities.items.map(
+              (item: any, index: number) => (
+                <AccordionPanel
+                  key={index}
+                  icon={getModuleIcon(item.icon)}
+                  heading={item.heading}
+                  content={item.content}
+                  defaultOpen={index === 0}
+                />
+              ),
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 6: 模块 5-6 之后的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Card Chronicles Best Lineup and Team Builds */}
+      <section id="best-lineup" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]">
+              <Layers className="w-4 h-4" />
+              {t.modules.cardChroniclesBestLineup.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.cardChroniclesBestLineup.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
+              {t.modules.cardChroniclesBestLineup.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.cardChroniclesBestLineup.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 gap-4 md:grid-cols-2">
+            {t.modules.cardChroniclesBestLineup.items.map(
+              (card: any, index: number) => {
+                const Icon = getModuleIcon(card.icon);
+                return (
+                  <div
+                    key={index}
+                    className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                        <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <h3 className="text-lg font-bold">{card.name}</h3>
+                    </div>
+                    <div className="space-y-1.5 mb-4">
+                      {card.coreRoles.map((role: string, i: number) => (
+                        <div
+                          key={i}
+                          className="flex items-start gap-2 text-sm text-muted-foreground"
+                        >
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          <span>{role}</span>
+                        </div>
+                      ))}
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      {card.strategy}
+                    </p>
+                    <div className="mt-auto">
+                      <span className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))] font-medium">
+                        <TrendingUp className="w-3 h-3" />
+                        {card.upgradePriority}
+                      </span>
+                    </div>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Card Chronicles Potions, Chronogems and Boosts */}
+      <section
+        id="potions-boosts"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]">
+              <FlaskConical className="w-4 h-4" />
+              {t.modules.cardChroniclesPotionsChronogems.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.cardChroniclesPotionsChronogems.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-3 md:mb-4">
+              {t.modules.cardChroniclesPotionsChronogems.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.cardChroniclesPotionsChronogems.intro}
+            </p>
+          </div>
+
+          {/* 桌面端：表格；移动端：堆叠卡片 */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-left text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
+                  <th className="px-4 py-3 font-semibold">Item</th>
+                  <th className="px-4 py-3 font-semibold">Category</th>
+                  <th className="px-4 py-3 font-semibold">What it does</th>
+                  <th className="px-4 py-3 font-semibold">Best timing</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.cardChroniclesPotionsChronogems.items.map(
+                  (row: any, index: number) => {
+                    const Icon = getModuleIcon(row.icon);
+                    return (
+                      <tr
+                        key={index}
+                        className="border-t border-border align-top"
+                      >
+                        <td className="px-4 py-3">
+                          <div className="flex items-center gap-2">
+                            <Icon className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                            <span className="font-semibold">{row.item}</span>
+                          </div>
+                        </td>
+                        <td className="px-4 py-3">
+                          <span className="inline-flex items-center text-xs px-2 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                            {row.category}
+                          </span>
+                        </td>
+                        <td className="px-4 py-3 text-muted-foreground">
+                          {row.use}
+                        </td>
+                        <td className="px-4 py-3 text-muted-foreground">
+                          {row.bestTiming}
+                        </td>
+                      </tr>
+                    );
+                  },
+                )}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="md:hidden space-y-3">
+            {t.modules.cardChroniclesPotionsChronogems.items.map(
+              (row: any, index: number) => {
+                const Icon = getModuleIcon(row.icon);
+                return (
+                  <div
+                    key={index}
+                    className="p-4 bg-white/5 border border-border rounded-xl"
+                  >
+                    <div className="flex items-center gap-2 mb-2">
+                      <Icon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="font-semibold">{row.item}</span>
+                      <span className="ml-auto text-xs px-2 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                        {row.category}
+                      </span>
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-2">{row.use}</p>
+                    <p className="text-xs text-muted-foreground">
+                      <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                        Best timing:{" "}
+                      </span>
+                      {row.bestTiming}
                     </p>
                   </div>
                 );

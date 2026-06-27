@@ -79,6 +79,26 @@
         "icon": "Dices",
         "title": "Card Chronicles Rolling & Rarity",
         "description": "Roll volume, rarity, upgrades, potions, and reroll timing."
+      },
+      {
+        "icon": "Repeat",
+        "title": "Card Chronicles Traits & Rerolls",
+        "description": "When to reroll traits and which cards deserve them."
+      },
+      {
+        "icon": "Hammer",
+        "title": "Card Chronicles Upgrades & Abilities",
+        "description": "Focus resources on the cards that actually win fights."
+      },
+      {
+        "icon": "Users",
+        "title": "Card Chronicles Lineup & Builds",
+        "description": "Wave-clear, boss, and reroll-focused team builds."
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Card Chronicles Potions & Chronogems",
+        "description": "Boost items and currency timing for rolling and combat."
       }
     ]
   },
@@ -375,6 +395,191 @@
           "whatItMeans": "Boost items aimed at faster combat and stronger progression attempts.",
           "bestUse": "Use while farming waves, pushing walls, or preparing for stronger foes.",
           "resourceNote": "These boosts deliver the most value when your lineup is already stable enough to win fights."
+        }
+      ]
+    },
+    "cardChroniclesTraitsRerolls": {
+      "eyebrow": "Traits",
+      "title": "Card Chronicles Traits and Rerolls",
+      "subtitle": "Trait Rerolls are most valuable when they improve cards that already belong in your main lineup. Save them for cards you plan to upgrade and keep.",
+      "intro": "Card Chronicles is built around rolling cards, upgrading strong pulls, unlocking abilities, and planning a lineup for waves and harder fights. Traits add another layer to that progression, so rerolls should support your strongest cards instead of being spent on every new pull.",
+      "items": [
+        {
+          "icon": "RotateCcw",
+          "name": "Trait Rerolls",
+          "role": "Used to change or improve a card trait.",
+          "bestUse": "Spend them on cards that already carry your lineup or have enough upgrades to stay useful.",
+          "avoid": "Do not burn rerolls on early placeholder cards that are likely to be replaced after more rolls."
+        },
+        {
+          "icon": "ShieldCheck",
+          "name": "Keeper Cards",
+          "role": "Cards that remain useful after several waves, upgrades, or boss attempts.",
+          "bestUse": "Upgrade first, then use Trait Rerolls once the card has proven it belongs in your team.",
+          "avoid": "Do not chase traits before you know whether the card itself is worth building."
+        },
+        {
+          "icon": "Ticket",
+          "name": "Code Reward Rerolls",
+          "role": "Reward codes can provide Trait Rerolls alongside potions and Chronogems.",
+          "bestUse": "Redeem reroll rewards before a planned build session, then apply them to your highest-value card targets.",
+          "avoid": "Do not split rerolls thinly across every card in the collection."
+        },
+        {
+          "icon": "Target",
+          "name": "Trait Priority Logic",
+          "role": "Traits matter most when they improve cards used in real fights.",
+          "bestUse": "Prioritize cards with upgraded abilities, strong wave performance, or boss-use potential.",
+          "avoid": "Do not treat rarity alone as the only reason to spend rerolls."
+        }
+      ]
+    },
+    "cardChroniclesUpgradesAbilities": {
+      "eyebrow": "Upgrades",
+      "title": "Card Chronicles Upgrades and Abilities",
+      "subtitle": "Upgrades and abilities are the main bridge between lucky pulls and real combat progress. Focused investment beats upgrading everything at once.",
+      "intro": "The core loop is simple: roll for cards, choose useful pulls, upgrade them, unlock stronger abilities, and use them against endless waves and strong foes. The expensive mistake is spreading resources across cards that never make your active lineup.",
+      "items": [
+        {
+          "icon": "Dices",
+          "heading": "Roll before committing resources",
+          "content": "Use early rolls to identify cards that perform well in fights. Once a card proves useful, begin upgrading it instead of spending resources on every new pull."
+        },
+        {
+          "icon": "Hammer",
+          "heading": "Upgrade focused cards first",
+          "content": "A smaller group of upgraded cards gives more consistent progress than a large collection of weak, half-built cards. Build around the cards that help clear waves consistently."
+        },
+        {
+          "icon": "Wand2",
+          "heading": "Unlock abilities through progression",
+          "content": "Card Chronicles highlights ability unlocking as part of card growth. Prioritize upgrades that make a card stronger in actual combat, especially for wave clearing and stronger enemy fights."
+        },
+        {
+          "icon": "Repeat",
+          "heading": "Use duplicate and repeated pulls wisely",
+          "content": "Repeated rolls are part of the progression loop. Treat extra pulls as a way to strengthen selected cards instead of only chasing the next rare card."
+        },
+        {
+          "icon": "Sparkles",
+          "heading": "Connect upgrades with traits",
+          "content": "Trait Rerolls are more valuable after a card has already received investment. Upgrade the card first, then reroll traits when the card becomes a long-term build target."
+        }
+      ]
+    },
+    "cardChroniclesBestLineup": {
+      "eyebrow": "Team Builds",
+      "title": "Card Chronicles Best Lineup and Team Builds",
+      "subtitle": "The best lineup is not just the rarest card list. Build around upgraded cards, unlocked abilities, useful traits, and real fight performance.",
+      "intro": "Card Chronicles asks players to plan a lineup and dominate fights, so team strength comes from more than lucky rolling. A practical build should use your best upgraded cards first, then improve them with traits and boost items once they prove themselves in real fights.",
+      "items": [
+        {
+          "icon": "Swords",
+          "name": "Early Wave Clear Build",
+          "coreRoles": [
+            "Most upgraded damage card",
+            "Second consistent combat card",
+            "Newest strong pull with useful fight performance"
+          ],
+          "strategy": "Use the cards that clear waves safely and consistently. Replace weak cards only when a new pull performs better in actual fights.",
+          "upgradePriority": "Main wave-clear card first, secondary card second, experimental cards last."
+        },
+        {
+          "icon": "Flame",
+          "name": "Boss Push Build",
+          "coreRoles": [
+            "Highest-value upgraded card",
+            "Card with an unlocked ability",
+            "Backup card that survives longer fights"
+          ],
+          "strategy": "Prepare before strong foe attempts by improving the cards that already carry combat. Trait Rerolls should go into cards that stay useful beyond one boss attempt.",
+          "upgradePriority": "Ability unlocks and proven fight performance before collection size."
+        },
+        {
+          "icon": "RefreshCcw",
+          "name": "Reroll-Focused Build",
+          "coreRoles": [
+            "Keeper card selected for long-term use",
+            "Trait Rerolls saved for that card",
+            "Boost items prepared for rolling sessions"
+          ],
+          "strategy": "Choose the card first, then spend rerolls. This prevents wasting rerolls on temporary cards that disappear from the lineup after better pulls.",
+          "upgradePriority": "Keeper card selection first, upgrades second, trait rerolls third."
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Balanced Progress Build",
+          "coreRoles": [
+            "One main upgraded card",
+            "One flexible secondary card",
+            "One card being tested for future upgrades"
+          ],
+          "strategy": "Keep one strong carry card while testing new pulls. This keeps progression stable without locking every resource into a card too early.",
+          "upgradePriority": "Stable carry first, tested replacement cards only after they prove useful."
+        }
+      ]
+    },
+    "cardChroniclesPotionsChronogems": {
+      "eyebrow": "Boost Items",
+      "title": "Card Chronicles Potions, Chronogems and Boosts",
+      "subtitle": "Boost items are best used around planned rolling, upgrading, and fight sessions. Do not spend them randomly just because they sit in your inventory.",
+      "intro": "Card Chronicles reward bundles can include Luck Potions, Roll Speed Potions, Battle Speed Potions, Boss Potions, Super Luck Potions, Trait Rerolls, and Chronogems. Each item is more useful when it supports a clear goal: better rolls, faster progression, stronger cards, or harder fights.",
+      "items": [
+        {
+          "icon": "Gem",
+          "item": "Luck Potion",
+          "category": "Rolling Boost",
+          "use": "Improves roll-focused sessions when chasing stronger cards.",
+          "bestTiming": "Use before a longer rolling session, especially when you are ready to evaluate and upgrade good pulls."
+        },
+        {
+          "icon": "Clock",
+          "item": "Roll Speed Potion",
+          "category": "Rolling Speed",
+          "use": "Makes rolling sessions faster and helps process more card attempts in less time.",
+          "bestTiming": "Pair with Luck Potions when you plan to roll actively instead of checking the game casually."
+        },
+        {
+          "icon": "Zap",
+          "item": "Battle Speed Potion",
+          "category": "Combat Pace",
+          "use": "Helps speed up combat progression during wave or fight sessions.",
+          "bestTiming": "Use when pushing fights, farming waves, or testing whether a lineup can clear faster."
+        },
+        {
+          "icon": "Sparkles",
+          "item": "Border Chance Potion",
+          "category": "Card Bonus Chase",
+          "use": "Supports rolling sessions aimed at cards with special border value.",
+          "bestTiming": "Use during serious rolling windows rather than short, unfocused sessions."
+        },
+        {
+          "icon": "Target",
+          "item": "Boss Potion",
+          "category": "Boss Progression",
+          "use": "Supports boss-focused progress and strong-foe preparation.",
+          "bestTiming": "Use when your lineup is upgraded enough to make boss attempts worthwhile."
+        },
+        {
+          "icon": "Star",
+          "item": "Super Luck Potion",
+          "category": "High-Value Rolling Boost",
+          "use": "Provides a stronger luck-focused boost for rare-card chasing.",
+          "bestTiming": "Save for your best rolling windows, ideally with Roll Speed Potion active."
+        },
+        {
+          "icon": "RotateCcw",
+          "item": "Trait Rerolls",
+          "category": "Card Building",
+          "use": "Changes card traits to improve long-term lineup value.",
+          "bestTiming": "Spend only after choosing a keeper card that deserves upgrades and a permanent team slot."
+        },
+        {
+          "icon": "Coins",
+          "item": "Chronogems",
+          "category": "Progression Currency",
+          "use": "Used as a valuable progression reward tied to Card Chronicles reward bundles.",
+          "bestTiming": "Save until you know which upgrade, card, or progression option gives the most lasting value."
         }
       ]
     }
