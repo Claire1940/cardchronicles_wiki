@@ -192,16 +192,11 @@ export function isValidContentType(type: string): type is ContentType {
 }
 
 /**
- * 支持的有效语言列表
- * 与 routing.ts 的 locales、request.ts 的 import 保持一致（单一事实源 = routing.ts）
- */
-export const validLanguages: readonly Locale[] = routing.locales
-
-/**
  * 验证语言是否有效
  */
 export function isValidLanguage(lang: string): lang is Language {
-  return validLanguages.includes(lang as Language)
+  // 从各站 routing 配置动态取 locales，避免硬编码某站的语言导致跨站类型不匹配
+  return (routing.locales as readonly string[]).includes(lang)
 }
 
 /**
@@ -209,4 +204,47 @@ export function isValidLanguage(lang: string): lang is Language {
  */
 export function getDefaultLanguage(): Language {
   return routing.defaultLocale as Language
+}
+
+/**
+ * 取内容的更新时间戳（优先 lastModified，其次 date；无则 0）。
+ * 模板内置此工具函数，避免覆盖站点原 content.ts 时丢失导致 import 报错。
+ */
+export function getContentUpdateTime(frontmatter?: ContentFrontmatter): number {
+  if (!frontmatter) return 0
+  if (frontmatter.lastModified) return new Date(frontmatter.lastModified).getTime()
+  if (frontmatter.date) return new Date(frontmatter.date).getTime()
+  return 0
+}
+
+/**
+ * 按 (contentType, language, slug) 取单篇内容的 frontmatter（含 en 回退）。
+ * 模板内置此函数，避免覆盖站点原 content.ts 时丢失导致 import 报错。
+ */
+export async function getContentFrontmatter(
+  contentType: ContentType,
+  language: Language,
+  slug: string
+): Promise<ContentFrontmatter | null> {
+  const curFile = entriesFor(language, contentType).find((e) => e.slug === slug)?.file
+  if (curFile) {
+    try {
+      const mod = await import(`../../content/${language}/${contentType}/${curFile}.mdx`)
+      return mod.metadata as ContentFrontmatter
+    } catch {
+      /* fall through to en */
+    }
+  }
+  if (language !== 'en') {
+    const enFile = entriesFor('en', contentType).find((e) => e.slug === slug)?.file
+    if (enFile) {
+      try {
+        const mod = await import(`../../content/en/${contentType}/${enFile}.mdx`)
+        return mod.metadata as ContentFrontmatter
+      } catch {
+        /* ignore */
+      }
+    }
+  }
+  return null
 }
