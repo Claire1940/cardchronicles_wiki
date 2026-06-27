@@ -1,11 +1,790 @@
 {
+  "seo": {
+    "home": {
+      "title": "Card Chronicles Wiki - Code, Thẻ & Bảng Xếp Hạng",
+      "description": "Card Chronicles Wiki về code Roblox, bảng xếp hạng thẻ, thuộc tính, mẹo reroll, hướng dẫn tân thủ, đội hình, wave, cập nhật và hỗ trợ tiến trình.",
+      "keywords": "Card Chronicles, Roblox, code, thẻ, bảng xếp hạng, thuộc tính, reroll, hướng dẫn tân thủ, đội hình, wave",
+      "ogTitle": "Card Chronicles Wiki - Code, Thẻ & Bảng Xếp Hạng",
+      "ogDescription": "Card Chronicles Wiki về code Roblox, bảng xếp hạng thẻ, thuộc tính, mẹo reroll, hướng dẫn tân thủ, đội hình, wave, cập nhật và hỗ trợ tiến trình.",
+      "twitterTitle": "Card Chronicles Wiki - Code, Thẻ & Bảng Xếp Hạng",
+      "twitterDescription": "Card Chronicles Wiki về code Roblox, bảng xếp hạng thẻ, thuộc tính, mẹo reroll và hỗ trợ tiến trình."
+    }
+  },
   "nav": {
-    "codes": "Mã",
+    "codes": "Code",
     "guide": "Hướng dẫn",
     "luck": "May mắn",
     "cards": "Thẻ",
     "progression": "Tiến trình",
     "release": "Phát hành",
     "roblox": "Roblox"
+  },
+  "common": {
+    "home": "Trang chủ",
+    "more": "Thêm",
+    "playNow": "Chơi trên Steam",
+    "switchLanguage": "Thay đổi ngôn ngữ",
+    "switchTheme": "Thay đổi giao diện",
+    "lightMode": "Chế độ sáng",
+    "darkMode": "Chế độ tối",
+    "notFound": "Không tìm thấy trang",
+    "notFoundDescription": "Trang bạn đang tìm kiếm không tồn tại.",
+    "backToHome": "Quay lại trang chủ",
+    "relatedArticles": "Bài viết liên quan",
+    "readMore": "Đọc thêm",
+    "articlesComingSoon": "Bài viết sắp ra mắt"
+  },
+  "pages": {
+    "codes": {
+      "title": "Code Card Chronicles",
+      "description": "Code Card Chronicles mới nhất đang hoạt động để nhận lượt Reroll Trait, Thuốc May mắn, Thuốc Tốc độ Roll, Chronogems miễn phí và tăng tốc tiến trình. Cập nhật hàng ngày với code đã xác minh.",
+      "metaTitle": "Code Card Chronicles - Lượt Reroll Trait & Thuốc Miễn Phí (2026)",
+      "metaDescription": "Đổi code Card Chronicles đang hoạt động để nhận lượt Reroll Trait, Thuốc May mắn, Thuốc Tốc độ Roll, Chronogems miễn phí và các vật phẩm tăng tốc. Cập nhật hàng ngày với code hoạt động đã xác minh.",
+      "categoryLabel": "ĐỔI CODE",
+      "whatIs": "Code Card Chronicles là gì?",
+      "whatIsDescription": "Code Card Chronicles là các chuỗi đổi quà miễn phí do Chronicle Entertainment phát hành, cung cấp lượt Reroll Trait, Thuốc May mắn, Thuốc Tốc độ Roll, Thuốc Boss, Chronogems và các vật phẩm tăng tốc tiến trình khác. Chúng được gắn liền với các cột mốc như số lượt truy cập và số người chơi cùng lúc đạt đỉnh.",
+      "why": "Tại sao nên đổi code Card Chronicles?",
+      "whySteps": {
+        "step1Title": "Lượt Reroll Trait Miễn Phí",
+        "step1Description": "Code là một trong những cách dễ nhất để nhận lượt Reroll Trait, giúp bạn thay đổi thuộc tính trên các thẻ bài chủ lực thay vì phải cày cuốc để kiếm chúng.",
+        "step2Title": "Các phiên Roll nhanh hơn",
+        "step2Description": "Các gói thuốc từ code sẽ cộng dồn với vật phẩm của bạn để giúp việc roll và farm wave hiệu quả hơn nhiều khi chơi tập trung.",
+        "step3Title": "Phần thưởng được xác minh hàng ngày",
+        "step3Description": "Mỗi code đều được kiểm tra trước khi công bố, bao gồm phân biệt chữ hoa chữ thường, yêu cầu giới hạn roll, và tình trạng hoạt động hoặc hết hạn hiện tại."
+      },
+      "featured": "Code Nổi Bật",
+      "all": "Tất Cả Code"
+    },
+    "guide": {
+      "title": "Hướng Dẫn Card Chronicles",
+      "description": "Hướng dẫn Card Chronicles toàn diện bao gồm vòng lặp cốt lõi, tiến trình cho người mới bắt đầu, chiến thuật roll, xây dựng đội hình và mẹo dọn wave cho người chơi Roblox.",
+      "metaTitle": "Hướng Dẫn Card Chronicles - Hướng Dẫn Cho Người Mới, Mẹo & Tiến Trình",
+      "metaDescription": "Làm chủ Card Chronicles với các hướng dẫn cho người mới, mẹo và bài viết hướng dẫn tiến trình. Học cách roll, nâng cấp, xây dựng đội hình và chiến thuật dọn wave trên Roblox.",
+      "categoryLabel": "HƯỚNG DẪN",
+      "whatIs": "Hướng dẫn Card Chronicles là gì?",
+      "whatIsDescription": "Hướng dẫn Card Chronicles phân tích vòng lặp lối chơi cốt lõi — roll thẻ, nâng cấp carry, xây dựng đội hình và dọn wave — thành các chiến thuật rõ ràng, từng bước một cho cả người chơi mới và người chơi đã tiến bộ.",
+      "why": "Tại sao nên đọc hướng dẫn Card Chronicles?",
+      "whySteps": {
+        "step1Title": "Tìm hiểu Vòng lặp Cốt lõi",
+        "step1Description": "Hiểu được cách roll, nâng cấp, kỹ năng và đội hình liên kết với nhau để bạn không còn lãng phí tài nguyên vào những thẻ bài sai lầm.",
+        "step2Title": "Tránh các Sai lầm Thường gặp",
+        "step2Description": "Các hướng dẫn sẽ chỉ ra những cạm bẫy ban đầu — nâng cấp dàn trải, lãng phí lượt reroll cho các thẻ tạm thời và chạy theo độ hiếm trước giá trị chiến đấu.",
+        "step3Title": "Tiến trình Nhanh hơn",
+        "step3Description": "Đi theo các lộ trình đã được kiểm chứng từ tân thủ đến pro để bạn có thể vượt wave và đánh bại những kẻ thù mạnh mẽ mà không cần phải thử và sai nhiều lần."
+      },
+      "featured": "Hướng Dẫn Nổi Bật",
+      "all": "Tất Cả Hướng Dẫn"
+    },
+    "luck": {
+      "title": "May mắn & RNG trong Card Chronicles",
+      "description": "Mọi thứ về may mắn, RNG và tỷ lệ roll trong Card Chronicles. Tìm hiểu cách tăng may mắn, cải thiện cơ hội và sở hữu các thẻ anime hiếm nhanh hơn.",
+      "metaTitle": "May mắn & RNG trong Card Chronicles - Cách để Có thêm May mắn",
+      "metaDescription": "Tăng cường may mắn và tỷ lệ RNG trong Card Chronicles của bạn. Tìm hiểu về Luck Potion, Super Luck Potion, chiến thuật roll và cách sở hữu các thẻ anime hiếm nhanh hơn trên Roblox.",
+      "categoryLabel": "MAY MẮN & RNG",
+      "whatIs": "May mắn trong Card Chronicles là gì?",
+      "whatIsDescription": "May mắn trong Card Chronicles là chỉ số và hệ thống tăng cường giúp cải thiện tỷ lệ roll ra các thẻ anime hiếm hơn. Luck Potion và Super Luck Potion giúp tăng cơ hội của bạn trong các phiên roll tập trung.",
+      "why": "Tại sao may mắn lại quan trọng?",
+      "whySteps": {
+        "step1Title": "Tỷ lệ Roll Tốt hơn",
+        "step1Description": "May mắn cao hơn trực tiếp cải thiện cơ hội roll ra các thẻ bài hiếm và có độ hiếm cao thay vì các thẻ phụ thông thường.",
+        "step2Title": "Sử dụng Potion Thông minh hơn",
+        "step2Description": "Biết chính xác khi nào nên cộng dồn Luck Potion với Roll Speed Potion để đạt giá trị tối đa trong thời gian cày cuốc.",
+        "step3Title": "Hiểu rõ về RNG",
+        "step3Description": "Nắm bắt cách RNG, số lượng roll và may mắn tương tác với nhau để bạn đặt ra kỳ vọng thực tế và roll một cách hiệu quả."
+      },
+      "featured": "Hướng Dẫn May Mắn Nổi Bật",
+      "all": "Tất Cả Hướng Dẫn May Mắn"
+    },
+    "cards": {
+      "title": "Thẻ bài & Tier List trong Card Chronicles",
+      "description": "Cơ sở dữ liệu thẻ bài, tier list, hướng dẫn độ hiếm và bảng xếp hạng thẻ bài Card Chronicles đầy đủ. Tìm kiếm những thẻ bài tốt nhất, lượt roll hiếm nhất và thẻ giới hạn thời gian để xây dựng đội hình của bạn.",
+      "metaTitle": "Thẻ bài & Tier List trong Card Chronicles - Thẻ Tốt nhất & Hiếm nhất",
+      "metaDescription": "Duyệt qua danh sách thẻ bài, tier list, hướng dẫn độ hiếm và bảng xếp hạng Card Chronicles. Khám phá những thẻ bài tốt nhất, lượt roll hiếm nhất và các thẻ giới hạn để tăng sức mạnh cho đội hình Roblox của bạn.",
+      "categoryLabel": "THẺ BÀI & TIER LIST",
+      "whatIs": "Thẻ Card Chronicles là gì?",
+      "whatIsDescription": "Thẻ Card Chronicles là các đơn vị phong cách anime mà bạn quay, nâng cấp và triển khai trong trận chiến. Mỗi thẻ đều có độ hiếm, kỹ năng và vai trò chiến đấu riêng, quyết định giá trị của nó trong việc vượt ải và xây dựng đội hình.",
+      "why": "Tại sao nên tìm hiểu danh sách thẻ?",
+      "whySteps": {
+        "step1Title": "Hiểu rõ độ hiếm của thẻ",
+        "step1Description": "Hiểu các bậc độ hiếm và tỷ lệ rơi để bạn có thể phân biệt một thẻ bài thực sự giá trị với một thẻ chỉ có vẻ ngoài hào nhoáng.",
+        "step2Title": "Tìm kiếm những thẻ bài tốt nhất",
+        "step2Description": "Bảng xếp hạng đánh giá các thẻ dựa trên giá trị vượt ải, hiệu quả nâng cấp và lợi ích lâu dài thay vì chỉ dựa vào ngoại hình.",
+        "step3Title": "Theo dõi các thẻ hiếm và giới hạn",
+        "step3Description": "Cập nhật liên tục về các thẻ mới, lượt quay hiếm và các bản phát hành giới hạn thời gian có thể thay đổi meta."
+      },
+      "featured": "Hướng dẫn thẻ tiêu biểu",
+      "all": "Tất cả hướng dẫn về thẻ"
+    },
+    "progression": {
+      "title": "Tiến trình & Nâng cấp trong Card Chronicles",
+      "description": "Làm chủ tiến trình trong Card Chronicles: nâng cấp, traits, rerolls, phần thưởng, potions và Chronogems. Tìm hiểu những gì cần nâng cấp, reroll và chi tiêu để phát triển tài khoản nhanh nhất.",
+      "metaTitle": "Tiến trình Card Chronicles - Nâng cấp, Traits & Rerolls",
+      "metaDescription": "Tối ưu hóa tiến trình Card Chronicles với các hướng dẫn về nâng cấp, traits, rerolls, phần thưởng, potions và Chronogems. Chi tiêu tài nguyên hiệu quả để thăng tiến nhanh hơn trên Roblox.",
+      "categoryLabel": "TIẾN TRÌNH",
+      "whatIs": "Tiến trình Card Chronicles là gì?",
+      "whatIsDescription": "Tiến trình trong Card Chronicles bao gồm nâng cấp, traits, rerolls, phần thưởng, potions và Chronogems — những hệ thống biến những lượt quay may mắn thành một đội hình có thể vượt ải và đánh bại những kẻ thù mạnh.",
+      "why": "Tại sao nên lập kế hoạch tiến trình?",
+      "whySteps": {
+        "step1Title": "Nâng cấp có trọng tâm",
+        "step1Description": "Tập trung tài nguyên vào các thẻ bài chủ chốt thay vì nâng cấp dàn trải cho toàn bộ bộ sưu tập của bạn.",
+        "step2Title": "Reroll Trait thông minh",
+        "step2Description": "Tìm hiểu khi nào nên reroll traits và những thẻ nào xứng đáng để bạn không bao giờ lãng phí tài nguyên reroll.",
+        "step3Title": "Chi tiêu phần thưởng hiệu quả",
+        "step3Description": "Sử dụng potions, Chronogems và các gói phần thưởng đúng thời điểm quay thẻ và chiến đấu để đạt hiệu quả tối đa."
+      },
+      "featured": "Hướng dẫn tiến trình tiêu biểu",
+      "all": "Tất cả hướng dẫn về tiến trình"
+    },
+    "release": {
+      "title": "Phát hành & Cập nhật Card Chronicles",
+      "description": "Theo dõi ngày phát hành Card Chronicles, các bản cập nhật mới nhất, wipes và lịch bảo trì. Luôn cập nhật nội dung mới, thay đổi cân bằng và các tính năng sắp tới trên Roblox.",
+      "metaTitle": "Ngày phát hành, Cập nhật & Wipes Card Chronicles",
+      "metaDescription": "Nhận thông tin mới nhất về ngày phát hành Card Chronicles, ghi chú cập nhật, lịch wipe và thông tin bảo trì. Theo dõi nội dung mới, thay đổi cân bằng và các tính năng trên Roblox.",
+      "categoryLabel": "PHÁT HÀNH & CẬP NHẬT",
+      "whatIs": "Mục Phát hành Card Chronicles là gì?",
+      "whatIsDescription": "Mục phát hành bao gồm thông tin ra mắt Card Chronicles, các bản vá cập nhật, thay đổi cân bằng, lịch wipe và bảo trì, cũng như các nội dung mới từ Chronicle Entertainment.",
+      "why": "Tại sao nên theo dõi các bản phát hành?",
+      "whySteps": {
+        "step1Title": "Nắm rõ ngày phát hành",
+        "step1Description": "Luôn cập nhật về ngày ra mắt chính thức, truy cập sớm và các nền tảng hỗ trợ Card Chronicles.",
+        "step2Title": "Theo dõi Cập nhật & Wipes",
+        "step2Description": "Theo dõi ghi chú bản vá, thay đổi cân bằng và lịch wipe để bạn không bao giờ bị mất tiến trình do những lần reset bất ngờ.",
+        "step3Title": "Chuẩn bị cho bảo trì",
+        "step3Description": "Lên kế hoạch tránh các khung giờ bảo trì và thời gian dừng hoạt động để các phiên roll và cày cuốc của bạn không bị gián đoạn."
+      },
+      "featured": "Hướng dẫn phát hành nổi bật",
+      "all": "Tất cả hướng dẫn phát hành"
+    },
+    "roblox": {
+      "title": "Card Chronicles trên Roblox",
+      "description": "Tất cả về cách chơi Card Chronicles trên Roblox: cách bắt đầu, mẹo nền tảng, điều khiển, code dành riêng cho Roblox, và cách tận dụng tối đa client Roblox.",
+      "metaTitle": "Card Chronicles trên Roblox - Cách chơi & Mẹo Roblox",
+      "metaDescription": "Tìm hiểu cách chơi Card Chronicles trên Roblox. Tìm các code dành riêng cho Roblox, điều khiển, mẹo hiệu năng, và mọi thứ bạn cần để bắt đầu roll và chiến đấu.",
+      "categoryLabel": "TRÊN ROBLOX",
+      "whatIs": "Card Chronicles trên Roblox là gì?",
+      "whatIsDescription": "Card Chronicles là một tựa game đấu thẻ bài anime RNG miễn phí trên Roblox được phát triển bởi Chronicle Entertainment, nơi bạn roll thẻ bài, nâng cấp kỹ năng, xây dựng đội hình và chiến đấu với các đợt kẻ địch thẻ bài vô tận.",
+      "why": "Tại sao nên chơi trên Roblox?",
+      "whySteps": {
+        "step1Title": "Chơi miễn phí",
+        "step1Description": "Card Chronicles miễn phí trên Roblox trên PC, di động và console, đi kèm các phần thưởng code giúp tăng tốc tiến trình của bạn.",
+        "step2Title": "Code dành riêng cho Roblox",
+        "step2Description": "Một số code và sự kiện là độc quyền trên Roblox, tặng cho người chơi trên nền tảng này thêm lượt Trait Reroll và bình thuốc.",
+        "step3Title": "Truy cập đa nền tảng",
+        "step3Description": "Chơi ở bất kỳ nơi nào Roblox chạy được, cùng các mẹo tối ưu hóa hiệu năng trên các thiết bị cấu hình yếu và di động."
+      },
+      "featured": "Hướng dẫn Roblox nổi bật",
+      "all": "Tất cả hướng dẫn Roblox"
+    }
+  },
+  "hero": {
+    "badge": "Game đấu thẻ bài anime RNG",
+    "title": "Card Chronicles Wiki",
+    "description": "Roll các thẻ bài phong cách anime hiếm, nâng cấp kỹ năng, xây dựng đội hình và chiến đấu với các đợt kẻ địch thẻ bài mạnh mẽ vô tận trong tựa game đấu thẻ bài RNG trên Roblox này.",
+    "getFreeCodesCTA": "Nhận code miễn phí",
+    "playOnRobloxCTA": "Chơi trên Roblox",
+    "stats": {
+      "stat1": {
+        "value": "Roblox",
+        "label": "Nền tảng"
+      },
+      "stat2": {
+        "value": "Thẻ bài anime RNG",
+        "label": "Thể loại"
+      },
+      "stat3": {
+        "value": "Các đợt vô tận",
+        "label": "Thử thách cốt lõi"
+      },
+      "stat4": {
+        "value": "16+",
+        "label": "Giới hạn độ tuổi"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Lối chơi Card Chronicles",
+    "description": "Roll các thẻ bài phong cách anime hiếm, nâng cấp kỹ năng của chúng, reroll các trait mạnh mẽ và xây dựng đội hình để vượt qua các đợt kẻ địch thẻ bài mạnh mẽ vô tận trên Roblox."
+  },
+  "tools": {
+    "title": "Card Chronicles",
+    "titleHighlight": "Tài nguyên",
+    "subtitle": "Mọi thứ bạn cần để roll, nâng cấp, reroll và thống trị các đợt đấu trong Card Chronicles.",
+    "cards": [
+      {
+        "icon": "Quà tặng",
+        "title": "Code Card Chronicles",
+        "description": "Các code còn hoạt động để nhận lượt Trait Reroll, bình thuốc và tăng tốc tiến trình."
+      },
+      {
+        "icon": "Mở Sách",
+        "title": "Hướng dẫn cho người mới chơi Card Chronicles",
+        "description": "Quay thẻ, xây dựng đội hình và các ưu tiên nâng cấp thông minh."
+      },
+      {
+        "icon": "Vương miện",
+        "title": "Bảng xếp hạng Card Chronicles",
+        "description": "Xếp hạng thẻ từ S đến C theo giá trị vượt ải và hiệu quả nâng cấp."
+      },
+      {
+        "icon": "Xúc xắc",
+        "title": "Quay thẻ & Độ hiếm trong Card Chronicles",
+        "description": "Tần suất quay, độ hiếm, nâng cấp, thuốc hỗ trợ và thời điểm reroll."
+      },
+      {
+        "icon": "Lặp lại",
+        "title": "Hệ (Traits) & Reroll trong Card Chronicles",
+        "description": "Khi nào nên reroll hệ và những thẻ nào xứng đáng."
+      },
+      {
+        "icon": "Búa",
+        "title": "Nâng cấp & Kỹ năng trong Card Chronicles",
+        "description": "Tập trung nguồn lực vào những thẻ thực sự giúp chiến thắng."
+      },
+      {
+        "icon": "Người dùng",
+        "title": "Đội hình & Cách xây dựng trong Card Chronicles",
+        "description": "Các kiểu đội hình chuyên dọn quái, diệt boss và tập trung reroll."
+      },
+      {
+        "icon": "Bình Thí Nghiệm",
+        "title": "Thuốc hỗ trợ & Chronogems trong Card Chronicles",
+        "description": "Các vật phẩm tăng cường và thời điểm sử dụng tiền tệ để quay thẻ và chiến đấu."
+      }
+    ]
+  },
+  "modules": {
+    "cardChroniclesCodes": {
+      "eyebrow": "Phần thưởng miễn phí",
+      "title": "Mã Code Card Chronicles",
+      "subtitle": "Nhập các mã Card Chronicles còn hiệu lực để nhận Trait Rerolls, tăng may mắn, tăng tốc độ quay, tăng tốc độ chiến đấu và thuốc hỗ trợ thăng tiến.",
+      "intro": "Sử dụng mã từ menu Cài đặt bằng cách chọn biểu tượng bánh răng ở phía dưới bên trái màn hình, kéo xuống phần Codes, nhập chính xác mã và nhấn Enter. Nhiều phần thưởng được thiết kế để quay nhanh hơn và xây dựng thẻ mạnh hơn, vì vậy hãy dành Trait Rerolls cho những thẻ bạn dự định giữ lại thay vì lãng phí chúng cho những lượt quay bỏ đi lúc đầu.",
+      "items": [
+        {
+          "icon": "Quà tặng",
+          "code": "Tyfor400kvisits!",
+          "status": "Đang hoạt động",
+          "rewardSummary": "Gói phần thưởng theo mốc lượt quay",
+          "rewards": [
+            "Thuốc hỗ trợ",
+            "Tăng cường thăng tiến"
+          ],
+          "requirements": [
+            "25.000 lượt quay"
+          ],
+          "bestFor": "Những người chơi đã vượt qua mốc quay thẻ ban đầu."
+        },
+        {
+          "icon": "Vé",
+          "code": "Tyfor3kccu!",
+          "status": "Đang hoạt động",
+          "rewardSummary": "x5 Thuốc May Mắn, x5 Thuốc Tốc Độ Chiến Đấu, x5 Thuốc Tốc Độ Quay, x3 Thuốc Tỷ Lệ Viền, x3 Thuốc Siêu May Mắn, x3 Thuốc Boss, x15 Trait Rerolls",
+          "rewards": [
+            "Thuốc May Mắn",
+            "Thuốc Tốc Độ Chiến Đấu",
+            "Thuốc Tốc Độ Quay",
+            "Potion Tỷ lệ Viền",
+            "Potion Siêu May Mắn",
+            "Potion Boss",
+            "Lượt Xúc lại Thuộc tính"
+          ],
+          "requirements": [
+            "Không có yêu cầu"
+          ],
+          "bestFor": "Tăng cường các phiên quay và cày wave sau các cột mốc phát hành."
+        },
+        {
+          "icon": "Sparkles",
+          "code": "AvailableForEveryoneNow",
+          "status": "Đang hoạt động",
+          "rewardSummary": "100 Lượt Xúc lại Thuộc tính",
+          "rewards": [
+            "Lượt Xúc lại Thuộc tính"
+          ],
+          "requirements": [
+            "Không có yêu cầu"
+          ],
+          "bestFor": "Điều chỉnh thuộc tính trên những thẻ bài mạnh nhất về lâu dài của bạn."
+        },
+        {
+          "icon": "Xu",
+          "code": "Sorry2!",
+          "status": "Đang hoạt động",
+          "rewardSummary": "Gói phần thưởng giới hạn lượt quay",
+          "rewards": [
+            "Potion",
+            "Tăng tốc tiến trình"
+          ],
+          "requirements": [
+            "25.000 lượt quay"
+          ],
+          "bestFor": "Người chơi giai đoạn giữa game đã quay đủ số lượt để mở khóa các phần thưởng giới hạn."
+        },
+        {
+          "icon": "Trophy",
+          "code": "Sorry!",
+          "status": "Đang hoạt động",
+          "rewardSummary": "x10 Potion May Mắn, x10 Potion Tốc độ Trận đấu, x10 Potion Tốc độ Quay, x5 Potion Tỷ lệ Viền, x5 Potion Siêu May Mắn, x5 Potion Boss, x15 Lượt Xúc lại Thuộc tính",
+          "rewards": [
+            "Potion May Mắn",
+            "Potion Tốc độ Trận đấu",
+            "Potion Tốc độ Quay",
+            "Potion Tỷ lệ Viền",
+            "Potion Siêu May Mắn",
+            "Potion Boss",
+            "Lượt Xúc lại Thuộc tính"
+          ],
+          "requirements": [
+            "Không có yêu cầu"
+          ],
+          "bestFor": "Tích trữ giá trị potion trước một phiên cày cuốc dài hơi."
+        },
+        {
+          "icon": "Star",
+          "code": "Release!",
+          "status": "Đang hoạt động",
+          "rewardSummary": "x3 Potion May Mắn, x3 Potion Tốc độ Trận đấu, x3 Potion Tốc độ Quay, x1 Potion Tỷ lệ Viền, x1 Potion Siêu May Mắn, x5 Lượt Xúc lại Thuộc tính",
+          "rewards": [
+            "Potion May Mắn",
+            "Potion Tốc độ Trận đấu",
+            "Thuốc Tốc Độ Roll",
+            "Thuốc Tỷ Lệ Viền",
+            "Thuốc Siêu May Mắn",
+            "Lượt Reroll Trait"
+          ],
+          "requirements": [
+            "Không có yêu cầu"
+          ],
+          "bestFor": "Người chơi mới bắt đầu đợt roll và nâng cấp thực sự đầu tiên của họ."
+        }
+      ]
+    },
+    "cardChroniclesBeginnerGuide": {
+      "eyebrow": "Lộ Trình Tân Thủ",
+      "title": "Hướng Dẫn Tân Thủ Card Chronicles",
+      "subtitle": "Tìm hiểu vòng lặp ban đầu: roll thẻ, xây dựng đội hình, nâng cấp thẻ hữu ích nhận được, và vượt qua các đợt quái mà không lãng phí những phần thưởng tốt nhất của bạn.",
+      "intro": "Card Chronicles được xây dựng xoay quanh việc roll các thẻ bài phong cách anime, sử dụng chúng trong các trận chiến, nâng cấp các thẻ gánh đội hình của bạn và leo qua các trận chiến theo đợt khó hơn. Mục tiêu ban đầu là tạo ra một đội hình hoạt động ổn định và phát triển các thẻ liên tục giành chiến thắng.",
+      "items": [
+        {
+          "icon": "Xúc xắc",
+          "step": 1,
+          "heading": "Bắt đầu bằng cách roll các thẻ có thể sử dụng được",
+          "description": "Roll để xây dựng bể thẻ bài đầu tiên của bạn trước khi chi tiêu mạnh tay. Nhiệm vụ đầu tiên của bạn là có đủ lựa chọn để tạo thành một đội hình hoạt động ổn định, chứ không phải đuổi theo một thẻ hiếm hoàn hảo ngay lập tức.",
+          "mistakeToAvoid": "Đừng tiêu tốn tài nguyên reroll cao cấp cho thẻ giá trị thấp đầu tiên trông có vẻ lấp lánh."
+        },
+        {
+          "icon": "Người dùng",
+          "step": 2,
+          "heading": "Xây dựng một đội hình chiến đấu nhỏ",
+          "description": "Đặt các thẻ mạnh nhất hiện có của bạn vào một đội hình tập trung để vượt ải. Ưu tiên những thẻ thực sự giúp bạn chiến thắng hơn là những thẻ chỉ trông có vẻ hiếm trong màn hình bộ sưu tập.",
+          "mistakeToAvoid": "Đừng dàn trải nâng cấp cho mọi thẻ mới roll được."
+        },
+        {
+          "icon": "Tia sét",
+          "step": 3,
+          "heading": "Nâng cấp các thẻ liên tục giành chiến thắng",
+          "description": "Nâng cấp các thẻ giúp vượt ải ổn định và giúp bạn đánh bại những kẻ thù mạnh hơn. Nâng cấp thẻ rất quan trọng vì vòng lặp trò chơi bao gồm việc mở khóa các kỹ năng mạnh hơn và tăng giá trị chiến đấu theo thời gian.",
+          "mistakeToAvoid": "Đừng bỏ rơi một thẻ đã nâng cấp hữu ích chỉ vì một thẻ mới roll được có độ hiếm cao hơn nhưng chưa được đầu tư gì."
+        },
+        {
+          "icon": "Bình tam giác",
+          "step": 4,
+          "heading": "Sử dụng thuốc roll và thuốc may mắn trong các phiên chơi tập trung",
+          "description": "Thuốc May Mắn, Thuốc Siêu May Mắn và Thuốc Tốc Độ Roll mang lại giá trị cao nhất khi bạn đang tích cực roll để tiến trình. Chúng sẽ bị lãng phí nếu kích hoạt một cách ngẫu hứng rồi để đó khi bạn bị phân tâm.",
+          "mistakeToAvoid": "Đừng kích hoạt nhiều bùa tăng cường cày cuốc trừ khi bạn đã sẵn sàng tận dụng toàn bộ thời gian hiệu lực."
+        },
+        {
+          "icon": "Làm mới",
+          "step": 5,
+          "heading": "Tiết kiệm lượt Reroll Trait cho các thẻ muốn giữ lại",
+          "description": "Lượt Reroll Trait là một trong những phần thưởng code mạnh nhất vì chúng cải thiện các thẻ bạn dự định giữ lại. Hãy sử dụng chúng sau khi bạn xác định được một thẻ sẽ gắn bó lâu dài với đội hình của mình.",
+          "mistakeToAvoid": "Đừng đuổi theo các trait hoàn hảo trước khi đội hình của bạn có các thẻ ổn định."
+        },
+        {
+          "icon": "Xu hướng tăng",
+          "step": 6,
+          "heading": "Vượt ải, sau đó cải thiện vị trí yếu",
+          "description": "Sau mỗi khi bị kẹt ải, hãy xác định thẻ yếu nhất trong đội hình của bạn và thay thế hoặc nâng cấp vị trí đó trước. Điều này giúp tiến trình trở nên đơn giản và tránh làm chật kho đồ của bạn với các thẻ nâng cấp dở dang.",
+          "mistakeToAvoid": "Đừng nâng cấp ngẫu nhiên sau mỗi trận chiến."
+        }
+      ]
+    },
+    "cardChroniclesTierList": {
+      "eyebrow": "Xếp Hạng Thẻ",
+      "title": "Bảng Xếp Hạng Card Chronicles",
+      "subtitle": "Bảng xếp hạng Card Chronicles tập trung vào tiến trình, được xây dựng xoay quanh khả năng vượt ải, giá trị kỹ năng, hiệu quả nâng cấp và độ hữu dụng lâu dài của đội hình.",
+      "intro": "Vì Card Chronicles là một trò chơi dạng roll, bảng xếp hạng tốt nhất ở giai đoạn đầu dựa trên những gì một thẻ mang lại cho tài khoản của bạn, chứ không chỉ ở độ hiếm của nó. Hãy ưu tiên các thẻ giúp vượt ải, đánh bại kẻ thù mạnh và duy trì độ hữu dụng sau khi nâng cấp trước khi bạn chi tiêu tài nguyên để cố gắng làm cho một thẻ yếu trở nên đặc biệt.",
+      "items": [
+        {
+          "icon": "Vương miện",
+          "tier": "S",
+          "label": "Thẻ Carry Chính",
+          "cards": [
+            "Các thẻ độ hiếm cao với kỹ năng gây sát thương mạnh",
+            "Các thẻ dọn nhiều kẻ địch hiệu quả",
+            "Các thẻ đáng để Reroll Thuộc Tính sau khi nâng cấp"
+          ],
+          "bestFor": [
+            "Dọn wave",
+            "Trụ cột đội hình lâu dài",
+            "Nâng cấp giá trị cao"
+          ],
+          "upgradePriority": "Cao nhất",
+          "notes": "Hãy xây dựng đội hình xoay quanh những thẻ này trước vì chúng vừa gánh tiến trình chiến đấu vừa có giá trị reroll trong tương lai."
+        },
+        {
+          "icon": "ShieldCheck",
+          "tier": "A",
+          "label": "Thẻ Tiến Trình Ổn Định",
+          "cards": [
+            "Các thẻ đã nâng cấp với hiệu suất chiến đấu ổn định",
+            "Các thẻ vẫn hữu dụng qua nhiều mốc wave khó",
+            "Các thẻ mạnh nhưng chưa có thuộc tính hoàn hảo"
+          ],
+          "bestFor": [
+            "Tiến trình từ đầu đến giữa game",
+            "Vị trí đội hình ổn định",
+            "Nâng cấp tiết kiệm tài nguyên"
+          ],
+          "upgradePriority": "Cao",
+          "notes": "Những thẻ này rất đáng để giữ lại cho đến khi xuất hiện một thẻ thay thế bậc S rõ ràng."
+        },
+        {
+          "icon": "Kiếm",
+          "tier": "B",
+          "label": "Thẻ Chuyên Biệt",
+          "cards": [
+            "Các thẻ sát thương đơn mục tiêu cho kẻ địch mạnh hơn",
+            "Các thẻ chuyên trị Boss với phạm vi sử dụng hẹp hơn",
+            "Các thẻ cần nâng cấp nhiều hơn trước khi trở nên ổn định"
+          ],
+          "bestFor": [
+            "Các trận chiến cụ thể",
+            "Hỗ trợ đánh Boss tạm thời",
+            "Lấp đầy vị trí còn thiếu"
+          ],
+          "upgradePriority": "Trung bình",
+          "notes": "Hãy sử dụng chúng khi chúng giải quyết được một vấn đề thực tế trong trận chiến, chứ không phải vì chúng trông thú vị trong ba giây."
+        },
+        {
+          "icon": "Lớp",
+          "tier": "C",
+          "label": "Thẻ Khởi Đầu và Thẻ Tạm Thời",
+          "cards": [
+            "Các thẻ độ hiếm thấp mới roll",
+            "Các thẻ chưa nâng cấp với giá trị kỹ năng yếu",
+            "Các thẻ chỉ được sử dụng vì đội hình còn chỗ trống"
+          ],
+          "bestFor": [
+            "Các trận chiến đầu tiên",
+            "Lấp đầy bộ sưu tập",
+            "Thay thế ngắn hạn"
+          ],
+          "upgradePriority": "Thấp",
+          "notes": "Thay thế chúng nhanh chóng và tránh sử dụng Trait Rerolls cho chúng."
+        }
+      ]
+    },
+    "cardChroniclesRollingRarity": {
+      "eyebrow": "Chiến Thuật Roll",
+      "title": "Hướng Dẫn Roll và Độ Hiếm Card Chronicles",
+      "subtitle": "Hiểu cách roll, độ hiếm, nâng cấp, potion và Trait Rerolls kết hợp với nhau trước khi lãng phí tài nguyên của bạn.",
+      "intro": "Roll là trung tâm của sự tiến triển trong Card Chronicles: bạn roll để tìm thẻ tốt hơn, sử dụng những thẻ xịn nhất trong trận chiến, nâng cấp các thẻ hữu ích và sử dụng vật phẩm tăng cường khi chúng cải thiện tiến độ thực tế. Độ hiếm rất quan trọng, nhưng một thẻ đã nâng cấp có khả năng dọn quái tốt sẽ hữu ích hơn một thẻ hiếm mới nhận nhưng chưa được xây dựng.",
+      "items": [
+        {
+          "icon": "Lặp lại",
+          "system": "Rolling",
+          "whatItMeans": "Cách chính để mở rộng bộ sưu tập thẻ và tìm kiếm các thẻ mạnh hơn.",
+          "bestUse": "Roll trong các phiên tập trung, đặc biệt là khi sử dụng Luck Potion hoặc Roll Speed Potion.",
+          "resourceNote": "Số lượng roll nhiều hơn sẽ cải thiện cơ hội tìm thấy các bản nâng cấp đội hình hữu ích."
+        },
+        {
+          "icon": "Gem",
+          "system": "Độ Hiếm",
+          "whatItMeans": "Các thẻ hiếm hơn là mục tiêu săn đón chính và mang lại giá trị lâu dài mạnh mẽ hơn.",
+          "bestUse": "So sánh độ hiếm với hiệu quả chiến đấu thực tế trước khi thay thế một thẻ đã nâng cấp.",
+          "resourceNote": "Đừng mặc định một thẻ hiếm mới là tốt hơn cho đến khi nó giúp dọn quái hoặc hạ gục kẻ thù mạnh."
+        },
+        {
+          "icon": "Hammer",
+          "system": "Nâng Cấp",
+          "whatItMeans": "Nâng cấp giúp tăng sức mạnh cho các thẻ hữu ích và giúp mở khóa giá trị chiến đấu mạnh mẽ hơn.",
+          "bestUse": "Hãy nâng cấp những thẻ đã giúp bạn thắng trận thay vì nâng cấp mọi thẻ mới bạn roll được.",
+          "resourceNote": "Nâng cấp tập trung giúp tiến triển nhanh hơn so với việc dàn trải tài nguyên quá mỏng."
+        },
+        {
+          "icon": "Wand2",
+          "system": "Kỹ Năng",
+          "whatItMeans": "Kỹ năng của thẻ là lý do chính khiến thẻ này vượt trội hơn thẻ khác trong trận chiến.",
+          "bestUse": "Ưu tiên các kỹ năng giúp cải thiện khả năng dọn quái, gây áp lực lên boss hoặc ổn định đội hình.",
+          "resourceNote": "Giá trị kỹ năng nên là tiêu chí ưu tiên nâng cấp hơn là vẻ ngoài của bộ sưu tập."
+        },
+        {
+          "icon": "RotateCcw",
+          "system": "Trait Rerolls",
+          "whatItMeans": "Trait Rerolls giúp cải thiện các thẻ mà bạn dự định giữ lại trong đội hình chính.",
+          "bestUse": "Hãy sử dụng chúng cho các thẻ đã nâng cấp có giá trị cao, thay vì các thẻ tạm thời ở giai đoạn đầu.",
+          "resourceNote": "Phần thưởng từ Code giúp nhận Trait Rerolls dễ dàng hơn, nhưng tốt nhất vẫn nên để dành chúng cho những thẻ quan trọng."
+        },
+        {
+          "icon": "Mục Tiêu",
+          "system": "Luck Potion và Super Luck Potion",
+          "whatItMeans": "Các vật phẩm tăng cường được sử dụng để cải thiện các phiên roll.",
+          "bestUse": "Sử dụng chúng khi đang tích cực roll để tìm bản nâng cấp hoặc các lượt quay hiếm.",
+          "resourceNote": "Tích lũy giá trị của chúng cùng với thời gian chơi đã lên kế hoạch thay vì kích hoạt chúng một cách tùy tiện."
+        },
+        {
+          "icon": "Clock",
+          "system": "Roll Speed Potion",
+          "whatItMeans": "Các vật phẩm tăng cường giúp tăng tốc độ roll.",
+          "bestUse": "Sử dụng trong những khoảng thời gian cày cuốc khi bạn muốn roll nhiều hơn trong thời gian ngắn hơn.",
+          "resourceNote": "Tốt nhất khi kết hợp với các phiên tập trung vào may mắn."
+        },
+        {
+          "icon": "Ngọn lửa",
+          "system": "Thuốc Tốc độ Chiến đấu và Thuốc Boss",
+          "whatItMeans": "Các vật phẩm tăng cường nhằm giúp chiến đấu nhanh hơn và tiến trình mạnh mẽ hơn.",
+          "bestUse": "Sử dụng khi đang farm wave, vượt ải, hoặc chuẩn bị đối đầu với kẻ thù mạnh hơn.",
+          "resourceNote": "Các vật phẩm tăng cường này mang lại giá trị cao nhất khi đội hình của bạn đã đủ ổn định để giành chiến thắng."
+        }
+      ]
+    },
+    "cardChroniclesTraitsRerolls": {
+      "eyebrow": "Trait",
+      "title": "Card Chronicles: Trait và Reroll",
+      "subtitle": "Reroll Trait có giá trị nhất khi chúng cải thiện các thẻ đã nằm trong đội hình chính của bạn. Hãy tiết kiệm chúng cho các thẻ bạn dự định nâng cấp và giữ lại.",
+      "intro": "Card Chronicles được xây dựng dựa trên việc quay thẻ, nâng cấp các thẻ mạnh, mở khóa kỹ năng và lập kế hoạch đội hình cho các wave và trận chiến khó hơn. Trait thêm một lớp tiến triển khác, vì vậy reroll nên hỗ trợ các thẻ mạnh nhất của bạn thay vì lãng phí vào mọi lượt quay mới.",
+      "items": [
+        {
+          "icon": "Xoay ngược chiều kim đồng hồ",
+          "name": "Reroll Trait",
+          "role": "Được sử dụng để thay đổi hoặc cải thiện trait của thẻ.",
+          "bestUse": "Hãy sử dụng chúng cho các thẻ đang gánh đội hình của bạn hoặc đã có đủ nâng cấp để duy trì sự hữu ích.",
+          "avoid": "Đừng lãng phí reroll vào các thẻ tạm thời ở giai đoạn đầu, những thẻ có khả năng cao sẽ bị thay thế sau nhiều lượt quay hơn."
+        },
+        {
+          "icon": "Kiểm tra Khiên",
+          "name": "Thẻ Giữ lại",
+          "role": "Các thẻ vẫn hữu ích sau nhiều wave, nâng cấp hoặc các lần đánh boss.",
+          "bestUse": "Nâng cấp trước, sau đó mới sử dụng Reroll Trait khi thẻ đó đã chứng minh được vị trí trong đội của bạn.",
+          "avoid": "Đừng mải mê tìm trait trước khi bạn biết liệu bản thân thẻ đó có đáng để xây dựng hay không."
+        },
+        {
+          "icon": "Vé",
+          "name": "Reroll từ Phần thưởng Code",
+          "role": "Các mã phần thưởng có thể cung cấp Reroll Trait cùng với thuốc và Chronogems.",
+          "bestUse": "Hãy đổi phần thưởng reroll trước một phiên xây dựng đội hình đã lên kế hoạch, sau đó áp dụng chúng cho các mục tiêu thẻ có giá trị cao nhất của bạn.",
+          "avoid": "Đừng chia nhỏ reroll cho mọi thẻ trong bộ sưu tập."
+        },
+        {
+          "icon": "Mục tiêu",
+          "name": "Logic Ưu tiên Trait",
+          "role": "Trait quan trọng nhất khi chúng cải thiện các thẻ được sử dụng trong các trận chiến thực tế.",
+          "bestUse": "Ưu tiên các thẻ có kỹ năng đã nâng cấp, hiệu suất vượt wave tốt hoặc có tiềm năng đánh boss.",
+          "avoid": "Đừng coi độ hiếm là lý do duy nhất để sử dụng reroll."
+        }
+      ]
+    },
+    "cardChroniclesUpgradesAbilities": {
+      "eyebrow": "Nâng cấp",
+      "title": "Card Chronicles: Nâng cấp và Kỹ năng",
+      "subtitle": "Nâng cấp và kỹ năng là cầu nối chính giữa những lượt quay may mắn và tiến trình chiến đấu thực tế. Đầu tư tập trung sẽ hiệu quả hơn việc nâng cấp mọi thứ cùng một lúc.",
+      "intro": "Vòng lặp cốt lõi rất đơn giản: quay thẻ, chọn những thẻ hữu ích, nâng cấp chúng, mở khóa các kỹ năng mạnh hơn và sử dụng chúng để chống lại các wave vô tận và kẻ thù mạnh. Sai lầm tốn kém nhất là dàn trải tài nguyên cho các thẻ không bao giờ nằm trong đội hình chính của bạn.",
+      "items": [
+        {
+          "icon": "Xúc xắc",
+          "heading": "Quay thẻ trước khi đầu tư tài nguyên",
+          "content": "Sử dụng các lượt quay sớm để xác định các thẻ hoạt động tốt trong chiến đấu. Khi một thẻ chứng minh được sự hữu ích, hãy bắt đầu nâng cấp nó thay vì tốn tài nguyên cho mọi lượt quay mới."
+        },
+        {
+          "icon": "Búa",
+          "heading": "Ưu tiên nâng cấp các thẻ chủ chốt",
+          "content": "Một nhóm nhỏ các thẻ đã được nâng cấp sẽ mang lại tiến trình ổn định hơn so với một bộ sưu tập lớn các thẻ yếu, chưa hoàn thiện. Hãy xây dựng xoay quanh những thẻ giúp vượt wave một cách ổn định."
+        },
+        {
+          "icon": "Wand2",
+          "heading": "Mở khóa kỹ năng thông qua quá trình thăng tiến",
+          "content": "Card Chronicles chú trọng việc mở khóa kỹ năng như một phần của sự phát triển thẻ bài. Hãy ưu tiên các nâng cấp giúp thẻ bài mạnh hơn trong thực chiến, đặc biệt là để dọn quái và đối đầu với kẻ thù mạnh."
+        },
+        {
+          "icon": "Lặp lại",
+          "heading": "Sử dụng các lượt quay trùng lặp một cách khôn ngoan",
+          "content": "Các lượt quay lặp lại là một phần của vòng lặp thăng tiến. Hãy coi các lượt quay thừa là cách để cường hóa các thẻ bài đã chọn thay vì chỉ mải mê săn tìm thẻ bài hiếm tiếp theo."
+        },
+        {
+          "icon": "Lấp lánh",
+          "heading": "Kết nối nâng cấp với Đặc điểm",
+          "content": "Reroll Đặc điểm (Trait Rerolls) có giá trị hơn sau khi thẻ bài đã được đầu tư nâng cấp. Hãy nâng cấp thẻ trước, sau đó mới reroll đặc điểm khi thẻ bài đó đã trở thành mục tiêu xây dựng lâu dài."
+        }
+      ]
+    },
+    "cardChroniclesBestLineup": {
+      "eyebrow": "Xây dựng đội hình",
+      "title": "Đội hình và Cách xây dựng đội hình tốt nhất trong Card Chronicles",
+      "subtitle": "Đội hình tốt nhất không chỉ đơn thuần là danh sách các thẻ bài hiếm nhất. Hãy xây dựng xoay quanh các thẻ đã nâng cấp, kỹ năng đã mở khóa, đặc điểm hữu ích và hiệu suất thực chiến.",
+      "intro": "Card Chronicles yêu cầu người chơi lên kế hoạch đội hình và áp đảo trận đấu, vì vậy sức mạnh của đội không chỉ đến từ việc quay thẻ may mắn. Một đội hình thực tế nên sử dụng các thẻ bài được nâng cấp tốt nhất trước, sau đó cải thiện chúng bằng các đặc điểm và vật phẩm tăng cường khi chúng đã chứng minh được năng lực trong thực chiến.",
+      "items": [
+        {
+          "icon": "Kiếm",
+          "name": "Đội hình dọn quái giai đoạn đầu",
+          "coreRoles": [
+            "Thẻ bài gây sát thương được nâng cấp nhiều nhất",
+            "Thẻ bài chiến đấu ổn định thứ hai",
+            "Thẻ bài mạnh mới quay được có hiệu suất chiến đấu tốt"
+          ],
+          "strategy": "Sử dụng các thẻ bài có khả năng dọn quái một cách an toàn và ổn định. Chỉ thay thế các thẻ bài yếu khi lượt quay mới có hiệu suất thực chiến tốt hơn.",
+          "upgradePriority": "Thẻ dọn quái chính trước, thẻ phụ thứ hai, các thẻ thử nghiệm sau cùng."
+        },
+        {
+          "icon": "Ngọn lửa",
+          "name": "Đội hình đánh Boss",
+          "coreRoles": [
+            "Thẻ bài nâng cấp có giá trị cao nhất",
+            "Thẻ bài đã mở khóa kỹ năng",
+            "Thẻ bài dự phòng có khả năng sinh tồn trong các trận chiến kéo dài"
+          ],
+          "strategy": "Chuẩn bị trước khi đối đầu với kẻ thù mạnh bằng cách cải thiện các thẻ bài đang gánh vác trận chiến. Reroll Đặc điểm nên dành cho các thẻ bài vẫn còn hữu ích lâu dài thay vì chỉ dùng cho một lần đánh boss.",
+          "upgradePriority": "Ưu tiên mở khóa kỹ năng và hiệu suất thực chiến hơn là quy mô bộ sưu tập."
+        },
+        {
+          "icon": "RefreshCcw",
+          "name": "Đội hình tập trung Reroll",
+          "coreRoles": [
+            "Thẻ bài chủ chốt được chọn để sử dụng lâu dài",
+            "Lượt Reroll Đặc điểm được để dành cho thẻ đó",
+            "Vật phẩm tăng cường được chuẩn bị cho các phiên quay thẻ"
+          ],
+          "strategy": "Hãy chọn thẻ bài trước, sau đó mới sử dụng lượt reroll. Điều này giúp tránh lãng phí reroll vào các thẻ bài tạm thời sẽ bị loại khỏi đội hình khi quay được thẻ tốt hơn.",
+          "upgradePriority": "Chọn thẻ bài chủ chốt trước, nâng cấp thứ hai, reroll đặc điểm thứ ba."
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Đội hình phát triển cân bằng",
+          "coreRoles": [
+            "Một thẻ bài nâng cấp chính",
+            "Một thẻ bài phụ linh hoạt",
+            "Một thẻ bài đang được thử nghiệm để nâng cấp trong tương lai"
+          ],
+          "strategy": "Giữ một thẻ gánh đội (carry) mạnh trong khi thử nghiệm các lượt quay mới. Điều này giúp quá trình thăng tiến ổn định mà không dồn hết tài nguyên vào một thẻ quá sớm.",
+          "upgradePriority": "Ưu tiên chủ lực ổn định, chỉ thử nghiệm các thẻ thay thế sau khi chúng đã chứng minh được hiệu quả."
+        }
+      ]
+    },
+    "cardChroniclesPotionsChronogems": {
+      "eyebrow": "Vật phẩm Tăng cường",
+      "title": "Thuốc, Chronogems và Vật phẩm Tăng cường của Card Chronicles",
+      "subtitle": "Các vật phẩm tăng cường nên được sử dụng tốt nhất trong các đợt quay thẻ, nâng cấp và chiến đấu đã có kế hoạch. Đừng sử dụng chúng một cách ngẫu nhiên chỉ vì chúng đang có sẵn trong túi đồ.",
+      "intro": "Các gói phần thưởng Card Chronicles có thể bao gồm Thuốc May mắn, Thuốc Tốc độ Quay, Thuốc Tốc độ Chiến đấu, Thuốc Boss, Thuốc Siêu May mắn, Trait Rerolls và Chronogems. Mỗi vật phẩm sẽ hữu ích hơn khi phục vụ một mục tiêu rõ ràng: quay thẻ tốt hơn, tiến triển nhanh hơn, thẻ mạnh hơn hoặc các trận chiến khó hơn.",
+      "items": [
+        {
+          "icon": "Gem",
+          "item": "Thuốc May mắn",
+          "category": "Tăng cường Quay thẻ",
+          "use": "Cải thiện các đợt quay thẻ khi đang săn lùng các thẻ mạnh hơn.",
+          "bestTiming": "Sử dụng trước một đợt quay thẻ dài, đặc biệt là khi bạn đã sẵn sàng đánh giá và nâng cấp những thẻ tốt vừa quay được."
+        },
+        {
+          "icon": "Đồng hồ",
+          "item": "Thuốc Tốc độ Quay",
+          "category": "Tốc độ Quay",
+          "use": "Giúp các đợt quay thẻ nhanh hơn và xử lý được nhiều lượt thử thẻ hơn trong thời gian ngắn hơn.",
+          "bestTiming": "Kết hợp với Thuốc May mắn khi bạn dự định quay thẻ một cách tích cực thay vì chỉ vào game xem qua loa."
+        },
+        {
+          "icon": "Tia chớp",
+          "item": "Thuốc Tốc độ Chiến đấu",
+          "category": "Nhịp độ Chiến đấu",
+          "use": "Giúp đẩy nhanh tiến trình chiến đấu trong các đợt quái hoặc các trận đánh.",
+          "bestTiming": "Sử dụng khi đang cố gắng vượt ải, farm quái, hoặc kiểm tra xem đội hình có thể vượt màn nhanh hơn hay không."
+        },
+        {
+          "icon": "Lấp lánh",
+          "item": "Thuốc Tỷ lệ Khung",
+          "category": "Săn Thưởng Thẻ",
+          "use": "Hỗ trợ các đợt quay thẻ nhắm vào các thẻ có giá trị khung đặc biệt.",
+          "bestTiming": "Sử dụng trong những khoảng thời gian quay thẻ nghiêm túc thay vì những đợt ngắn, không tập trung."
+        },
+        {
+          "icon": "Mục tiêu",
+          "item": "Thuốc Boss",
+          "category": "Tiến trình Boss",
+          "use": "Hỗ trợ tiến trình tập trung vào boss và chuẩn bị đối đầu với kẻ thù mạnh.",
+          "bestTiming": "Sử dụng khi đội hình của bạn đã được nâng cấp đủ để việc khiêu chiến boss trở nên xứng đáng."
+        },
+        {
+          "icon": "Sao",
+          "item": "Thuốc Siêu May mắn",
+          "category": "Tăng cường Quay thẻ Giá trị cao",
+          "use": "Cung cấp mức tăng cường may mắn mạnh hơn để săn lùng thẻ hiếm.",
+          "bestTiming": "Hãy dành riêng cho những đợt quay thẻ tốt nhất của bạn, lý tưởng nhất là khi đang kích hoạt Thuốc Tốc độ Quay."
+        },
+        {
+          "icon": "Xoay ngược chiều kim đồng hồ",
+          "item": "Trait Rerolls",
+          "category": "Xây dựng Thẻ",
+          "use": "Thay đổi đặc điểm của thẻ để cải thiện giá trị đội hình về lâu dài.",
+          "bestTiming": "Chỉ sử dụng sau khi đã chọn được một thẻ muốn giữ lại, xứng đáng để nâng cấp và có một vị trí cố định trong đội hình."
+        },
+        {
+          "icon": "Xu",
+          "item": "Chronogems",
+          "category": "Tiền tệ Tiến trình",
+          "use": "Được dùng làm phần thưởng tiến trình giá trị đi kèm với các gói phần thưởng Card Chronicles.",
+          "bestTiming": "Hãy tiết kiệm cho đến khi bạn biết được nâng cấp, thẻ bài hoặc lựa chọn tiến trình nào mang lại giá trị lâu dài nhất."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Thường gặp",
+    "titleHighlight": "Câu hỏi",
+    "subtitle": "Mọi thứ bạn cần biết về Card Chronicles",
+    "questions": [
+      {
+        "question": "Card Chronicles là gì?",
+        "answer": "Card Chronicles là một trò chơi đối kháng thẻ bài anime RNG trên Roblox, nơi bạn quay thẻ, nâng cấp kỹ năng, xây dựng đội hình và chiến đấu với các đợt kẻ thù thẻ bài mạnh mẽ không hồi kết."
+      },
+      {
+        "question": "Làm cách nào để nhập code Card Chronicles?",
+        "answer": "Mở menu Cài đặt từ biểu tượng bánh răng ở góc dưới bên trái màn hình, cuộn đến phần Codes, nhập chính xác mã và nhấn Enter để nhận phần thưởng Card Chronicles."
+      },
+      {
+        "question": "Tôi nên sử dụng code Card Chronicles nào trước?",
+        "answer": "Hãy bắt đầu với các code Card Chronicles tặng Trait Rerolls và các gói thuốc (potions), sau đó tiết kiệm lượt quay lại (rerolls) cho những thẻ bài mạnh mà bạn dự định nâng cấp cho đội hình lâu dài."
+      },
+      {
+        "question": "Cơ chế quay (rolling) trong Card Chronicles hoạt động như thế nào?",
+        "answer": "Quay thẻ là cốt lõi của tiến trình trong Card Chronicles: bạn quay để mở rộng bộ sưu tập thẻ, sử dụng những thẻ mạnh nhất trong trận chiến, nâng cấp các thẻ hữu ích và sử dụng các vật phẩm tăng cường (boost) trong các phiên quay tập trung."
+      },
+      {
+        "question": "Tôi nên nâng cấp thẻ Card Chronicles nào trước?",
+        "answer": "Hãy nâng cấp những thẻ Card Chronicles có khả năng dọn quái theo đợt và đánh bại kẻ thù mạnh một cách ổn định trước khi dồn tài nguyên vào mọi lượt quay mới, sau đó sử dụng Trait Rerolls cho các thẻ bài chủ chốt của bạn."
+      },
+      {
+        "question": "Card Chronicles có miễn phí trên Roblox không?",
+        "answer": "Có, Card Chronicles hoàn toàn miễn phí trên Roblox, với các phần thưởng từ code như thuốc (potions) và Trait Rerolls giúp tăng tốc quá trình quay thẻ, nâng cấp và vượt ải."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bạn đã sẵn sàng chơi Card Chronicles chưa?",
+    "description": "Hãy tham gia cộng đồng Chronicle Entertainment trên Roblox để nhận code, hướng dẫn thẻ bài, danh sách xếp hạng (tier list) và thảo luận về các bản cập nhật!",
+    "joinCommunity": "Tham gia Cộng đồng",
+    "joinGame": "Chơi trên Roblox"
+  },
+  "footer": {
+    "title": "Card Chronicles Wiki",
+    "description": "Trung tâm tài nguyên đầy đủ của bạn về code Card Chronicles, thẻ bài, danh sách xếp hạng, thiên phú (traits), đội hình, các đợt quái và hướng dẫn tiến trình.",
+    "resources": "Tài nguyên",
+    "community": "Cộng đồng",
+    "legal": "Pháp lý",
+    "robloxGame": "Trò chơi Roblox",
+    "robloxCommunity": "Cộng đồng Roblox",
+    "youtube": "YouTube",
+    "about": "Giới thiệu",
+    "privacy": "Chính sách Bảo mật",
+    "terms": "Điều khoản Dịch vụ",
+    "copyrightNotice": "Bản quyền",
+    "copyright": "© 2026 Card Chronicles Wiki. Không liên kết với Chronicle Entertainment hoặc Roblox Corporation.",
+    "disclaimer": "Trang web tài nguyên không chính thức do người hâm mộ tạo ra."
   }
 }

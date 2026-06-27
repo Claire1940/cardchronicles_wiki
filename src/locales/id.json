@@ -1,11 +1,790 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki Card Chronicles - Kode, Kartu & Tier List",
+      "description": "Wiki Card Chronicles untuk kode Roblox, tier list kartu, trait, tips reroll, panduan pemula, susunan tim, wave, pembaruan, dan bantuan progres.",
+      "keywords": "Card Chronicles, Roblox, kode, kartu, tier list, trait, reroll, panduan pemula, susunan tim, wave",
+      "ogTitle": "Wiki Card Chronicles - Kode, Kartu & Tier List",
+      "ogDescription": "Wiki Card Chronicles untuk kode Roblox, tier list kartu, trait, tips reroll, panduan pemula, susunan tim, wave, pembaruan, dan bantuan progres.",
+      "twitterTitle": "Wiki Card Chronicles - Kode, Kartu & Tier List",
+      "twitterDescription": "Wiki Card Chronicles untuk kode Roblox, tier list kartu, trait, tips reroll, dan bantuan progres."
+    }
+  },
   "nav": {
     "codes": "Kode",
     "guide": "Panduan",
-    "luck": "Keberuntungan",
+    "luck": "Luck",
     "cards": "Kartu",
-    "progression": "Progresi",
+    "progression": "Progres",
     "release": "Rilis",
     "roblox": "Roblox"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Selengkapnya",
+    "playNow": "Mainkan di Steam",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Card Chronicles",
+      "description": "Kode Card Chronicles terbaru yang masih aktif untuk Trait Reroll gratis, Luck Potion, Roll Speed Potion, Chronogems, dan peningkat progres. Diperbarui setiap hari dengan kode terverifikasi.",
+      "metaTitle": "Kode Card Chronicles - Trait Reroll & Potion Gratis (2026)",
+      "metaDescription": "Tukarkan kode Card Chronicles yang aktif untuk Trait Reroll gratis, Luck Potion, Roll Speed Potion, Chronogems, dan peningkat progres. Diperbarui setiap hari dengan kode aktif yang terverifikasi.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu Kode Card Chronicles?",
+      "whatIsDescription": "Kode Card Chronicles adalah rangkaian kode penukaran gratis yang dirilis oleh Chronicle Entertainment yang memberikan Trait Reroll, Luck Potion, Roll Speed Potion, Boss Potion, Chronogems, dan peningkat progres lainnya. Kode-kode ini berkaitan dengan pencapaian seperti jumlah kunjungan dan puncak pemain bersamaan.",
+      "why": "Mengapa harus menukarkan kode Card Chronicles?",
+      "whySteps": {
+        "step1Title": "Trait Reroll Gratis",
+        "step1Description": "Kode adalah salah satu cara termudah untuk mendapatkan Trait Reroll, memungkinkan Anda memperbaiki trait pada kartu andalan terkuat Anda daripada harus melakukan grinding.",
+        "step2Title": "Sesi Rolling yang Lebih Cepat",
+        "step2Description": "Bundel potion dari kode dapat ditumpuk dengan item milik Anda untuk membuat rolling dan farming wave jauh lebih efisien saat bermain secara fokus.",
+        "step3Title": "Hadiah yang Diverifikasi Setiap Hari",
+        "step3Description": "Setiap kode diperiksa sebelum dipublikasikan, termasuk sensitivitas huruf besar-kecil, persyaratan roll-gate, serta status aktif atau kedaluwarsa saat ini."
+      },
+      "featured": "Kode Unggulan",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan Card Chronicles",
+      "description": "Panduan lengkap Card Chronicles yang mencakup loop inti, progresi pemula, strategi rolling, pembuatan lineup, dan tips membersihkan wave untuk pemain Roblox.",
+      "metaTitle": "Panduan Card Chronicles - Panduan Pemula, Tips & Progresi",
+      "metaDescription": "Kuasai Card Chronicles dengan panduan pemula, tips, dan walkthrough progresi. Pelajari cara rolling, upgrade, membangun lineup, dan strategi membersihkan wave di Roblox.",
+      "categoryLabel": "PANDUAN",
+      "whatIs": "Apa itu Panduan Card Chronicles?",
+      "whatIsDescription": "Panduan Card Chronicles merinci loop gameplay inti — memutar kartu, meng-upgrade carry, membangun lineup, dan membersihkan wave — ke dalam strategi langkah demi langkah yang jelas bagi pemain baru maupun yang sudah mahir.",
+      "why": "Mengapa membaca panduan Card Chronicles?",
+      "whySteps": {
+        "step1Title": "Pelajari Loop Inti",
+        "step1Description": "Pahami bagaimana hubungan antara rolling, upgrade, kemampuan, dan lineup agar Anda berhenti membuang sumber daya pada kartu yang salah.",
+        "step2Title": "Hindari Kesalahan Umum",
+        "step2Description": "Panduan menandai jebakan awal — menyebarkan upgrade terlalu tipis, membuang reroll pada kartu sementara, dan mengejar kelangkaan sebelum nilai tempur.",
+        "step3Title": "Progresi Lebih Cepat",
+        "step3Description": "Ikuti rute yang terbukti dari pemula hingga pro agar Anda dapat mendorong wave dan mengalahkan musuh kuat tanpa trial-and-error."
+      },
+      "featured": "Panduan Unggulan",
+      "all": "Semua Panduan"
+    },
+    "luck": {
+      "title": "Luck & RNG Card Chronicles",
+      "description": "Segalanya tentang luck, RNG, dan probabilitas rolling di Card Chronicles. Pelajari cara meningkatkan luck, memperbaiki peluang Anda, dan mendapatkan kartu anime langka lebih cepat.",
+      "metaTitle": "Luck & RNG Card Chronicles - Cara Mendapatkan Lebih Banyak Luck",
+      "metaDescription": "Tingkatkan luck Card Chronicles dan peluang RNG Anda. Pelajari Luck Potion, Super Luck Potion, strategi rolling, dan cara mendapatkan kartu anime langka lebih cepat di Roblox.",
+      "categoryLabel": "LUCK & RNG",
+      "whatIs": "Apa itu Luck di Card Chronicles?",
+      "whatIsDescription": "Luck di Card Chronicles adalah sistem statistik dan boost yang meningkatkan peluang rolling Anda untuk kartu anime yang lebih langka. Luck Potion dan Super Luck Potion meningkatkan peluang Anda selama sesi rolling yang terfokus.",
+      "why": "Mengapa luck itu penting?",
+      "whySteps": {
+        "step1Title": "Peluang Roll yang Lebih Baik",
+        "step1Description": "Luck yang lebih tinggi secara langsung meningkatkan peluang Anda untuk mendapatkan kartu langka dan ber-rarity tinggi alih-alih tarikan pengisi yang umum.",
+        "step2Title": "Penggunaan Potion yang Lebih Cerdas",
+        "step2Description": "Pelajari kapan tepatnya untuk menumpuk Luck Potion dengan Roll Speed Potion untuk nilai maksimal selama jendela grinding.",
+        "step3Title": "Pahami RNG",
+        "step3Description": "Pahami bagaimana RNG, volume roll, dan luck berinteraksi sehingga Anda dapat menetapkan ekspektasi yang realistis dan melakukan roll secara efisien."
+      },
+      "featured": "Panduan Luck Unggulan",
+      "all": "Semua Panduan Luck"
+    },
+    "cards": {
+      "title": "Kartu & Tier List Card Chronicles",
+      "description": "Database kartu lengkap Card Chronicles, tier list, panduan kelangkaan, dan peringkat kartu. Temukan kartu terbaik, tarikan terlangka, dan kartu waktu terbatas untuk membangun lineup Anda.",
+      "metaTitle": "Kartu & Tier List Card Chronicles - Kartu Terbaik & Terlangka",
+      "metaDescription": "Jelajahi daftar kartu Card Chronicles, tier list, panduan kelangkaan, dan peringkat. Temukan kartu terbaik, tarikan terlangka, dan kartu terbatas untuk memperkuat lineup Roblox Anda.",
+      "categoryLabel": "KARTU & TIER LIST",
+      "whatIs": "Apa itu Kartu Card Chronicles?",
+      "whatIsDescription": "Kartu Card Chronicles adalah unit bergaya anime yang kamu roll, upgrade, dan kerahkan dalam pertempuran. Setiap kartu memiliki kelangkaan, kemampuan, dan peran tempur yang menentukan nilainya dalam pembersihan wave dan pembangunan lineup.",
+      "why": "Mengapa mempelajari daftar kartu?",
+      "whySteps": {
+        "step1Title": "Ketahui Kelangkaan Kartu",
+        "step1Description": "Pahami tingkatan kelangkaan dan drop rate sehingga kamu bisa membedakan kartu incaran asli dari kartu pajangan yang mencolok.",
+        "step2Title": "Temukan Kartu Terbaik",
+        "step2Description": "Tier list mengurutkan kartu berdasarkan nilai wave, hasil upgrade, dan kegunaan jangka panjang, bukan hanya dari tampilannya saja.",
+        "step3Title": "Lacak Kartu Langka & Terbatas",
+        "step3Description": "Ikuti terus perkembangan kartu baru, tarikan langka, dan rilis waktu terbatas yang dapat mengubah meta."
+      },
+      "featured": "Panduan Kartu Unggulan",
+      "all": "Semua Panduan Kartu"
+    },
+    "progression": {
+      "title": "Progresi & Upgrade Card Chronicles",
+      "description": "Kuasai progresi Card Chronicles: upgrade, trait, reroll, reward, potion, dan Chronogems. Pelajari apa yang harus di-upgrade, di-reroll, dan digunakan untuk pertumbuhan akun tercepat.",
+      "metaTitle": "Progresi Card Chronicles - Upgrade, Trait & Reroll",
+      "metaDescription": "Optimalkan progresi Card Chronicles dengan panduan tentang upgrade, trait, reroll, reward, potion, dan Chronogems. Gunakan sumber daya secara efisien untuk progresi Roblox yang lebih cepat.",
+      "categoryLabel": "PROGRESI",
+      "whatIs": "Apa itu Progresi Card Chronicles?",
+      "whatIsDescription": "Progresi dalam Card Chronicles mencakup upgrade, trait, reroll, reward, potion, dan Chronogems — sistem yang mengubah tarikan beruntung menjadi lineup yang mampu membersihkan wave dan mengalahkan musuh kuat.",
+      "why": "Mengapa merencanakan progresi kamu?",
+      "whySteps": {
+        "step1Title": "Upgrade Terfokus",
+        "step1Description": "Konsentrasikan sumber daya pada kartu yang ingin disimpan alih-alih menyebarkan upgrade ke seluruh koleksi kamu.",
+        "step2Title": "Reroll Trait yang Cerdas",
+        "step2Description": "Pelajari kapan harus me-reroll trait dan kartu mana yang layak mendapatkannya agar kamu tidak pernah membuang sumber daya reroll.",
+        "step3Title": "Penggunaan Reward yang Efisien",
+        "step3Description": "Atur waktu penggunaan potion, Chronogems, dan bundel reward kamu di sekitar sesi rolling dan pertempuran yang sebenarnya untuk hasil maksimal."
+      },
+      "featured": "Panduan Progresi Unggulan",
+      "all": "Semua Panduan Progresi"
+    },
+    "release": {
+      "title": "Rilis & Update Card Chronicles",
+      "description": "Lacak tanggal rilis Card Chronicles, update terbaru, wipe, dan jadwal pemeliharaan. Ikuti terus konten baru, perubahan keseimbangan, dan fitur mendatang di Roblox.",
+      "metaTitle": "Tanggal Rilis, Update & Wipe Card Chronicles",
+      "metaDescription": "Dapatkan tanggal rilis Card Chronicles terbaru, catatan update, jadwal wipe, dan info pemeliharaan. Lacak konten baru, perubahan keseimbangan, dan fitur di Roblox.",
+      "categoryLabel": "RILIS & UPDATE",
+      "whatIs": "Apa itu Bagian Rilis Card Chronicles?",
+      "whatIsDescription": "Bagian rilis mencakup info peluncuran Card Chronicles, patch update, perubahan keseimbangan, jadwal wipe dan pemeliharaan, serta rilis konten baru dari Chronicle Entertainment.",
+      "why": "Mengapa mengikuti rilis?",
+      "whySteps": {
+        "step1Title": "Ketahui Tanggal Rilis",
+        "step1Description": "Tetap ikuti peluncuran resmi, akses awal, dan ketersediaan platform untuk Card Chronicles.",
+        "step2Title": "Lacak Update & Wipe",
+        "step2Description": "Ikuti catatan patch, perubahan keseimbangan, dan jadwal wipe agar kamu tidak pernah kehilangan progresi karena reset yang mengejutkan.",
+        "step3Title": "Bersiap untuk Pemeliharaan",
+        "step3Description": "Rencanakan jadwal di sekitar jendela pemeliharaan dan waktu henti agar sesi rolling dan grinding Anda tidak terganggu."
+      },
+      "featured": "Panduan Rilis Unggulan",
+      "all": "Semua Panduan Rilis"
+    },
+    "roblox": {
+      "title": "Card Chronicles di Roblox",
+      "description": "Segala hal tentang bermain Card Chronicles di Roblox: cara memulai, tips platform, kontrol, kode khusus Roblox, dan cara memaksimalkan penggunaan client Roblox.",
+      "metaTitle": "Card Chronicles di Roblox - Cara Bermain & Tips Roblox",
+      "metaDescription": "Pelajari cara bermain Card Chronicles di Roblox. Temukan kode khusus Roblox, kontrol, tips performa, dan semua yang Anda butuhkan untuk mulai melakukan rolling dan bertarung.",
+      "categoryLabel": "DI ROBLOX",
+      "whatIs": "Apa itu Card Chronicles di Roblox?",
+      "whatIsDescription": "Card Chronicles adalah game anime card RNG battler gratis di Roblox besutan Chronicle Entertainment tempat Anda melakukan rolling kartu, meningkatkan kemampuan, menyusun lineup, dan melawan gelombang musuh kartu yang tak ada habisnya.",
+      "why": "Mengapa bermain di Roblox?",
+      "whySteps": {
+        "step1Title": "Gratis untuk Dimainkan",
+        "step1Description": "Card Chronicles gratis di Roblox untuk PC, seluler, dan konsol, dengan hadiah kode yang mempercepat progres Anda.",
+        "step2Title": "Kode Khusus Roblox",
+        "step2Description": "Beberapa kode dan event bersifat eksklusif untuk Roblox, memberikan Trait Rerolls dan potion tambahan bagi pemain platform ini.",
+        "step3Title": "Akses Lintas Platform",
+        "step3Description": "Mainkan di mana pun Roblox dapat berjalan, dengan tips untuk mengoptimalkan performa pada perangkat spesifikasi rendah dan seluler."
+      },
+      "featured": "Panduan Roblox Unggulan",
+      "all": "Semua Panduan Roblox"
+    }
+  },
+  "hero": {
+    "badge": "Anime Card RNG Battler",
+    "title": "Wiki Card Chronicles",
+    "description": "Lakukan rolling kartu bergaya anime yang langka, tingkatkan kemampuan, susun lineup Anda, dan lawan gelombang musuh kartu kuat yang tak ada habisnya dalam game card RNG battler di Roblox ini.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "Roblox",
+        "label": "Platform"
+      },
+      "stat2": {
+        "value": "Anime Card RNG",
+        "label": "Genre"
+      },
+      "stat3": {
+        "value": "Gelombang Tak Terbatas",
+        "label": "Tantangan Inti"
+      },
+      "stat4": {
+        "value": "16+",
+        "label": "Rating Usia"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Card Chronicles",
+    "description": "Lakukan rolling kartu bergaya anime yang langka, tingkatkan kemampuannya, reroll trait yang kuat, dan susun lineup yang mampu menyapu bersih gelombang musuh kartu kuat yang tak ada habisnya di Roblox."
+  },
+  "tools": {
+    "title": "Card Chronicles",
+    "titleHighlight": "Sumber Daya",
+    "subtitle": "Semua yang Anda butuhkan untuk melakukan rolling, upgrade, reroll, dan mendominasi gelombang musuh di Card Chronicles.",
+    "cards": [
+      {
+        "icon": "Hadiah",
+        "title": "Kode Card Chronicles",
+        "description": "Kode aktif untuk Trait Rerolls, potion, dan peningkat progres."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Panduan Pemula Card Chronicles",
+        "description": "Rolling, membangun lineup, dan prioritas upgrade yang cerdas."
+      },
+      {
+        "icon": "Crown",
+        "title": "Tier List Card Chronicles",
+        "description": "Peringkat kartu S hingga C berdasarkan nilai wave dan hasil upgrade."
+      },
+      {
+        "icon": "Dices",
+        "title": "Rolling & Rarity Card Chronicles",
+        "description": "Jumlah roll, rarity, upgrade, potion, dan waktu reroll."
+      },
+      {
+        "icon": "Repeat",
+        "title": "Trait & Reroll Card Chronicles",
+        "description": "Kapan harus melakukan reroll trait dan kartu mana yang layak mendapatkannya."
+      },
+      {
+        "icon": "Hammer",
+        "title": "Upgrade & Kemampuan Card Chronicles",
+        "description": "Fokuskan sumber daya pada kartu yang benar-benar memenangkan pertarungan."
+      },
+      {
+        "icon": "Users",
+        "title": "Lineup & Build Card Chronicles",
+        "description": "Build tim yang berfokus pada wave-clear, boss, dan reroll."
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Potion & Chronogems Card Chronicles",
+        "description": "Item peningkat dan waktu penggunaan mata uang untuk rolling dan pertempuran."
+      }
+    ]
+  },
+  "modules": {
+    "cardChroniclesCodes": {
+      "eyebrow": "Hadiah Gratis",
+      "title": "Kode Card Chronicles",
+      "subtitle": "Tukarkan kode Card Chronicles yang aktif untuk mendapatkan Trait Reroll, peningkatan keberuntungan, peningkatan kecepatan roll, peningkatan kecepatan pertempuran, dan potion progresi.",
+      "intro": "Gunakan kode dari menu Pengaturan dengan memilih ikon gerigi di kiri bawah layar, gulir ke bagian Kode, masukkan kode dengan tepat, lalu tekan Enter. Beberapa hadiah dirancang untuk rolling yang lebih cepat dan build kartu yang lebih kuat, jadi gunakan Trait Reroll pada kartu yang ingin kamu simpan alih-alih membuangnya pada tarikan awal yang tidak berguna.",
+      "items": [
+        {
+          "icon": "Gift",
+          "code": "Tyfor400kvisits!",
+          "status": "Aktif",
+          "rewardSummary": "Bundel hadiah dengan syarat jumlah roll",
+          "rewards": [
+            "Potion",
+            "Peningkatan progresi"
+          ],
+          "requirements": [
+            "25.000 roll"
+          ],
+          "bestFor": "Pemain yang telah melewati batas rolling awal."
+        },
+        {
+          "icon": "Ticket",
+          "code": "Tyfor3kccu!",
+          "status": "Aktif",
+          "rewardSummary": "x5 Potion Keberuntungan, x5 Potion Kecepatan Pertempuran, x5 Potion Kecepatan Roll, x3 Potion Peluang Border, x3 Potion Keberuntungan Super, x3 Potion Boss, x15 Reroll Trait",
+          "rewards": [
+            "Potion Keberuntungan",
+            "Potion Kecepatan Pertempuran",
+            "Potion Kecepatan Roll",
+            "Border Chance Potions",
+            "Super Luck Potions",
+            "Boss Potions",
+            "Trait Rerolls"
+          ],
+          "requirements": [
+            "Tanpa persyaratan"
+          ],
+          "bestFor": "Meningkatkan sesi roll dan wave farming setelah milestone rilis."
+        },
+        {
+          "icon": "Sparkles",
+          "code": "AvailableForEveryoneNow",
+          "status": "Aktif",
+          "rewardSummary": "100 Trait Rerolls",
+          "rewards": [
+            "Trait Rerolls"
+          ],
+          "requirements": [
+            "Tanpa persyaratan"
+          ],
+          "bestFor": "Memperbaiki trait pada kartu jangka panjang terkuatmu."
+        },
+        {
+          "icon": "Koin",
+          "code": "Sorry2!",
+          "status": "Aktif",
+          "rewardSummary": "Bundel hadiah roll-gated",
+          "rewards": [
+            "Potion",
+            "Boost progres"
+          ],
+          "requirements": [
+            "25.000 roll"
+          ],
+          "bestFor": "Pemain mid-game yang sudah melakukan cukup roll untuk membuka hadiah terkunci."
+        },
+        {
+          "icon": "Trofi",
+          "code": "Sorry!",
+          "status": "Aktif",
+          "rewardSummary": "x10 Luck Potions, x10 Battle Speed Potions, x10 Roll Speed Potions, x5 Border Chance Potions, x5 Super Luck Potions, x5 Boss Potions, x15 Trait Rerolls",
+          "rewards": [
+            "Luck Potions",
+            "Battle Speed Potions",
+            "Roll Speed Potions",
+            "Border Chance Potions",
+            "Super Luck Potions",
+            "Boss Potions",
+            "Trait Rerolls"
+          ],
+          "requirements": [
+            "Tanpa persyaratan"
+          ],
+          "bestFor": "Menumpuk nilai potion sebelum sesi grinding yang lebih lama."
+        },
+        {
+          "icon": "Bintang",
+          "code": "Release!",
+          "status": "Aktif",
+          "rewardSummary": "x3 Luck Potions, x3 Battle Speed Potions, x3 Roll Speed Potions, x1 Border Chance Potion, x1 Super Luck Potion, x5 Trait Rerolls",
+          "rewards": [
+            "Luck Potions",
+            "Battle Speed Potions",
+            "Ramuan Kecepatan Roll",
+            "Ramuan Peluang Bingkai",
+            "Ramuan Keberuntungan Super",
+            "Reroll Trait"
+          ],
+          "requirements": [
+            "Tanpa persyaratan"
+          ],
+          "bestFor": "Pemain baru yang memulai push roll dan upgrade pertama mereka yang sesungguhnya."
+        }
+      ]
+    },
+    "cardChroniclesBeginnerGuide": {
+      "eyebrow": "Rute Pemula",
+      "title": "Panduan Pemula Card Chronicles",
+      "subtitle": "Pelajari siklus awal: roll kartu, bangun lineup, upgrade kartu yang berguna, dan lewati wave tanpa menyia-nyiakan hadiah terbaikmu.",
+      "intro": "Card Chronicles berpusat pada melakukan roll kartu bergaya anime, menggunakannya dalam pertarungan, meng-upgrade kartu yang menopang lineup-mu, dan mendaki melalui pertarungan berbasis wave yang lebih sulit. Tujuan awal adalah membentuk lineup yang berfungsi dan mengembangkan kartu yang secara konsisten memenangkan pertarungan.",
+      "items": [
+        {
+          "icon": "Dices",
+          "step": 1,
+          "heading": "Mulailah dengan melakukan roll untuk mendapatkan kartu yang dapat digunakan",
+          "description": "Lakukan roll untuk membangun kumpulan kartu pertamamu sebelum membelanjakan banyak sumber daya. Tugas pertamamu adalah mendapatkan cukup pilihan untuk membentuk lineup yang berfungsi, bukan langsung mengejar kartu langka yang sempurna.",
+          "mistakeToAvoid": "Jangan habiskan sumber daya reroll premium untuk kartu bernilai rendah pertama yang terlihat berkilau."
+        },
+        {
+          "icon": "Users",
+          "step": 2,
+          "heading": "Bangun lineup bertarung kecil",
+          "description": "Tempatkan kartu terkuatmu yang tersedia ke dalam lineup terfokus untuk pembersihan wave. Prioritaskan kartu yang benar-benar membantumu memenangkan pertarungan daripada kartu yang hanya terlihat langka di layar koleksi.",
+          "mistakeToAvoid": "Jangan menyebarkan upgrade ke setiap kartu baru yang didapatkan."
+        },
+        {
+          "icon": "Zap",
+          "step": 3,
+          "heading": "Upgrade kartu yang terus memenangkan pertarungan",
+          "description": "Upgrade kartu yang membersihkan wave secara konsisten dan membantumu mengalahkan musuh yang lebih kuat. Upgrade kartu itu penting karena siklus permainan mencakup membuka kemampuan yang lebih kuat dan meningkatkan nilai pertempuran seiring waktu.",
+          "mistakeToAvoid": "Jangan tinggalkan kartu berguna yang sudah di-upgrade hanya karena kartu baru yang didapat memiliki kelangkaan yang lebih tinggi tetapi belum ditingkatkan sama sekali."
+        },
+        {
+          "icon": "FlaskConical",
+          "step": 4,
+          "heading": "Gunakan ramuan roll dan ramuan keberuntungan selama sesi terfokus",
+          "description": "Ramuan Keberuntungan, Ramuan Keberuntungan Super, dan Ramuan Kecepatan Roll memberikan nilai terbaik saat kamu aktif melakukan roll untuk progres. Ramuan tersebut akan terbuang sia-sia jika diaktifkan secara santai lalu dibiarkan aktif saat kamu teralihkan.",
+          "mistakeToAvoid": "Jangan aktifkan beberapa boost grind sekaligus kecuali kamu siap menggunakan seluruh durasi waktunya."
+        },
+        {
+          "icon": "RefreshCcw",
+          "step": 5,
+          "heading": "Simpan Reroll Trait untuk kartu yang ingin kamu pertahankan",
+          "description": "Reroll Trait adalah salah satu hadiah kode terkuat karena meningkatkan kartu yang ingin kamu pertahankan. Gunakan setelah kamu menentukan kartu yang layak berada di lineup-mu untuk jangka panjang.",
+          "mistakeToAvoid": "Jangan mengejar trait sempurna sebelum lineup-mu memiliki kartu-kartu yang stabil."
+        },
+        {
+          "icon": "TrendingUp",
+          "step": 6,
+          "heading": "Push wave, lalu tingkatkan slot yang lemah",
+          "description": "Setelah setiap rintangan, cari tahu kartu terlemah di lineup-mu dan ganti atau upgrade slot itu terlebih dahulu. Ini menjaga progresi tetap sederhana dan menghindari inventarismu dipenuhi dengan kartu yang baru setengah di-upgrade.",
+          "mistakeToAvoid": "Jangan melakukan upgrade secara acak setelah setiap pertempuran."
+        }
+      ]
+    },
+    "cardChroniclesTierList": {
+      "eyebrow": "Peringkat Kartu",
+      "title": "Tier List Card Chronicles",
+      "subtitle": "Tier list Card Chronicles yang berfokus pada progres, dibangun berdasarkan pembersihan wave, nilai kemampuan, hasil upgrade, dan kegunaan lineup jangka panjang.",
+      "intro": "Karena Card Chronicles adalah game berbasis roll, tier list awal terbaik didasarkan pada kontribusi kartu untuk akunmu, bukan hanya dari tampilannya yang langka. Prioritaskan kartu yang membersihkan wave, mengalahkan musuh yang kuat, dan tetap berguna setelah di-upgrade sebelum kamu menghabiskan sumber daya untuk mencoba membuat kartu yang lemah terasa istimewa.",
+      "items": [
+        {
+          "icon": "Crown",
+          "tier": "S",
+          "label": "Kartu Carry Utama",
+          "cards": [
+            "Kartu kelangkaan tinggi dengan kemampuan damage yang kuat",
+            "Kartu yang menghabisi banyak musuh dengan efisien",
+            "Kartu yang layak untuk Reroll Trait setelah ditingkatkan"
+          ],
+          "bestFor": [
+            "Pembersihan Wave",
+            "Inti lineup jangka panjang",
+            "Peningkatan bernilai tinggi"
+          ],
+          "upgradePriority": "Tertinggi",
+          "notes": "Bangun strategi di sekitar kartu-kartu ini terlebih dahulu karena mereka menopang progres pertempuran dan nilai reroll di masa depan."
+        },
+        {
+          "icon": "ShieldCheck",
+          "tier": "A",
+          "label": "Kartu Progres Konsisten",
+          "cards": [
+            "Kartu yang telah ditingkatkan dengan hasil pertempuran yang konsisten",
+            "Kartu yang tetap berguna melewati beberapa wave yang sulit",
+            "Kartu kuat yang belum memiliki trait sempurna"
+          ],
+          "bestFor": [
+            "Progres awal-ke-menengah",
+            "Slot lineup yang stabil",
+            "Peningkatan yang hemat sumber daya"
+          ],
+          "upgradePriority": "Tinggi",
+          "notes": "Kartu-kartu ini layak dipertahankan hingga muncul pengganti tier-S yang jelas."
+        },
+        {
+          "icon": "Swords",
+          "tier": "B",
+          "label": "Kartu Spesialis",
+          "cards": [
+            "Kartu damage target tunggal untuk musuh yang lebih kuat",
+            "Kartu khusus boss dengan kegunaan yang lebih sempit",
+            "Kartu yang butuh lebih banyak peningkatan sebelum menjadi stabil"
+          ],
+          "bestFor": [
+            "Pertarungan spesifik",
+            "Bantuan boss sementara",
+            "Mengisi peran yang kosong"
+          ],
+          "upgradePriority": "Sedang",
+          "notes": "Gunakan saat mereka menyelesaikan masalah pertempuran yang nyata, bukan karena terlihat menarik selama tiga detik."
+        },
+        {
+          "icon": "Layers",
+          "tier": "C",
+          "label": "Kartu Pemula dan Placeholder",
+          "cards": [
+            "Roll kelangkaan rendah yang baru",
+            "Kartu yang belum ditingkatkan dengan nilai kemampuan yang lemah",
+            "Kartu yang digunakan hanya karena lineup memiliki slot kosong"
+          ],
+          "bestFor": [
+            "Pertarungan awal",
+            "Pengisian koleksi",
+            "Pengganti jangka pendek"
+          ],
+          "upgradePriority": "Rendah",
+          "notes": "Ganti ini dengan cepat dan hindari menggunakan Trait Reroll pada mereka."
+        }
+      ]
+    },
+    "cardChroniclesRollingRarity": {
+      "eyebrow": "Strategi Rolling",
+      "title": "Panduan Rarity dan Rolling Card Chronicles",
+      "subtitle": "Pahami bagaimana rolling, rarity, upgrade, potion, dan Trait Reroll saling berkaitan sebelum membuat sumber daya Anda terbuang sia-sia.",
+      "intro": "Rolling adalah pusat dari progres Card Chronicles: Anda melakukan roll untuk menemukan kartu yang lebih baik, menggunakan pull terbaik dalam pertempuran, meng-upgrade kartu yang berguna, dan menggunakan item boost saat mereka meningkatkan progres nyata. Rarity itu penting, tetapi kartu yang di-upgrade yang dapat membersihkan wave lebih berguna daripada pull rare baru yang belum di-build.",
+      "items": [
+        {
+          "icon": "Ulangi",
+          "system": "Rolling",
+          "whatItMeans": "Cara utama untuk memperluas koleksi kartu Anda dan mencari kartu yang lebih kuat.",
+          "bestUse": "Lakukan roll dalam sesi yang terfokus, terutama saat menggunakan Luck Potion atau Roll Speed Potion.",
+          "resourceNote": "Volume roll yang lebih banyak meningkatkan peluang Anda untuk menemukan upgrade lineup yang berguna."
+        },
+        {
+          "icon": "Gem",
+          "system": "Rarity",
+          "whatItMeans": "Kartu yang lebih langka adalah target buruan utama dan memiliki nilai jangka panjang yang lebih kuat.",
+          "bestUse": "Bandingkan rarity dengan dampak pertempuran yang sebenarnya sebelum mengganti kartu yang di-upgrade.",
+          "resourceNote": "Jangan berasumsi kartu rare yang baru lebih baik sampai kartu tersebut membantu membersihkan wave atau musuh yang kuat."
+        },
+        {
+          "icon": "Hammer",
+          "system": "Upgrade",
+          "whatItMeans": "Upgrade memperkuat kartu yang berguna dan membantu membuka nilai tempur yang lebih kuat.",
+          "bestUse": "Upgrade kartu yang sudah memenangkan pertarungan alih-alih setiap kartu baru yang Anda pull.",
+          "resourceNote": "Upgrade yang terfokus menghasilkan progres yang lebih cepat daripada membagi-bagi sumber daya secara berlebihan."
+        },
+        {
+          "icon": "Wand2",
+          "system": "Kemampuan",
+          "whatItMeans": "Kemampuan kartu adalah alasan utama mengapa satu kartu mengungguli kartu lainnya dalam pertempuran.",
+          "bestUse": "Utamakan kemampuan yang meningkatkan pembersihan wave, tekanan terhadap boss, atau stabilitas lineup.",
+          "resourceNote": "Nilai kemampuan harus memandu prioritas upgrade daripada tampilan koleksi."
+        },
+        {
+          "icon": "RotateCcw",
+          "system": "Trait Reroll",
+          "whatItMeans": "Trait Reroll meningkatkan kartu yang berencana Anda simpan di lineup utama Anda.",
+          "bestUse": "Gunakan mereka pada kartu yang di-upgrade bernilai tinggi, bukan kartu sementara di awal.",
+          "resourceNote": "Hadiah kode membuat Trait Reroll lebih mudah didapatkan, tetapi mereka tetap paling baik disimpan untuk kartu yang ingin Anda pertahankan."
+        },
+        {
+          "icon": "Target",
+          "system": "Luck Potion dan Super Luck Potion",
+          "whatItMeans": "Item boost yang digunakan untuk meningkatkan sesi rolling.",
+          "bestUse": "Gunakan saat aktif melakukan roll untuk mencari upgrade atau pull rare.",
+          "resourceNote": "Akumulasikan efeknya dengan waktu bermain yang direncanakan alih-alih mengaktifkannya begitu saja."
+        },
+        {
+          "icon": "Clock",
+          "system": "Roll Speed Potion",
+          "whatItMeans": "Item boost yang membantu meningkatkan kecepatan rolling.",
+          "bestUse": "Gunakan selama waktu grinding saat Anda menginginkan lebih banyak roll dalam waktu yang lebih singkat.",
+          "resourceNote": "Paling cocok dipadukan dengan sesi yang berfokus pada keberuntungan."
+        },
+        {
+          "icon": "Api",
+          "system": "Potion Kecepatan Tempur dan Potion Bos",
+          "whatItMeans": "Item boost yang ditujukan untuk pertempuran yang lebih cepat dan upaya progres yang lebih kuat.",
+          "bestUse": "Gunakan saat melakukan farming wave, menembus rintangan, atau bersiap menghadapi musuh yang lebih kuat.",
+          "resourceNote": "Boost ini memberikan nilai terbaik ketika lineup Anda sudah cukup stabil untuk memenangkan pertempuran."
+        }
+      ]
+    },
+    "cardChroniclesTraitsRerolls": {
+      "eyebrow": "Trait",
+      "title": "Trait dan Reroll Card Chronicles",
+      "subtitle": "Trait Reroll paling berharga jika digunakan untuk meningkatkan kartu yang sudah ada di lineup utama Anda. Simpan untuk kartu yang ingin Anda tingkatkan dan pertahankan.",
+      "intro": "Card Chronicles dirancang di sekitar sistem roll kartu, meningkatkan hasil pull yang kuat, membuka ability, dan merencanakan lineup untuk wave serta pertempuran yang lebih sulit. Trait menambahkan lapisan progres lainnya, jadi reroll sebaiknya digunakan untuk mendukung kartu terkuat Anda alih-alih dihabiskan untuk setiap pull baru.",
+      "items": [
+        {
+          "icon": "Putar Berlawanan Arah Jarum Jam",
+          "name": "Trait Reroll",
+          "role": "Digunakan untuk mengubah atau meningkatkan trait kartu.",
+          "bestUse": "Gunakan pada kartu yang sudah menopang lineup Anda atau memiliki cukup peningkatan untuk tetap berguna.",
+          "avoid": "Jangan sia-siakan reroll pada kartu placeholder awal yang kemungkinan besar akan diganti setelah melakukan lebih banyak roll."
+        },
+        {
+          "icon": "Pemeriksaan Perisai",
+          "name": "Kartu Andalan",
+          "role": "Kartu yang tetap berguna setelah beberapa wave, peningkatan, atau percobaan bos.",
+          "bestUse": "Tingkatkan terlebih dahulu, lalu gunakan Trait Reroll setelah kartu tersebut terbukti layak masuk ke dalam tim Anda.",
+          "avoid": "Jangan mengejar trait sebelum Anda mengetahui apakah kartu itu sendiri layak untuk dibangun."
+        },
+        {
+          "icon": "Tiket",
+          "name": "Reroll Hadiah Kode",
+          "role": "Kode hadiah dapat memberikan Trait Reroll serta potion dan Chronogems.",
+          "bestUse": "Klaim hadiah reroll sebelum sesi build yang direncanakan, lalu terapkan pada target kartu bernilai tertinggi Anda.",
+          "avoid": "Jangan menyebarkan reroll ke terlalu banyak kartu dalam koleksi."
+        },
+        {
+          "icon": "Target",
+          "name": "Logika Prioritas Trait",
+          "role": "Trait paling penting ketika mereka meningkatkan kartu yang digunakan dalam pertempuran nyata.",
+          "bestUse": "Prioritaskan kartu dengan ability yang telah ditingkatkan, performa wave yang kuat, atau potensi penggunaan melawan bos.",
+          "avoid": "Jangan menganggap kelangkaan saja sebagai satu-satunya alasan untuk menggunakan reroll."
+        }
+      ]
+    },
+    "cardChroniclesUpgradesAbilities": {
+      "eyebrow": "Upgrade",
+      "title": "Upgrade dan Ability Card Chronicles",
+      "subtitle": "Upgrade dan ability adalah jembatan utama antara pull yang beruntung dan progres pertempuran nyata. Investasi yang terfokus lebih baik daripada meningkatkan semuanya sekaligus.",
+      "intro": "Siklus utamanya sederhana: lakukan roll kartu, pilih hasil pull yang berguna, tingkatkan kartu tersebut, buka ability yang lebih kuat, dan gunakan untuk melawan wave tanpa akhir serta musuh yang kuat. Kesalahan fatal yang membuang-buang sumber daya adalah menyebarkannya ke kartu yang tidak pernah masuk ke lineup aktif Anda.",
+      "items": [
+        {
+          "icon": "Dadu",
+          "heading": "Lakukan roll sebelum menggunakan sumber daya",
+          "content": "Gunakan roll awal untuk mengidentifikasi kartu yang berkinerja baik dalam pertempuran. Setelah kartu terbukti berguna, mulailah meningkatkannya alih-alih menghabiskan sumber daya untuk setiap pull baru."
+        },
+        {
+          "icon": "Palu",
+          "heading": "Tingkatkan kartu yang difokuskan terlebih dahulu",
+          "content": "Sekelompok kecil kartu yang ditingkatkan memberikan progres yang lebih konsisten daripada koleksi besar kartu lemah yang setengah jadi. Fokuslah membangun kartu yang membantu menyelesaikan wave secara konsisten."
+        },
+        {
+          "icon": "Wand2",
+          "heading": "Buka kunci kemampuan melalui progres",
+          "content": "Card Chronicles menyoroti pembukaan kunci kemampuan sebagai bagian dari pertumbuhan kartu. Prioritaskan peningkatan yang membuat kartu lebih kuat dalam pertempuran sesungguhnya, terutama untuk pembersihan wave dan pertarungan musuh yang lebih kuat."
+        },
+        {
+          "icon": "Ulang",
+          "heading": "Gunakan tarikan duplikat dan berulang dengan bijak",
+          "content": "Roll berulang adalah bagian dari loop progres. Perlakukan tarikan tambahan sebagai cara untuk memperkuat kartu yang dipilih alih-alih hanya mengejar kartu langka berikutnya."
+        },
+        {
+          "icon": "Sparkles",
+          "heading": "Hubungkan peningkatan dengan trait",
+          "content": "Trait Rerolls lebih berharga setelah kartu telah menerima investasi. Tingkatkan kartu terlebih dahulu, lalu reroll trait saat kartu tersebut menjadi target build jangka panjang."
+        }
+      ]
+    },
+    "cardChroniclesBestLineup": {
+      "eyebrow": "Build Tim",
+      "title": "Lineup dan Build Tim Terbaik Card Chronicles",
+      "subtitle": "Lineup terbaik bukan sekadar daftar kartu terlangka. Bangun di sekitar kartu yang ditingkatkan, kemampuan yang terbuka, trait yang berguna, dan performa pertempuran sesungguhnya.",
+      "intro": "Card Chronicles meminta pemain untuk merencanakan lineup dan mendominasi pertarungan, jadi kekuatan tim berasal dari lebih dari sekadar keberuntungan roll. Build yang praktis harus menggunakan kartu terbaikmu yang sudah ditingkatkan terlebih dahulu, lalu tingkatkan mereka dengan trait dan item boost setelah mereka terbukti dalam pertempuran sesungguhnya.",
+      "items": [
+        {
+          "icon": "Swords",
+          "name": "Build Pembersihan Wave Awal",
+          "coreRoles": [
+            "Kartu damage yang paling ditingkatkan",
+            "Kartu pertempuran konsisten kedua",
+            "Tarikan kuat terbaru dengan performa pertarungan yang berguna"
+          ],
+          "strategy": "Gunakan kartu yang membersihkan wave dengan aman dan konsisten. Ganti kartu yang lemah hanya ketika tarikan baru memiliki performa yang lebih baik dalam pertempuran sesungguhnya.",
+          "upgradePriority": "Kartu pembersih wave utama pertama, kartu sekunder kedua, kartu eksperimental terakhir."
+        },
+        {
+          "icon": "Flame",
+          "name": "Build Push Boss",
+          "coreRoles": [
+            "Kartu yang ditingkatkan dengan nilai tertinggi",
+            "Kartu dengan kemampuan yang sudah terbuka",
+            "Kartu cadangan yang bertahan dalam pertarungan yang lebih lama"
+          ],
+          "strategy": "Bersiaplah sebelum mencoba melawan musuh yang kuat dengan meningkatkan kartu yang sudah menopang pertempuran. Trait Rerolls harus diberikan pada kartu yang tetap berguna melampaui satu percobaan boss.",
+          "upgradePriority": "Pembukaan kemampuan dan performa pertarungan yang terbukti sebelum ukuran koleksi."
+        },
+        {
+          "icon": "RefreshCcw",
+          "name": "Build Berfokus Reroll",
+          "coreRoles": [
+            "Kartu utama yang dipilih untuk penggunaan jangka panjang",
+            "Trait Rerolls disimpan untuk kartu tersebut",
+            "Item boost disiapkan untuk sesi rolling"
+          ],
+          "strategy": "Pilih kartu terlebih dahulu, lalu gunakan reroll. Ini mencegah pemborosan reroll pada kartu sementara yang akan hilang dari lineup setelah mendapatkan tarikan yang lebih baik.",
+          "upgradePriority": "Pemilihan kartu utama pertama, peningkatan kedua, trait reroll ketiga."
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Build Progres Seimbang",
+          "coreRoles": [
+            "Satu kartu utama yang ditingkatkan",
+            "Satu kartu sekunder yang fleksibel",
+            "Satu kartu yang sedang diuji untuk peningkatan di masa mendatang"
+          ],
+          "strategy": "Simpan satu kartu carry yang kuat sambil menguji tarikan baru. Ini menjaga progres tetap stabil tanpa mengunci setiap sumber daya ke dalam satu kartu terlalu dini.",
+          "upgradePriority": "Gunakan kartu andalan yang stabil terlebih dahulu, dan baru uji kartu pengganti setelah terbukti berguna."
+        }
+      ]
+    },
+    "cardChroniclesPotionsChronogems": {
+      "eyebrow": "Item Peningkat",
+      "title": "Potion, Chronogems, dan Peningkat di Card Chronicles",
+      "subtitle": "Item peningkat paling baik digunakan saat sesi gacha (rolling), peningkatan, dan pertarungan yang terencana. Jangan menggunakannya secara asal hanya karena item tersebut ada di inventaris Anda.",
+      "intro": "Bundel hadiah Card Chronicles dapat berisi Luck Potion, Roll Speed Potion, Battle Speed Potion, Boss Potion, Super Luck Potion, Trait Reroll, dan Chronogems. Setiap item akan lebih berguna jika mendukung tujuan yang jelas: hasil gacha yang lebih baik, progres yang lebih cepat, kartu yang lebih kuat, atau pertarungan yang lebih sulit.",
+      "items": [
+        {
+          "icon": "Gem",
+          "item": "Luck Potion",
+          "category": "Rolling Boost",
+          "use": "Meningkatkan sesi yang berfokus pada gacha saat mengejar kartu yang lebih kuat.",
+          "bestTiming": "Gunakan sebelum sesi gacha yang panjang, terutama saat Anda siap untuk mengevaluasi dan meningkatkan kartu bagus yang didapat."
+        },
+        {
+          "icon": "Jam",
+          "item": "Roll Speed Potion",
+          "category": "Kecepatan Rolling",
+          "use": "Membuat sesi gacha lebih cepat dan membantu memproses lebih banyak percobaan kartu dalam waktu yang lebih singkat.",
+          "bestTiming": "Pasangkan dengan Luck Potion saat Anda berencana untuk melakukan gacha secara aktif, bukan hanya sekadar mengecek game secara santai."
+        },
+        {
+          "icon": "Zap",
+          "item": "Battle Speed Potion",
+          "category": "Kecepatan Pertarungan",
+          "use": "Membantu mempercepat progres pertarungan selama sesi wave atau pertarungan.",
+          "bestTiming": "Gunakan saat mendorong pertarungan, farming wave, atau menguji apakah formasi tim dapat menang lebih cepat."
+        },
+        {
+          "icon": "Kilau",
+          "item": "Border Chance Potion",
+          "category": "Perburuan Bonus Kartu",
+          "use": "Mendukung sesi gacha yang ditujukan untuk mendapatkan kartu dengan nilai border spesial.",
+          "bestTiming": "Gunakan selama sesi gacha yang serius, bukan saat sesi singkat yang tidak fokus."
+        },
+        {
+          "icon": "Target",
+          "item": "Boss Potion",
+          "category": "Progres Boss",
+          "use": "Mendukung progres yang berfokus pada boss dan persiapan menghadapi musuh yang kuat.",
+          "bestTiming": "Gunakan saat formasi tim Anda sudah cukup ditingkatkan agar percobaan melawan boss tidak sia-sia."
+        },
+        {
+          "icon": "Bintang",
+          "item": "Super Luck Potion",
+          "category": "Peningkat Rolling Bernilai Tinggi",
+          "use": "Memberikan peningkatan keberuntungan yang lebih kuat untuk mengejar kartu langka.",
+          "bestTiming": "Simpan untuk sesi gacha terbaik Anda, idealnya saat Roll Speed Potion sedang aktif."
+        },
+        {
+          "icon": "RotateCcw",
+          "item": "Trait Reroll",
+          "category": "Pembangunan Kartu",
+          "use": "Mengubah trait kartu untuk meningkatkan nilai formasi tim dalam jangka panjang.",
+          "bestTiming": "Gunakan hanya setelah memilih kartu yang layak disimpan, yang pantas mendapatkan peningkatan dan slot tim permanen."
+        },
+        {
+          "icon": "Koin",
+          "item": "Chronogems",
+          "category": "Mata Uang Progresi",
+          "use": "Digunakan sebagai hadiah progresi berharga yang terikat dengan bundel hadiah Card Chronicles.",
+          "bestTiming": "Simpan sampai Anda tahu peningkatan, kartu, atau opsi progresi mana yang memberikan nilai paling berkelanjutan."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering",
+    "titleHighlight": "Diajukan",
+    "subtitle": "Segala hal yang perlu Anda ketahui tentang Card Chronicles",
+    "questions": [
+      {
+        "question": "Apa itu Card Chronicles?",
+        "answer": "Card Chronicles adalah game RNG battler kartu anime di Roblox tempat Anda melakukan roll kartu, meningkatkan kemampuan mereka, menyusun lineup, dan melawan gelombang musuh kartu yang kuat tanpa henti."
+      },
+      {
+        "question": "Bagaimana cara menukarkan kode Card Chronicles?",
+        "answer": "Buka menu Pengaturan dari ikon gerigi di pojok kiri bawah layar, gulir ke bagian Kode, ketik kode dengan tepat, dan tekan Enter untuk mengeklaim hadiah Card Chronicles Anda."
+      },
+      {
+        "question": "Kode Card Chronicles mana yang harus saya gunakan terlebih dahulu?",
+        "answer": "Mulailah dengan kode Card Chronicles yang memberikan Trait Rerolls dan bundel ramuan, lalu simpan reroll untuk kartu-kartu kuat yang ingin Anda simpan dan tingkatkan untuk lineup jangka panjang."
+      },
+      {
+        "question": "Bagaimana cara kerja rolling di Card Chronicles?",
+        "answer": "Rolling adalah inti dari progresi Card Chronicles: Anda melakukan roll untuk memperluas koleksi kartu, menggunakan tarikan terkuat dalam pertempuran, meningkatkan kartu yang berguna, dan menggunakan item booster selama sesi rolling terfokus."
+      },
+      {
+        "question": "Kartu Card Chronicles mana yang harus saya tingkatkan terlebih dahulu?",
+        "answer": "Tingkatkan kartu Card Chronicles yang secara konsisten mampu membersihkan wave dan mengalahkan musuh kuat sebelum menghabiskan sumber daya pada setiap tarikan baru, lalu gunakan Trait Rerolls pada kartu-kartu yang Anda simpan."
+      },
+      {
+        "question": "Apakah Card Chronicles gratis untuk dimainkan di Roblox?",
+        "answer": "Ya, Card Chronicles gratis untuk dimainkan di Roblox, dengan hadiah kode seperti ramuan dan Trait Rerolls yang mempercepat rolling, peningkatan, dan progresi wave Anda."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap untuk Bermain Card Chronicles?",
+    "description": "Bergabunglah dengan komunitas Chronicle Entertainment di Roblox untuk mendapatkan kode, panduan kartu, tier list, dan diskusi pembaruan!",
+    "joinCommunity": "Bergabung dengan Komunitas",
+    "joinGame": "Mainkan di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Card Chronicles",
+    "description": "Pusat sumber daya lengkap Anda untuk kode, kartu, tier list, trait, lineup, wave, dan panduan progresi Card Chronicles.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "robloxGame": "Game Roblox",
+    "robloxCommunity": "Komunitas Roblox",
+    "youtube": "YouTube",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Card Chronicles Wiki. Tidak berafiliasi dengan Chronicle Entertainment atau Roblox Corporation.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
   }
 }

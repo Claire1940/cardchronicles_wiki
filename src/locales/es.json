@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Card Chronicles - Códigos, Cartas y Tier List",
+      "description": "Wiki de Card Chronicles para códigos de Roblox, tier list de cartas, rasgos, consejos de reroll, guía para principiantes, alineaciones de equipos, oleadas, actualizaciones y ayuda de progresión.",
+      "keywords": "Card Chronicles, Roblox, códigos, cartas, tier list, rasgos, reroll, guía para principiantes, alineaciones, oleadas",
+      "ogTitle": "Wiki de Card Chronicles - Códigos, Cartas y Tier List",
+      "ogDescription": "Wiki de Card Chronicles para códigos de Roblox, tier list de cartas, rasgos, consejos de reroll, guía para principiantes, alineaciones de equipos, oleadas, actualizaciones y ayuda de progresión.",
+      "twitterTitle": "Wiki de Card Chronicles - Códigos, Cartas y Tier List",
+      "twitterDescription": "Wiki de Card Chronicles para códigos de Roblox, tier list de cartas, rasgos, consejos de reroll y ayuda de progresión."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
@@ -7,5 +18,773 @@
     "progression": "Progresión",
     "release": "Lanzamiento",
     "roblox": "Roblox"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Card Chronicles",
+      "description": "Los últimos códigos activos de Card Chronicles para Rerolls de Rasgos gratis, Pociones de Suerte, Pociones de Velocidad de Roll, Chronogems y potenciadores de progresión. Actualizado a diario con códigos verificados.",
+      "metaTitle": "Códigos de Card Chronicles - Rerolls de Rasgos y Pociones gratis (2026)",
+      "metaDescription": "Canjea códigos activos de Card Chronicles para obtener Rerolls de Rasgos gratis, Pociones de Suerte, Pociones de Velocidad de Roll, Chronogems y potenciadores. Actualizado a diario con códigos activos verificados.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Card Chronicles?",
+      "whatIsDescription": "Los códigos de Card Chronicles son cadenas de canje gratuitas publicadas por Chronicle Entertainment que otorgan Rerolls de Rasgos, Pociones de Suerte, Pociones de Velocidad de Roll, Pociones de Jefe, Chronogems y otros potenciadores de progresión. Están vinculados a hitos como el número de visitas y picos de jugadores simultáneos.",
+      "why": "¿Por qué canjear códigos de Card Chronicles?",
+      "whySteps": {
+        "step1Title": "Rerolls de Rasgos gratis",
+        "step1Description": "Los códigos son una de las formas más fáciles de obtener Rerolls de Rasgos, lo que te permite ajustar los rasgos de tus cartas principales en lugar de tener que farmearlos.",
+        "step2Title": "Sesiones de Roll más rápidas",
+        "step2Description": "Los paquetes de pociones de los códigos se acumulan con tus propios objetos para que hacer roll y farmear oleadas sea mucho más eficiente durante tus sesiones de juego.",
+        "step3Title": "Recompensas verificadas diariamente",
+        "step3Description": "Cada código se verifica antes de publicarse, incluyendo la distinción entre mayúsculas y minúsculas, los requisitos de roll-gate y el estado actual activo o caducado."
+      },
+      "featured": "Códigos destacados",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guías de Card Chronicles",
+      "description": "Guías completas de Card Chronicles que cubren el ciclo principal, progresión para principiantes, estrategia de rolling, creación de alineaciones y consejos para limpiar oleadas para jugadores de Roblox.",
+      "metaTitle": "Guías de Card Chronicles - Guía para principiantes, consejos y progresión",
+      "metaDescription": "Domina Card Chronicles con guías para principiantes, consejos y tutoriales de progresión. Aprende sobre rolling, mejoras, creación de alineaciones y estrategias para limpiar oleadas en Roblox.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué es una guía de Card Chronicles?",
+      "whatIsDescription": "Una guía de Card Chronicles desglosa el ciclo principal de juego (rolling de cartas, mejora de carries, creación de alineaciones y limpieza de oleadas) en estrategias claras paso a paso tanto para jugadores nuevos como avanzados.",
+      "why": "¿Por qué leer las guías de Card Chronicles?",
+      "whySteps": {
+        "step1Title": "Aprende el ciclo principal",
+        "step1Description": "Comprende cómo se conectan el rolling, las mejoras, las habilidades y las alineaciones para dejar de desperdiciar recursos en las cartas equivocadas.",
+        "step2Title": "Evita errores comunes",
+        "step2Description": "Las guías señalan los errores iniciales: dispersar demasiado las mejoras, gastar rerolls en cartas temporales y buscar la rareza antes que el valor de combate.",
+        "step3Title": "Progresión más rápida",
+        "step3Description": "Sigue rutas probadas de novato a profesional para avanzar en las oleadas y vencer a enemigos fuertes sin recurrir al ensayo y error."
+      },
+      "featured": "Guías destacadas",
+      "all": "Todas las guías"
+    },
+    "luck": {
+      "title": "Suerte y RNG en Card Chronicles",
+      "description": "Todo sobre la suerte, el RNG y las probabilidades de rolling en Card Chronicles. Aprende a aumentar tu suerte, mejorar tus probabilidades y conseguir cartas de anime raras más rápido.",
+      "metaTitle": "Suerte y RNG en Card Chronicles - Cómo obtener más suerte",
+      "metaDescription": "Mejora tu suerte y tus probabilidades de RNG en Card Chronicles. Aprende sobre Luck Potions, Super Luck Potions, estrategia de rolling y cómo conseguir cartas de anime raras más rápido en Roblox.",
+      "categoryLabel": "SUERTE Y RNG",
+      "whatIs": "¿Qué es la suerte en Card Chronicles?",
+      "whatIsDescription": "La suerte en Card Chronicles es el sistema de estadísticas y potenciadores que mejora tus probabilidades de rolling para obtener cartas de anime más raras. Las Luck Potions y Super Luck Potions aumentan tus posibilidades durante sesiones de rolling intensivas.",
+      "why": "¿Por qué es importante la suerte?",
+      "whySteps": {
+        "step1Title": "Mejores probabilidades de tiro",
+        "step1Description": "Una mayor suerte mejora directamente tus posibilidades de obtener cartas raras y de alta rareza en lugar de las comunes de relleno.",
+        "step2Title": "Uso inteligente de pociones",
+        "step2Description": "Aprende exactamente cuándo combinar Luck Potions con Roll Speed Potions para obtener el máximo valor durante las sesiones de grind.",
+        "step3Title": "Comprende el RNG",
+        "step3Description": "Entiende cómo interactúan el RNG, el volumen de tiros y la suerte para establecer expectativas realistas y tirar de forma eficiente."
+      },
+      "featured": "Guías de suerte destacadas",
+      "all": "Todas las guías de suerte"
+    },
+    "cards": {
+      "title": "Cartas y Tier List de Card Chronicles",
+      "description": "Base de datos completa de cartas de Card Chronicles, tier list, guía de rareza y clasificaciones de cartas. Encuentra las mejores cartas, las más raras y cartas por tiempo limitado para crear tu alineación.",
+      "metaTitle": "Cartas y Tier List de Card Chronicles - Las mejores y más raras cartas",
+      "metaDescription": "Explora la lista de cartas de Card Chronicles, la tier list, la guía de rareza y las clasificaciones. Descubre las mejores cartas, las más raras y las limitadas para potenciar tu alineación en Roblox.",
+      "categoryLabel": "CARTAS Y TIER LIST",
+      "whatIs": "¿Qué son las cartas de Card Chronicles?",
+      "whatIsDescription": "Las cartas de Card Chronicles son las unidades de estilo anime que obtienes, mejoras y despliegas en batalla. Cada carta tiene una rareza, habilidad y rol de combate que determina su valor al limpiar oleadas y crear alineaciones.",
+      "why": "¿Por qué estudiar la lista de cartas?",
+      "whySteps": {
+        "step1Title": "Conoce la rareza de las cartas",
+        "step1Description": "Entiende los niveles de rareza y las tasas de obtención para distinguir una carta valiosa de una simple distracción llamativa.",
+        "step2Title": "Encuentra las mejores cartas",
+        "step2Description": "La tier list clasifica las cartas por su valor en oleadas, beneficio por mejora y utilidad a largo plazo, más allá de su apariencia.",
+        "step3Title": "Rastrea cartas raras y limitadas",
+        "step3Description": "Mantente al día con las nuevas cartas, tiradas raras y lanzamientos por tiempo limitado que pueden cambiar el meta."
+      },
+      "featured": "Guías de cartas destacadas",
+      "all": "Todas las guías de cartas"
+    },
+    "progression": {
+      "title": "Progresión y mejoras de Card Chronicles",
+      "description": "Domina la progresión de Card Chronicles: mejoras, rasgos, rerolls, recompensas, pociones y Chronogems. Aprende qué mejorar, qué cambiar y en qué gastar para el crecimiento más rápido de tu cuenta.",
+      "metaTitle": "Progresión de Card Chronicles - Mejoras, rasgos y rerolls",
+      "metaDescription": "Optimiza la progresión en Card Chronicles con guías sobre mejoras, rasgos, rerolls, recompensas, pociones y Chronogems. Gasta recursos eficientemente para progresar más rápido en Roblox.",
+      "categoryLabel": "PROGRESIÓN",
+      "whatIs": "¿Qué es la progresión de Card Chronicles?",
+      "whatIsDescription": "La progresión en Card Chronicles abarca mejoras, rasgos, rerolls, recompensas, pociones y Chronogems: los sistemas que convierten las tiradas de suerte en una alineación que limpia oleadas y vence a enemigos poderosos.",
+      "why": "¿Por qué planificar tu progresión?",
+      "whySteps": {
+        "step1Title": "Mejoras enfocadas",
+        "step1Description": "Concentra los recursos en las cartas que valga la pena conservar en lugar de repartir las mejoras por toda tu colección.",
+        "step2Title": "Rerolls de rasgos inteligentes",
+        "step2Description": "Aprende cuándo cambiar los rasgos y qué cartas los merecen para nunca desperdiciar recursos de reroll.",
+        "step3Title": "Gasto eficiente de recompensas",
+        "step3Description": "Sincroniza el uso de tus pociones, Chronogems y paquetes de recompensas con tus sesiones de tiradas y combate para obtener el máximo beneficio."
+      },
+      "featured": "Guías de progresión destacadas",
+      "all": "Todas las guías de progresión"
+    },
+    "release": {
+      "title": "Lanzamiento y actualizaciones de Card Chronicles",
+      "description": "Sigue la fecha de lanzamiento de Card Chronicles, las últimas actualizaciones, los wipes y los horarios de mantenimiento. Mantente al día con el nuevo contenido, cambios de equilibrio y futuras funciones en Roblox.",
+      "metaTitle": "Fecha de lanzamiento, actualizaciones y wipes de Card Chronicles",
+      "metaDescription": "Obtén la fecha de lanzamiento más reciente de Card Chronicles, notas de actualización, calendarios de wipes e información de mantenimiento. Sigue el nuevo contenido, cambios de equilibrio y funciones en Roblox.",
+      "categoryLabel": "LANZAMIENTO Y ACTUALIZACIONES",
+      "whatIs": "¿Qué es la sección de lanzamiento de Card Chronicles?",
+      "whatIsDescription": "La sección de lanzamiento cubre la información de salida de Card Chronicles, parches de actualización, cambios de equilibrio, calendarios de wipes y mantenimiento, y nuevos contenidos de Chronicle Entertainment.",
+      "why": "¿Por qué seguir los lanzamientos?",
+      "whySteps": {
+        "step1Title": "Conoce la fecha de lanzamiento",
+        "step1Description": "Mantente al tanto del lanzamiento oficial, el acceso anticipado y la disponibilidad de plataformas para Card Chronicles.",
+        "step2Title": "Rastrea actualizaciones y wipes",
+        "step2Description": "Sigue las notas del parche, cambios de equilibrio y calendarios de wipes para nunca perder el progreso por un reinicio sorpresa.",
+        "step3Title": "Prepárate para el mantenimiento",
+        "step3Description": "Planifica en función de las ventanas de mantenimiento y el tiempo de inactividad para que tus sesiones de tiradas y farmeo no se interrumpan."
+      },
+      "featured": "Guías de lanzamiento destacadas",
+      "all": "Todas las guías de lanzamiento"
+    },
+    "roblox": {
+      "title": "Card Chronicles en Roblox",
+      "description": "Todo sobre jugar Card Chronicles en Roblox: cómo empezar, consejos de la plataforma, controles, códigos específicos de Roblox y cómo aprovechar al máximo el cliente de Roblox.",
+      "metaTitle": "Card Chronicles en Roblox - Cómo jugar y consejos de Roblox",
+      "metaDescription": "Aprende a jugar Card Chronicles en Roblox. Encuentra códigos específicos de Roblox, controles, consejos de rendimiento y todo lo que necesitas para empezar a hacer tiradas y luchar.",
+      "categoryLabel": "EN ROBLOX",
+      "whatIs": "¿Qué es Card Chronicles en Roblox?",
+      "whatIsDescription": "Card Chronicles es un juego gratuito de batallas de cartas anime RNG en Roblox de Chronicle Entertainment donde obtienes cartas, mejoras habilidades, creas una alineación y luchas contra oleadas infinitas de enemigos de cartas.",
+      "why": "¿Por qué jugar en Roblox?",
+      "whySteps": {
+        "step1Title": "Gratuito",
+        "step1Description": "Card Chronicles es gratis en Roblox para PC, móviles y consolas, con recompensas de códigos que aceleran tu progreso.",
+        "step2Title": "Códigos específicos de Roblox",
+        "step2Description": "Algunos códigos y eventos son exclusivos de Roblox, lo que otorga a los jugadores de la plataforma Rerolls de Rasgos y pociones adicionales.",
+        "step3Title": "Acceso multiplataforma",
+        "step3Description": "Juega en cualquier lugar donde funcione Roblox, con consejos para optimizar el rendimiento en dispositivos de gama baja y móviles."
+      },
+      "featured": "Guías destacadas de Roblox",
+      "all": "Todas las guías de Roblox"
+    }
+  },
+  "hero": {
+    "badge": "Juego de batallas de cartas anime RNG",
+    "title": "Wiki de Card Chronicles",
+    "description": "Consigue cartas raras de estilo anime, mejora habilidades, crea tu alineación y lucha contra oleadas infinitas de poderosos enemigos de cartas en este juego de batallas de cartas RNG en Roblox.",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "Roblox",
+        "label": "Plataforma"
+      },
+      "stat2": {
+        "value": "RNG de cartas anime",
+        "label": "Género"
+      },
+      "stat3": {
+        "value": "Oleadas infinitas",
+        "label": "Desafío principal"
+      },
+      "stat4": {
+        "value": "16+",
+        "label": "Clasificación de edad"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Card Chronicles",
+    "description": "Consigue cartas raras de estilo anime, mejora sus habilidades, haz reroll de rasgos poderosos y crea alineaciones que superen oleadas infinitas de fuertes enemigos de cartas en Roblox."
+  },
+  "tools": {
+    "title": "Card Chronicles",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para obtener cartas, mejorarlas, hacer reroll y dominar las oleadas en Card Chronicles.",
+    "cards": [
+      {
+        "icon": "Regalo",
+        "title": "Códigos de Card Chronicles",
+        "description": "Códigos activos para Rerolls de Rasgos, pociones y aumentos de progreso."
+      },
+      {
+        "icon": "Libro abierto",
+        "title": "Guía para principiantes de Card Chronicles",
+        "description": "Tiradas, creación de alineaciones y prioridades de mejora inteligentes."
+      },
+      {
+        "icon": "Corona",
+        "title": "Tier List de Card Chronicles",
+        "description": "Clasificaciones de cartas de S a C por valor de oleada y beneficio de mejora."
+      },
+      {
+        "icon": "Dados",
+        "title": "Tiradas y rarezas de Card Chronicles",
+        "description": "Volumen de tiradas, rareza, mejoras, pociones y sincronización de rerolls."
+      },
+      {
+        "icon": "Repetir",
+        "title": "Rasgos y rerolls de Card Chronicles",
+        "description": "Cuándo hacer reroll de rasgos y qué cartas los merecen."
+      },
+      {
+        "icon": "Martillo",
+        "title": "Mejoras y habilidades de Card Chronicles",
+        "description": "Enfoca los recursos en las cartas que realmente ganan combates."
+      },
+      {
+        "icon": "Usuarios",
+        "title": "Alineaciones y builds de Card Chronicles",
+        "description": "Builds de equipo enfocadas en limpieza de oleadas, jefes y rerolls."
+      },
+      {
+        "icon": "Matraz cónico",
+        "title": "Pociones y cronogemas de Card Chronicles",
+        "description": "Objetos potenciadores y gestión de divisas para tiradas y combate."
+      }
+    ]
+  },
+  "modules": {
+    "cardChroniclesCodes": {
+      "eyebrow": "Recompensas gratuitas",
+      "title": "Códigos de Card Chronicles",
+      "subtitle": "Canjea códigos activos de Card Chronicles para obtener Rerolls de Rasgos, potenciadores de suerte, potenciadores de velocidad de tirada, potenciadores de velocidad de batalla y pociones de progresión.",
+      "intro": "Usa los códigos desde el menú de Ajustes seleccionando el icono de engranaje en la parte inferior izquierda de la pantalla, desplazándote hasta la sección de Códigos, introduciendo el código exactamente y pulsando Enter. Varias recompensas están diseñadas para obtener tiradas más rápidas y builds de cartas más fuertes, así que gasta los Rerolls de Rasgos en las cartas que planees conservar en lugar de desperdiciarlos en tiradas iniciales de descarte.",
+      "items": [
+        {
+          "icon": "Regalo",
+          "code": "Tyfor400kvisits!",
+          "status": "Activo",
+          "rewardSummary": "Paquete de recompensas bloqueado por tiradas",
+          "rewards": [
+            "Pociones",
+            "Potenciadores de progresión"
+          ],
+          "requirements": [
+            "25.000 tiradas"
+          ],
+          "bestFor": "Jugadores que ya han superado la barrera inicial de tiradas."
+        },
+        {
+          "icon": "Ticket",
+          "code": "Tyfor3kccu!",
+          "status": "Activo",
+          "rewardSummary": "x5 Pociones de suerte, x5 Pociones de velocidad de batalla, x5 Pociones de velocidad de tirada, x3 Pociones de probabilidad de marco, x3 Pociones de súper suerte, x3 Pociones de jefe, x15 Rerolls de rasgos",
+          "rewards": [
+            "Pociones de suerte",
+            "Pociones de velocidad de batalla",
+            "Pociones de velocidad de tirada",
+            "Pociones de probabilidad de borde",
+            "Pociones de súper suerte",
+            "Pociones de jefe",
+            "Rerolls de rasgos"
+          ],
+          "requirements": [
+            "Sin requisitos"
+          ],
+          "bestFor": "Potenciar las sesiones de giros y el farmeo de oleadas tras los hitos de lanzamiento."
+        },
+        {
+          "icon": "Destellos",
+          "code": "AvailableForEveryoneNow",
+          "status": "Activo",
+          "rewardSummary": "100 rerolls de rasgos",
+          "rewards": [
+            "Rerolls de rasgos"
+          ],
+          "requirements": [
+            "Sin requisitos"
+          ],
+          "bestFor": "Ajustar rasgos en tus cartas más fuertes a largo plazo."
+        },
+        {
+          "icon": "Monedas",
+          "code": "Sorry2!",
+          "status": "Activo",
+          "rewardSummary": "Paquete de recompensas bloqueado por giros",
+          "rewards": [
+            "Pociones",
+            "Potenciadores de progresión"
+          ],
+          "requirements": [
+            "25.000 giros"
+          ],
+          "bestFor": "Jugadores de mitad de juego que ya han girado lo suficiente para desbloquear las recompensas bloqueadas."
+        },
+        {
+          "icon": "Trofeo",
+          "code": "Sorry!",
+          "status": "Activo",
+          "rewardSummary": "x10 Pociones de suerte, x10 Pociones de velocidad de batalla, x10 Pociones de velocidad de giro, x5 Pociones de probabilidad de borde, x5 Pociones de súper suerte, x5 Pociones de jefe, x15 Rerolls de rasgos",
+          "rewards": [
+            "Pociones de suerte",
+            "Pociones de velocidad de batalla",
+            "Pociones de velocidad de giro",
+            "Pociones de probabilidad de borde",
+            "Pociones de súper suerte",
+            "Pociones de jefe",
+            "Rerolls de rasgos"
+          ],
+          "requirements": [
+            "Sin requisitos"
+          ],
+          "bestFor": "Acumular el valor de las pociones antes de una sesión larga de grindeo."
+        },
+        {
+          "icon": "Estrella",
+          "code": "Release!",
+          "status": "Activo",
+          "rewardSummary": "x3 Pociones de suerte, x3 Pociones de velocidad de batalla, x3 Pociones de velocidad de giro, x1 Poción de probabilidad de borde, x1 Poción de súper suerte, x5 Rerolls de rasgos",
+          "rewards": [
+            "Pociones de suerte",
+            "Pociones de velocidad de batalla",
+            "Pociones de velocidad de tirada",
+            "Poción de probabilidad de marco",
+            "Poción de súper suerte",
+            "Rerolls de rasgos"
+          ],
+          "requirements": [
+            "Sin requisitos"
+          ],
+          "bestFor": "Nuevos jugadores que comienzan su primer intento real de tiradas y mejoras."
+        }
+      ]
+    },
+    "cardChroniclesBeginnerGuide": {
+      "eyebrow": "Ruta de inicio",
+      "title": "Guía para principiantes de Card Chronicles",
+      "subtitle": "Aprende el ciclo inicial: tirar cartas, armar una alineación, mejorar las cartas útiles obtenidas y avanzar a través de las oleadas sin desperdiciar tus mejores recompensas.",
+      "intro": "Card Chronicles se basa en tirar cartas de estilo anime, usarlas en combates, mejorar las cartas que sostienen tu alineación y avanzar a través de batallas basadas en oleadas cada vez más difíciles. El objetivo inicial es formar una alineación funcional y mejorar las cartas que ganan combates de manera constante.",
+      "items": [
+        {
+          "icon": "Dices",
+          "step": 1,
+          "heading": "Empieza tirando para conseguir cartas útiles",
+          "description": "Tira para crear tu primera reserva de cartas antes de gastar demasiado. Tu primer objetivo es obtener suficientes opciones para formar una alineación funcional, no buscar una carta rara perfecta de inmediato.",
+          "mistakeToAvoid": "No gastes recursos premium de reroll en la primera carta de bajo valor que parezca llamativa."
+        },
+        {
+          "icon": "Usuarios",
+          "step": 2,
+          "heading": "Arma una pequeña alineación de combate",
+          "description": "Coloca tus cartas disponibles más fuertes en una alineación enfocada en limpiar oleadas. Prioriza las cartas que realmente te ayuden a ganar combates sobre las que solo parezcan raras en la pantalla de colección.",
+          "mistakeToAvoid": "No distribuyas las mejoras entre cada carta nueva que obtengas."
+        },
+        {
+          "icon": "Zap",
+          "step": 3,
+          "heading": "Mejora las cartas que sigan ganando combates",
+          "description": "Mejora las cartas que limpien oleadas de manera constante y te ayuden a derrotar a enemigos más fuertes. Las mejoras de cartas son importantes porque el ciclo de juego incluye desbloquear habilidades más fuertes e incrementar el valor de batalla con el tiempo.",
+          "mistakeToAvoid": "No abandones una carta mejorada útil solo porque una nueva carta que obtengas sea de mayor rareza pero aún no tenga inversión."
+        },
+        {
+          "icon": "FlaskConical",
+          "step": 4,
+          "heading": "Usa pociones de tirada y de suerte durante sesiones enfocadas",
+          "description": "Las pociones de suerte, pociones de súper suerte y pociones de velocidad de tirada ofrecen el mayor valor cuando estás tirando activamente para progresar. Se desperdician si se activan de manera casual y luego se dejan inactivas mientras te distraes.",
+          "mistakeToAvoid": "No actives múltiples potenciadores de farmeo a menos que estés listo para aprovechar todo el tiempo de duración."
+        },
+        {
+          "icon": "RefreshCcw",
+          "step": 5,
+          "heading": "Guarda los rerolls de rasgos para las cartas que vayas a conservar",
+          "description": "Los rerolls de rasgos son una de las mejores recompensas de códigos porque mejoran las cartas que planeas conservar. Gástalos después de identificar una carta que pertenezca a tu alineación a largo plazo.",
+          "mistakeToAvoid": "No busques rasgos perfectos antes de que tu alineación tenga cartas estables."
+        },
+        {
+          "icon": "TrendingUp",
+          "step": 6,
+          "heading": "Avanza en las oleadas, luego mejora la ranura débil",
+          "description": "Después de cada obstáculo, identifica la carta más débil de tu alineación y reemplaza o mejora esa ranura primero. Esto mantiene la progresión simple y evita saturar tu inventario con cartas mejoradas a medias.",
+          "mistakeToAvoid": "No mejores cartas al azar después de cada batalla."
+        }
+      ]
+    },
+    "cardChroniclesTierList": {
+      "eyebrow": "Clasificación de cartas",
+      "title": "Tier list de Card Chronicles",
+      "subtitle": "Una tier list de Card Chronicles enfocada en la progresión, creada en torno a la limpieza de oleadas, el valor de las habilidades, el rendimiento de las mejoras y la utilidad de la alineación a largo plazo.",
+      "intro": "Debido a que Card Chronicles es un juego de tiradas, la mejor tier list inicial se basa en lo que una carta aporta a tu cuenta, no solo en qué tan rara parezca. Prioriza las cartas que limpien oleadas, derroten a enemigos fuertes y sigan siendo útiles después de las mejoras antes de gastar recursos intentando que una carta débil parezca especial.",
+      "items": [
+        {
+          "icon": "Crown",
+          "tier": "S",
+          "label": "Cartas carry principales",
+          "cards": [
+            "Cartas de alta rareza con fuertes habilidades de daño",
+            "Cartas que eliminan múltiples enemigos de manera eficiente",
+            "Cartas que valen la pena para Rerolls de rasgos después de las mejoras"
+          ],
+          "bestFor": [
+            "Limpieza de oleadas",
+            "Núcleo de la alineación a largo plazo",
+            "Mejora de alto valor"
+          ],
+          "upgradePriority": "Máxima",
+          "notes": "Construye tu alineación en torno a estas cartas primero, ya que aportan tanto progreso en batalla como valor de reroll en el futuro."
+        },
+        {
+          "icon": "ShieldCheck",
+          "tier": "A",
+          "label": "Cartas de progresión constante",
+          "cards": [
+            "Cartas mejoradas con un rendimiento constante en batalla",
+            "Cartas que siguen siendo útiles a través de varias barreras de oleadas",
+            "Cartas fuertes que aún no tienen rasgos perfectos"
+          ],
+          "bestFor": [
+            "Progresión de juego temprano a medio",
+            "Espacios estables en la alineación",
+            "Mejoras eficientes en recursos"
+          ],
+          "upgradePriority": "Alta",
+          "notes": "Vale la pena conservar estas cartas hasta que aparezca un reemplazo claro de nivel S."
+        },
+        {
+          "icon": "Espadas",
+          "tier": "B",
+          "label": "Cartas de especialista",
+          "cards": [
+            "Cartas de daño a un solo objetivo para enemigos más fuertes",
+            "Cartas enfocadas en jefes con un uso más limitado",
+            "Cartas que necesitan más mejoras antes de volverse estables"
+          ],
+          "bestFor": [
+            "Combates específicos",
+            "Ayuda temporal contra jefes",
+            "Cubrir un rol faltante"
+          ],
+          "upgradePriority": "Media",
+          "notes": "Úsalas cuando resuelvan un problema real en batalla, no porque parezcan interesantes durante tres segundos."
+        },
+        {
+          "icon": "Capas",
+          "tier": "C",
+          "label": "Cartas iniciales y provisionales",
+          "cards": [
+            "Nuevas tiradas de baja rareza",
+            "Cartas sin mejorar con un valor de habilidad débil",
+            "Cartas usadas solo porque la alineación tiene espacios vacíos"
+          ],
+          "bestFor": [
+            "Primeras batallas",
+            "Relleno de colección",
+            "Reemplazos a corto plazo"
+          ],
+          "upgradePriority": "Bajo",
+          "notes": "Reemplaza estos rápidamente y evita gastar Rerolls de Rasgo en ellos."
+        }
+      ]
+    },
+    "cardChroniclesRollingRarity": {
+      "eyebrow": "Estrategia de giros",
+      "title": "Guía de giros y rareza de Card Chronicles",
+      "subtitle": "Comprende cómo encajan los giros, la rareza, las mejoras, las pociones y los Rerolls de Rasgo antes de convertir tus recursos en humo.",
+      "intro": "Girar es el centro de la progresión de Card Chronicles: giras para encontrar mejores cartas, usas las mejores tiradas en batalla, mejoras las cartas útiles y gastas potenciadores cuando mejoran el progreso real. La rareza importa, pero una carta mejorada que despeja oleadas es más útil que una tirada rara nueva que aún no se ha mejorado.",
+      "items": [
+        {
+          "icon": "Repetir",
+          "system": "Giros",
+          "whatItMeans": "La forma principal de expandir tu colección de cartas y buscar cartas más fuertes.",
+          "bestUse": "Gira en sesiones enfocadas, especialmente al usar Pociones de Suerte o de Velocidad de Giro.",
+          "resourceNote": "Un mayor volumen de giros mejora tus posibilidades de encontrar una mejora útil para tu alineación."
+        },
+        {
+          "icon": "Gema",
+          "system": "Rareza",
+          "whatItMeans": "Las cartas más raras son el objetivo principal a conseguir y aportan un mayor valor a largo plazo.",
+          "bestUse": "Compara la rareza con el impacto real en batalla antes de reemplazar una carta mejorada.",
+          "resourceNote": "No asumas que una carta rara nueva es mejor hasta que te ayude a despejar oleadas o enemigos fuertes."
+        },
+        {
+          "icon": "Martillo",
+          "system": "Mejoras",
+          "whatItMeans": "Las mejoras fortalecen las cartas útiles y ayudan a desbloquear un mayor valor de combate.",
+          "bestUse": "Mejora las cartas que ya ganan combates en lugar de cada nueva carta que obtengas.",
+          "resourceNote": "Las mejoras enfocadas generan una progresión más rápida que dispersar demasiado los recursos."
+        },
+        {
+          "icon": "Varita2",
+          "system": "Habilidades",
+          "whatItMeans": "Las habilidades de las cartas son una razón principal por la que una carta supera a otra en batalla.",
+          "bestUse": "Prioriza las habilidades que mejoren la limpieza de oleadas, la presión sobre jefes o la estabilidad de la alineación.",
+          "resourceNote": "El valor de la habilidad debería guiar la prioridad de mejora más que el aspecto de la colección."
+        },
+        {
+          "icon": "Rotar a la izquierda",
+          "system": "Rerolls de Rasgo",
+          "whatItMeans": "Los Rerolls de Rasgo mejoran las cartas que planeas mantener en tu alineación principal.",
+          "bestUse": "Gástalos en cartas mejoradas de gran valor, no en cartas provisionales.",
+          "resourceNote": "Las recompensas de códigos hacen que los Rerolls de Rasgo sean más fáciles de conseguir, pero aun así es mejor guardarlos para las cartas que conservarás."
+        },
+        {
+          "icon": "Objetivo",
+          "system": "Pociones de Suerte y Pociones de Súper Suerte",
+          "whatItMeans": "Objetos potenciadores usados para mejorar las sesiones de giros.",
+          "bestUse": "Úsalos cuando estés girando activamente para buscar mejoras o tiradas raras.",
+          "resourceNote": "Acumula su valor con sesiones de juego planificadas en lugar de activarlos de manera casual."
+        },
+        {
+          "icon": "Reloj",
+          "system": "Pociones de Velocidad de Giro",
+          "whatItMeans": "Objetos potenciadores que ayudan a aumentar el rendimiento de los giros.",
+          "bestUse": "Úsalos durante los periodos de farmeo en los que quieras más giros en menos tiempo.",
+          "resourceNote": "Ideal para combinar con sesiones enfocadas en la suerte."
+        },
+        {
+          "icon": "Fuego",
+          "system": "Pociones de velocidad de batalla y pociones de jefe",
+          "whatItMeans": "Objetos de mejora destinados a un combate más rápido e intentos de progresión más fuertes.",
+          "bestUse": "Úsalos al farmear oleadas, superar muros o prepararte para enemigos más fuertes.",
+          "resourceNote": "Estas mejoras ofrecen el mayor valor cuando tu alineación ya es lo suficientemente estable como para ganar combates."
+        }
+      ]
+    },
+    "cardChroniclesTraitsRerolls": {
+      "eyebrow": "Rasgos",
+      "title": "Rasgos y Rerolls de Card Chronicles",
+      "subtitle": "Los Rerolls de Rasgos son más valiosos cuando mejoran cartas que ya pertenecen a tu alineación principal. Guárdalos para las cartas que planees mejorar y conservar.",
+      "intro": "Card Chronicles se basa en obtener cartas, mejorar las mejores tiradas, desbloquear habilidades y planificar una alineación para oleadas y combates más difíciles. Los rasgos añaden otra capa a esa progresión, por lo que los rerolls deberían usarse en tus cartas más fuertes en lugar de gastarse en cada nueva tirada.",
+      "items": [
+        {
+          "icon": "Rotar en sentido antihorario",
+          "name": "Rerolls de Rasgos",
+          "role": "Se usa para cambiar o mejorar el rasgo de una carta.",
+          "bestUse": "Gástalos en cartas que ya sostengan a tu alineación o que tengan suficientes mejoras para seguir siendo útiles.",
+          "avoid": "No gastes rerolls en cartas temporales iniciales que probablemente serán reemplazadas después de más tiradas."
+        },
+        {
+          "icon": "Comprobación de escudo",
+          "name": "Cartas para conservar",
+          "role": "Cartas que siguen siendo útiles después de varias oleadas, mejoras o intentos de jefe.",
+          "bestUse": "Mejora primero, luego usa Rerolls de Rasgos una vez que la carta haya demostrado que merece estar en tu equipo.",
+          "avoid": "No busques rasgos antes de saber si vale la pena desarrollar la carta en sí."
+        },
+        {
+          "icon": "Ticket",
+          "name": "Rerolls de recompensa de código",
+          "role": "Los códigos de recompensa pueden otorgar Rerolls de Rasgos junto con pociones y Chronogems.",
+          "bestUse": "Canjea las recompensas de rerolls antes de una sesión de mejora planificada, luego aplícalas a tus cartas objetivo de mayor valor.",
+          "avoid": "No disperses los rerolls entre todas las cartas de la colección."
+        },
+        {
+          "icon": "Objetivo",
+          "name": "Lógica de prioridad de rasgos",
+          "role": "Los rasgos importan más cuando mejoran las cartas que se usan en combates reales.",
+          "bestUse": "Prioriza las cartas con habilidades mejoradas, un buen rendimiento en oleadas o potencial de uso contra jefes.",
+          "avoid": "No consideres la rareza como la única razón para gastar rerolls."
+        }
+      ]
+    },
+    "cardChroniclesUpgradesAbilities": {
+      "eyebrow": "Mejoras",
+      "title": "Mejoras y habilidades de Card Chronicles",
+      "subtitle": "Las mejoras y las habilidades son el puente principal entre las tiradas de suerte y el progreso real en el combate. La inversión enfocada supera a mejorar todo a la vez.",
+      "intro": "El bucle principal es simple: gira para obtener cartas, elige las tiradas útiles, mejóralas, desbloquea habilidades más fuertes y úsalas contra oleadas infinitas y enemigos poderosos. El error costoso es dispersar recursos en cartas que nunca llegarán a tu alineación activa.",
+      "items": [
+        {
+          "icon": "Dados",
+          "heading": "Gira antes de comprometer recursos",
+          "content": "Usa los primeros giros para identificar las cartas que funcionan bien en los combates. Una vez que una carta demuestre ser útil, comienza a mejorarla en lugar de gastar recursos en cada nueva tirada."
+        },
+        {
+          "icon": "Martillo",
+          "heading": "Mejora primero las cartas enfocadas",
+          "content": "Un grupo más pequeño de cartas mejoradas ofrece un progreso más constante que una gran colección de cartas débiles y a medio mejorar. Construye en torno a las cartas que te ayuden a superar oleadas de forma constante."
+        },
+        {
+          "icon": "Wand2",
+          "heading": "Desbloquea habilidades a través de la progresión",
+          "content": "Card Chronicles destaca el desbloqueo de habilidades como parte del crecimiento de las cartas. Prioriza las mejoras que hagan que una carta sea más fuerte en el combate real, especialmente para limpiar oleadas y enfrentamientos contra enemigos más fuertes."
+        },
+        {
+          "icon": "Repetir",
+          "heading": "Usa las tiradas duplicadas y repetidas con sabiduría",
+          "content": "Las tiradas repetidas son parte del ciclo de progresión. Trata las tiradas adicionales como una forma de fortalecer las cartas seleccionadas en lugar de solo buscar la siguiente carta rara."
+        },
+        {
+          "icon": "Sparkles",
+          "heading": "Conecta las mejoras con los rasgos",
+          "content": "Los rerolls de rasgos son más valiosos después de que una carta ya haya recibido inversión. Mejora la carta primero, luego haz reroll de rasgos cuando la carta se convierta en un objetivo de configuración a largo plazo."
+        }
+      ]
+    },
+    "cardChroniclesBestLineup": {
+      "eyebrow": "Configuraciones de equipo",
+      "title": "La mejor alineación y configuraciones de equipo de Card Chronicles",
+      "subtitle": "La mejor alineación no es solo la lista de cartas más raras. Diseña tu equipo en torno a cartas mejoradas, habilidades desbloqueadas, rasgos útiles y el rendimiento en combate real.",
+      "intro": "Card Chronicles pide a los jugadores que planifiquen una alineación y dominen los combates, por lo que la fuerza del equipo proviene de algo más que la suerte al girar. Una configuración práctica debería usar tus mejores cartas mejoradas primero, y luego mejorarlas con rasgos y objetos potenciadores una vez que demuestren su valía en combates reales.",
+      "items": [
+        {
+          "icon": "Swords",
+          "name": "Configuración de limpieza de oleadas inicial",
+          "coreRoles": [
+            "Carta de daño más mejorada",
+            "Segunda carta de combate constante",
+            "La tirada fuerte más reciente con un rendimiento útil en combate"
+          ],
+          "strategy": "Usa las cartas que limpien oleadas de forma segura y constante. Reemplaza las cartas débiles solo cuando una nueva tirada tenga un mejor rendimiento en combates reales.",
+          "upgradePriority": "Primero la carta principal de limpieza de oleadas, segundo la carta secundaria y al final las cartas experimentales."
+        },
+        {
+          "icon": "Flame",
+          "name": "Configuración para avanzar contra jefes",
+          "coreRoles": [
+            "Carta mejorada de mayor valor",
+            "Carta con una habilidad desbloqueada",
+            "Carta de reserva que sobrevive a combates más largos"
+          ],
+          "strategy": "Prepárate antes de intentar derrotar a enemigos fuertes mejorando las cartas que ya lideran el combate. Los rerolls de rasgos deben usarse en cartas que sigan siendo útiles más allá de un solo intento de jefe.",
+          "upgradePriority": "Desbloqueos de habilidades y rendimiento comprobado en combate antes que el tamaño de la colección."
+        },
+        {
+          "icon": "RefreshCcw",
+          "name": "Configuración centrada en rerolls",
+          "coreRoles": [
+            "Carta clave seleccionada para uso a largo plazo",
+            "Rerolls de rasgos guardados para esa carta",
+            "Objetos potenciadores preparados para sesiones de tiradas"
+          ],
+          "strategy": "Elige la carta primero, luego gasta los rerolls. Esto evita desperdiciar rerolls en cartas temporales que desaparecerán de la alineación tras obtener mejores tiradas.",
+          "upgradePriority": "Primero la selección de la carta clave, segundo las mejoras y tercero los rerolls de rasgos."
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Configuración de progreso equilibrado",
+          "coreRoles": [
+            "Una carta mejorada principal",
+            "Una carta secundaria flexible",
+            "Una carta en fase de prueba para futuras mejoras"
+          ],
+          "strategy": "Mantén una carta principal fuerte mientras pruebas nuevas tiradas. Esto mantiene la progresión estable sin bloquear todos los recursos en una carta demasiado pronto.",
+          "upgradePriority": "Primero un carry estable, prueba cartas de reemplazo solo después de que demuestren ser útiles."
+        }
+      ]
+    },
+    "cardChroniclesPotionsChronogems": {
+      "eyebrow": "Objetos de Boost",
+      "title": "Pociones, Chronogems y Boosts de Card Chronicles",
+      "subtitle": "Los objetos de boost se aprovechan mejor durante sesiones planificadas de roll, mejora y combate. No los gastes al azar solo porque estén en tu inventario.",
+      "intro": "Los paquetes de recompensas de Card Chronicles pueden incluir Pociones de Suerte, Pociones de Velocidad de Roll, Pociones de Velocidad de Batalla, Pociones de Jefe, Pociones de Súper Suerte, Rerolls de Rasgos y Chronogems. Cada objeto es más útil cuando apoya un objetivo claro: mejores rolls, progresión más rápida, cartas más fuertes o combates más difíciles.",
+      "items": [
+        {
+          "icon": "Gema",
+          "item": "Poción de Suerte",
+          "category": "Boost de Roll",
+          "use": "Mejora las sesiones enfocadas en rolls al buscar cartas más fuertes.",
+          "bestTiming": "Úsalo antes de una sesión de rolls larga, especialmente cuando estés listo para evaluar y mejorar las cartas obtenidas."
+        },
+        {
+          "icon": "Reloj",
+          "item": "Poción de Velocidad de Roll",
+          "category": "Velocidad de Roll",
+          "use": "Hace que las sesiones de roll sean más rápidas y ayuda a procesar más intentos de cartas en menos tiempo.",
+          "bestTiming": "Combínalo con Pociones de Suerte cuando planees hacer rolls activamente en lugar de revisar el juego ocasionalmente."
+        },
+        {
+          "icon": "Rayo",
+          "item": "Poción de Velocidad de Batalla",
+          "category": "Ritmo de Combate",
+          "use": "Ayuda a acelerar la progresión del combate durante sesiones de oleadas o enfrentamientos.",
+          "bestTiming": "Úsalo al avanzar en combates, farmear oleadas o probar si una formación puede ganar más rápido."
+        },
+        {
+          "icon": "Destellos",
+          "item": "Poción de Probabilidad de Borde",
+          "category": "Búsqueda de Bonus de Carta",
+          "use": "Útil en sesiones de roll enfocadas en obtener cartas con bordes especiales.",
+          "bestTiming": "Úsalo durante periodos de roll importantes en lugar de sesiones cortas y sin un objetivo claro."
+        },
+        {
+          "icon": "Objetivo",
+          "item": "Poción de Jefe",
+          "category": "Progresión de Jefes",
+          "use": "Facilita el progreso contra jefes y la preparación contra enemigos fuertes.",
+          "bestTiming": "Úsalo cuando tu formación esté lo suficientemente mejorada para que los intentos contra jefes valgan la pena."
+        },
+        {
+          "icon": "Estrella",
+          "item": "Poción de Súper Suerte",
+          "category": "Boost de Roll de Alto Valor",
+          "use": "Proporciona un potenciador de suerte más fuerte para buscar cartas raras.",
+          "bestTiming": "Guárdalo para tus mejores momentos de roll, idealmente con una Poción de Velocidad de Roll activa."
+        },
+        {
+          "icon": "Rotar a la izquierda",
+          "item": "Rerolls de Rasgos",
+          "category": "Construcción de Cartas",
+          "use": "Cambia los rasgos de las cartas para mejorar el valor de la formación a largo plazo.",
+          "bestTiming": "Gástalos solo después de elegir una carta definitiva que merezca mejoras y un lugar permanente en el equipo."
+        },
+        {
+          "icon": "Monedas",
+          "item": "Chronogems",
+          "category": "Moneda de progresión",
+          "use": "Usado como una valiosa recompensa de progresión vinculada a los paquetes de recompensas de Card Chronicles.",
+          "bestTiming": "Guárdalos hasta que sepas qué mejora, carta u opción de progresión ofrece el valor más duradero."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Card Chronicles",
+    "questions": [
+      {
+        "question": "¿Qué es Card Chronicles?",
+        "answer": "Card Chronicles es un juego de batallas RNG de cartas de anime en Roblox donde obtienes cartas, mejoras sus habilidades, creas una alineación y luchas contra oleadas infinitas de fuertes enemigos de cartas."
+      },
+      {
+        "question": "¿Cómo canjeo los códigos de Card Chronicles?",
+        "answer": "Abre el menú de Configuración desde el icono de engranaje en la parte inferior izquierda de la pantalla, desplázate hasta la sección de Códigos, escribe el código exactamente y presiona Enter para reclamar tus recompensas de Card Chronicles."
+      },
+      {
+        "question": "¿Qué códigos de Card Chronicles debería usar primero?",
+        "answer": "Comienza con los códigos de Card Chronicles que otorgan Trait Rerolls y paquetes de pociones, luego guarda los rerolls para las cartas fuertes que planeas conservar y mejorar para tu alineación a largo plazo."
+      },
+      {
+        "question": "¿Cómo funciona el rolling en Card Chronicles?",
+        "answer": "El rolling es el núcleo de la progresión en Card Chronicles: lanzas para expandir tu colección de cartas, usas las mejores tiradas en batalla, mejoras cartas útiles y gastas potenciadores durante sesiones de rolling enfocadas."
+      },
+      {
+        "question": "¿Qué cartas de Card Chronicles debería mejorar primero?",
+        "answer": "Mejora las cartas de Card Chronicles que superen oleadas y derroten enemigos fuertes de manera constante antes de gastar recursos en cada nueva tirada, luego aplica Trait Rerolls a tus cartas principales."
+      },
+      {
+        "question": "¿Es Card Chronicles gratuito en Roblox?",
+        "answer": "Sí, Card Chronicles es gratuito en Roblox, con recompensas de códigos como pociones y Trait Rerolls que aceleran tu rolling, mejoras y progresión de oleadas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar Card Chronicles?",
+    "description": "¡Únete a la comunidad de Chronicle Entertainment en Roblox para obtener códigos, guías de cartas, tier lists y discusiones sobre actualizaciones!",
+    "joinCommunity": "Unirse a la comunidad",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Card Chronicles",
+    "description": "Tu centro de recursos completo para códigos, cartas, tier lists, rasgos, alineaciones, oleadas y guías de progresión de Card Chronicles.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "robloxGame": "Juego de Roblox",
+    "robloxCommunity": "Comunidad de Roblox",
+    "youtube": "YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Card Chronicles Wiki. No afiliado con Chronicle Entertainment ni Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
   }
 }

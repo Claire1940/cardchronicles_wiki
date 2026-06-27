@@ -9,26 +9,24 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.cardchronicles
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'codes': 0.9,
+	'guide': 0.9,
+	'cards': 0.9,
+	'luck': 0.8,
+	'progression': 0.8,
+	'release': 0.7,
+	'roblox': 0.7,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'codes': 'daily',
+	'guide': 'weekly',
+	'cards': 'weekly',
+	'luck': 'weekly',
+	'progression': 'weekly',
+	'release': 'monthly',
+	'roblox': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
