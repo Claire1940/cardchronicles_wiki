@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Card Chronicles Wiki - Codes, Cards & Tier List",
+  "short_name": "Card Chronicles",
+  "description": "Card Chronicles Wiki for Roblox codes, card tier list, traits, reroll tips, beginner guide, team lineups, waves, updates, and progression help.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#10a36f",
+  "background_color": "#0a0f1a",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
